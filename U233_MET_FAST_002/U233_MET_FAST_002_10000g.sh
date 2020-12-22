@@ -2,7 +2,7 @@
 # Job name:
 #SBATCH --job-name=U233_MET_FAST_002_10000g
 #
-#SBATCH --output=U233_MET_FAST_002_10000g
+#SBATCH --output=outputU233_MET_FAST_002_10000g
 #
 #SBATCH --error=ERRORS
 #
