@@ -62,7 +62,7 @@
 
  Nuclide    1 / 4 : 92233.03c -- uranium 233 (U-233)
 
- Pointers                     : 6336 105301
+ Pointers                     : 7193 105301
  Primary type                 : Transport
  Nuclide ZAI                  : 922330
  Library ID                   : 03c
@@ -155,7 +155,7 @@
 
  Nuclide    2 / 4 : 92234.03c -- uranium 234 (U-234)
 
- Pointers                     : 9810 105577
+ Pointers                     : 10667 105577
  Primary type                 : Transport
  Nuclide ZAI                  : 922340
  Library ID                   : 03c
@@ -257,7 +257,7 @@
 
  Nuclide    3 / 4 : 92235.03c -- uranium 235 (U-235)
 
- Pointers                     : 13736 105853
+ Pointers                     : 14593 105853
  Primary type                 : Transport
  Nuclide ZAI                  : 922350
  Library ID                   : 03c
@@ -352,7 +352,7 @@
 
  Nuclide    4 / 4 : 92238.03c -- uranium 238 (U-238)
 
- Pointers                     : 17351 106681
+ Pointers                     : 18208 106681
  Primary type                 : Transport
  Nuclide ZAI                  : 922380
  Library ID                   : 03c

@@ -66,7 +66,7 @@
 
  Nuclide    1 / 8 : 28000.03c -- natural nickel (Ni-nat)
 
- Pointers                     : 22406 21903
+ Pointers                     : 23263 21903
  Primary type                 : Transport
  Nuclide ZAI                  : 280000
  Library ID                   : 03c
@@ -171,7 +171,7 @@
 
  Nuclide    2 / 8 : 29000.03c -- natural copper (Cu-nat)
 
- Pointers                     : 26824 23835
+ Pointers                     : 27681 23835
  Primary type                 : Transport
  Nuclide ZAI                  : 290000
  Library ID                   : 03c
@@ -268,7 +268,7 @@
 
  Nuclide    3 / 8 : 31000.03c -- natural gallium (Ga-nat)
 
- Pointers                     : 14227 25215
+ Pointers                     : 15084 25215
  Primary type                 : Transport
  Nuclide ZAI                  : 310000
  Library ID                   : 03c
@@ -372,7 +372,7 @@
 
  Nuclide    4 / 8 : 40000.03c -- natural zirconium (Zr-nat)
 
- Pointers                     : 30658 35979
+ Pointers                     : 31515 35979
  Primary type                 : Transport
  Nuclide ZAI                  : 400000
  Library ID                   : 03c
@@ -446,7 +446,7 @@
 
  Nuclide    5 / 8 : 74000.03c -- natural tungsten (W-nat)
 
- Pointers                     : 18572 92283
+ Pointers                     : 19429 92283
  Primary type                 : Transport
  Nuclide ZAI                  : 740000
  Library ID                   : 03c
@@ -543,7 +543,7 @@
 
  Nuclide    6 / 8 : 94239.03c -- plutonium 239 (Pu-239)
 
- Pointers                     : 6735 109993
+ Pointers                     : 7592 109993
  Primary type                 : Transport
  Nuclide ZAI                  : 942390
  Library ID                   : 03c
@@ -638,7 +638,7 @@
 
  Nuclide    7 / 8 : 94240.03c -- plutonium 240 (Pu-240)
 
- Pointers                     : 10355 110269
+ Pointers                     : 11212 110269
  Primary type                 : Transport
  Nuclide ZAI                  : 942400
  Library ID                   : 03c
@@ -713,7 +713,7 @@
 
  Nuclide    8 / 8 : 94241.03c -- plutonium 241 (Pu-241)
 
- Pointers                     : 12510 110545
+ Pointers                     : 13367 110545
  Primary type                 : Transport
  Nuclide ZAI                  : 942410
  Library ID                   : 03c
