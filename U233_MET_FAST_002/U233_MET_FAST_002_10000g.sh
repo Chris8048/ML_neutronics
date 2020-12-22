@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/U233_MET_FAST_002_10000g
+cd /global/home/users/christforsyth/ML_neutronics/U233_MET_FAST_002
 sss2 U233_MET_FAST_002_10000g -omp 20
