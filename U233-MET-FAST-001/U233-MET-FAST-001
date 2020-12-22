@@ -53,3 +53,11 @@ plot  3 500 500
 % MESH PLOTS -------------------------------------------------------------------
 % --- xy-plane, 500px x 500px ---
 mesh  3 500 500
+
+%===============================================================================
+% DETECTORS + ENERGY GRIDS
+%===============================================================================
+% FLUX-ENERGY SPECTRUM ---------------------------------------------------------
+% --- 500 energy bins, uniform lethargy width, between 1E-11 MeV and 2E1 MeV ---
+det EnergyDetector de MyEnergyGrid
+ene MyEnergyGrid 3 500 1E-11 2E1
