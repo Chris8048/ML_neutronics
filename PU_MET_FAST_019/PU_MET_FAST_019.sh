@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/PU-MET-FAST-019
+cd /global/home/users/christforsyth/ML_neutronics/PU_MET_FAST_019
 sss2 PU-MET-FAST-019 -omp 20
