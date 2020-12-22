@@ -1,8 +1,8 @@
 #!/bin/bash
 # Job name:
-#SBATCH --job-name=PU-MET-FAST-005
+#SBATCH --job-name=PU_MET_FAST_005
 #
-#SBATCH --output=outputPU-MET-FAST-005
+#SBATCH --output=outputPU_MET_FAST_005
 #
 #SBATCH --error=ERRORS
 #
@@ -34,4 +34,4 @@
 #
 ## Command(s) to run (example):
 cd /global/home/users/christforsyth/ML_neutronics/PU_MET_FAST_005
-sss2 PU-MET-FAST-005 -omp 20
+sss2 PU_MET_FAST_005 -omp 20
