@@ -84,7 +84,7 @@ mat reflector -1.8169
  8016.03c	8.2064E-5	% O-16  (natural)
 	/* NOTE: The Oxygen should've been natural (8000.03c), but the ENDFB7
 			cross-section data does not include it! Instead, 8016 was used
-			because O-16 makes up ~99.76% of natural Beryllium. */
+			because O-16 makes up ~99.76% of natural Oxygen. */
  6000.03c	1.0020E-4	% C  (natural)
 26000.03c	5.0939E-5	% Fe (natural)
 
