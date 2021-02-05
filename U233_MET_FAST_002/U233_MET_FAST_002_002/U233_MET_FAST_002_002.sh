@@ -1,8 +1,8 @@
 #!/bin/bash
 # Job name:
-#SBATCH --job-name=U233_MET_FAST_002_7600g
+#SBATCH --job-name=U233_MET_FAST_002_002
 #
-#SBATCH --output=outputU233_MET_FAST_002_7600g
+#SBATCH --output=outputU233_MET_FAST_002_002
 #
 #SBATCH --error=ERRORS
 #
@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/U233_MET_FAST_002
-sss2 U233_MET_FAST_002_7600g -omp 20
+cd /global/home/users/christforsyth/ML_neutronics/U233_MET_FAST_002/U233_MET_FAST_002_002
+sss2 U233_MET_FAST_002_002 -omp 20
