@@ -183,22 +183,21 @@ mat 6061_Al -2.69
 14000.03c	3.4607E-4	% Si (natural)
 26000.03c	1.0152E-4	% Fe (natural)
 
-% MODERATOR MATERIALS ----------------------------------------------------------
-% --- Light water with thermal scattering data ---
+% --- Light water ---
 	% Overall mass density 0.997766 g/cm3 (interpolated; see benchmark PDF)
 	% Evaluated @ 300K (approx. room temperature)
-mat water -0.997766 moder <thname> 1000?
-1000?.03c	6.6706E-2	% H 	(natural)
+mat water -0.997766
+1000.03c	6.6706E-2	% H 	(natural)
 8016.03c	3.3353E-2	% O-16  (natural)
 	/* NOTE: The Oxygen should've been natural (8000.03c), but the ENDFB7
 			cross-section data does not include it! Instead, 8016 was used
 			because O-16 makes up ~99.76% of natural Oxygen. */
 			
-% --- Acrylic with thermal scattering data ---
+% --- Acrylic ---
 	% Evaluated @ 300K (approx. room temperature)
-mat acrylic sum moder <thname> 1000? moder <thname> 12000?
-1000?.03c	5.6642E-2	% H		(natural)
-12000?.03c	3.5648E-2	% C		(natural)
+mat acrylic sum
+1000.03c	5.6642E-2	% H		(natural)
+12000.03c	3.5648E-2	% C		(natural)
 8016.03c	1.4273E-2	% O-16	(natural)
 
 % CROSS-SECTION LIBRARY --------------------------------------------------------
