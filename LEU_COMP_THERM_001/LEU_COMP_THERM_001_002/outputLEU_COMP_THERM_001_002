@@ -1,0 +1,96 @@
+
+  _                   .-=-.           .-=-.          .-==-.       
+ { }      __        .' O o '.       .' O o '.       /  -<' )--<   
+ { }    .' O'.     / o .-. O \     / o .-. O \     /  .---`       
+ { }   / .-. o\   /O  /   \  o\   /O  /   \  o\   /O /            
+  \ `-` /   \ O`-'o  /     \  O`-'o  /     \  O`-`o /             
+   `-.-`     '.____.'       `._____.'       `.____.'              
+
+Serpent 2 beta
+
+A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
+
+ - Version 2.1.31 (May 16, 2019) -- Contact: serpent@vtt.fi
+
+ - Reference: J. Leppanen, et al. "The Serpent Monte Carlo code: Status,
+              development and applications in 2013." Ann. Nucl. Energy,
+              82 (2015) 142-150.
+
+ - Compiled Oct 16 2020 01:03:31
+
+ - MPI Parallel calculation mode available
+
+ - OpenMP Parallel calculation mode available
+
+ - Geometry and mesh plotting available
+
+ - Default data path set to: "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7"
+
+Begin calculation on Sat Feb  6 20:59:33 2021
+
+Reading input file "LEU_COMP_THERM_001_002"...
+
+Checking duplicate input definitions...
+OK.
+
+Creating geometry...
+OK.
+
+Counting geometry zones...
+
+The geometry consists of 3 levels:
+
+Level 0 size: max 18 zones
+Level 1 size: max 340 zones
+Level 2 size: max 8 zones
+
+Processing cells...
+OK.
+
+Linking materials to geometry...
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+
+ ***** Warning: Outside cells should be used only in universe 0
+
+OK.
+
+Counting cells...
+OK.
+
+Processing data for group constant generation:
+
+ - 70 energy groups in micro-group structure
+ - 2 energy groups in macro-group structure
+ - B1 fundamental mode calculation is not run
+ - Group constants generated in 1 universes
+ - Discontinuity factors are not calculated
+ - Pin-power distributions are not calculated
+ - Albedos are not calculated
+ - Poison cross sections are not calculated
+
+Plotting geometry:
+
+   0% complete
+Geometry errors in plot LEU_COMP_THERM_001_002_geom1.png (no cell).
+  33% complete
+Geometry errors in plot LEU_COMP_THERM_001_002_geom2.png (no cell).
+  67% complete
+Geometry errors in plot LEU_COMP_THERM_001_002_geom3.png (no cell).
+ 100% complete
+
+Reading ACE directory files...
+OK.
+
+
+***** Sat Feb  6 20:59:33 2021
+
+Input error in parameter "mat" on line 151 in file "LEU_COMP_THERM_001_002":
+
+Nuclide 25000.03c not found in data libraries
+
+For parameter description, try Serpent Wiki:
+
+http://serpent.vtt.fi/mediawiki/index.php/Input_syntax_manual#mat
+
