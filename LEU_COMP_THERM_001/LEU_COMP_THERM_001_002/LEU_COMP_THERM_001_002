@@ -135,7 +135,7 @@ set	bc	1  % Vacuum boundary
 % SIMPLE MATERIALS -------------------------------------------------------------
 % --- LEU oxide (UO2) fuel with traces of U-234, U-236 ---
 	% Evaluated @ 300K (approx. room temperature)
-mat UO2 sum rgb 0 0 0
+mat UO2 sum rgb 255 0 0
 92234.03c	2.8563E-6	% U-234
 92235.03c	4.8785E-4	% U-235
 92236.03c	3.5348E-6	% U-236
@@ -219,13 +219,13 @@ plot  3 1217 500
 
 % MESH PLOTS -------------------------------------------------------------------
 % --- yz-plane, 500px x 500px ---
-mesh  1 500 500
+mesh  1 500 743
 
 % --- xz-plane, 500px x 500px ---
-mesh  2 500 500
+mesh  2 1217 743
 
 % --- xy-plane, 500px x 500px ---
-mesh  3 500 500
+mesh  3 1217 500
 
 %===============================================================================
 % DETECTORS + ENERGY GRIDS
