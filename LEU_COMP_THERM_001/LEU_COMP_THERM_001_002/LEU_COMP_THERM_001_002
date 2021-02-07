@@ -149,7 +149,10 @@ mat UO2 sum
 	% Overall mass density 2.70 g/cm3
 	% Evaluated @ 300K (approx. room temperature)
 mat 1100_Al -2.70
-13000.03c	5.9660E-2	% Al (natural)
+13027.03c	5.9660E-2	% Al (natural)
+	/* NOTE: The Aluminum should've been natural (13000.03c), but the ENDFB7
+			cross-section data does not include it! Instead, 13027 was used
+			because Al-27 makes up ~100% of natural Aluminum. */
 29000.03c	3.0705E-5	% Cu (natural)
 25000.03c	7.3991E-6	% Mn (natural)
 30000.03c	1.2433E-5	% Zn (natural)
@@ -160,7 +163,10 @@ mat 1100_Al -2.70
 	% Overall mass density 2.69 g/cm3
 	% Evaluated @ 300K (approx. room temperature)
 mat 5052_Al -2.69
-13000.03c	5.8028E-2	% Al (natural)
+13027.03c	5.8028E-2	% Al (natural)
+	/* NOTE: The Aluminum should've been natural (13000.03c), but the ENDFB7
+			cross-section data does not include it! Instead, 13027 was used
+			because Al-27 makes up ~100% of natural Aluminum. */
 24000.03c	7.7888E-5	% Cr (natural)
 29000.03c	1.2746E-5	% Cu (natural)
 12000.03c	1.6663E-3	% Mg (natural)
@@ -173,7 +179,10 @@ mat 5052_Al -2.69
 	% Overall mass density 2.69 g/cm3
 	% Evaluated @ 300K (approx. room temperature)
 mat 6061_Al -2.69
-13000.03c	5.8433E-2	% Al (natural)
+13027.03c	5.8433E-2	% Al (natural)
+	/* NOTE: The Aluminum should've been natural (13000.03c), but the ENDFB7
+			cross-section data does not include it! Instead, 13027 was used
+			because Al-27 makes up ~100% of natural Aluminum. */
 24000.03c	6.2310E-5	% Cr (natural)
 29000.03c	6.3731E-5	% Cu (natural)
 12000.03c	6.6651E-4	% Mg (natural)
