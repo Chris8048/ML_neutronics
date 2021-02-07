@@ -26,7 +26,7 @@ A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
 
  - Default data path set to: "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7"
 
-Begin calculation on Sat Feb  6 21:13:25 2021
+Begin calculation on Sat Feb  6 21:22:42 2021
 
 Reading input file "LEU_COMP_THERM_001_002"...
 
@@ -77,14 +77,13 @@ Geometry errors in plot LEU_COMP_THERM_001_002_geom1.png (no cell).
   33% complete
 Geometry errors in plot LEU_COMP_THERM_001_002_geom2.png (no cell).
   67% complete
-Geometry errors in plot LEU_COMP_THERM_001_002_geom3.png (no cell).
  100% complete
 
 Reading ACE directory files...
 OK.
 
 
-***** Sat Feb  6 21:13:25 2021
+***** Sat Feb  6 21:22:43 2021
 
 Input error in parameter "mat" on line 151 in file "LEU_COMP_THERM_001_002":
 
