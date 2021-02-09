@@ -26,7 +26,7 @@ A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
 
  - Default data path set to: "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7"
 
-Begin calculation on Tue Dec 22 02:10:48 2020
+Begin calculation on Mon Feb  8 17:35:58 2021
 
 Reading input file "U233_MET_FAST_001"...
 
@@ -150,26 +150,56 @@ OK.
 Sampling initial source...
 OK.
 
-Inactive cycle   1 /  20: k-eff = 1.00000
-Inactive cycle   2 /  20: k-eff = 0.92500
-Inactive cycle   3 /  20: k-eff = 0.96533
-Inactive cycle   4 /  20: k-eff = 1.00819
-Inactive cycle   5 /  20: k-eff = 1.01444
-Inactive cycle   6 /  20: k-eff = 1.01606
-Inactive cycle   7 /  20: k-eff = 1.01810
-Inactive cycle   8 /  20: k-eff = 0.98267
-Inactive cycle   9 /  20: k-eff = 0.97481
-Inactive cycle  10 /  20: k-eff = 0.97870
-Inactive cycle  11 /  20: k-eff = 1.00122
-Inactive cycle  12 /  20: k-eff = 1.04086
-Inactive cycle  13 /  20: k-eff = 1.00006
-Inactive cycle  14 /  20: k-eff = 1.01386
-Inactive cycle  15 /  20: k-eff = 0.99196
-Inactive cycle  16 /  20: k-eff = 1.02470
-Inactive cycle  17 /  20: k-eff = 1.00646
-Inactive cycle  18 /  20: k-eff = 1.02377
-Inactive cycle  19 /  20: k-eff = 1.02971
-Inactive cycle  20 /  20: k-eff = 0.96504
+Inactive cycle   1 /  50: k-eff = 1.00000
+Inactive cycle   2 /  50: k-eff = 0.93670
+Inactive cycle   3 /  50: k-eff = 0.96855
+Inactive cycle   4 /  50: k-eff = 0.98317
+Inactive cycle   5 /  50: k-eff = 1.01001
+Inactive cycle   6 /  50: k-eff = 0.98234
+Inactive cycle   7 /  50: k-eff = 0.99599
+Inactive cycle   8 /  50: k-eff = 0.97667
+Inactive cycle   9 /  50: k-eff = 0.99044
+Inactive cycle  10 /  50: k-eff = 1.00778
+Inactive cycle  11 /  50: k-eff = 0.97311
+Inactive cycle  12 /  50: k-eff = 0.97126
+Inactive cycle  13 /  50: k-eff = 0.98223
+Inactive cycle  14 /  50: k-eff = 1.01200
+Inactive cycle  15 /  50: k-eff = 0.98437
+Inactive cycle  16 /  50: k-eff = 1.00346
+Inactive cycle  17 /  50: k-eff = 1.00888
+Inactive cycle  18 /  50: k-eff = 1.00061
+Inactive cycle  19 /  50: k-eff = 0.99541
+Inactive cycle  20 /  50: k-eff = 1.01920
+Inactive cycle  21 /  50: k-eff = 0.99239
+Inactive cycle  22 /  50: k-eff = 0.98495
+Inactive cycle  23 /  50: k-eff = 0.97835
+Inactive cycle  24 /  50: k-eff = 0.99185
+Inactive cycle  25 /  50: k-eff = 1.01625
+Inactive cycle  26 /  50: k-eff = 1.01381
+Inactive cycle  27 /  50: k-eff = 0.98644
+Inactive cycle  28 /  50: k-eff = 0.98772
+Inactive cycle  29 /  50: k-eff = 1.02842
+Inactive cycle  30 /  50: k-eff = 0.98440
+Inactive cycle  31 /  50: k-eff = 1.02870
+Inactive cycle  32 /  50: k-eff = 0.98755
+Inactive cycle  33 /  50: k-eff = 0.98380
+Inactive cycle  34 /  50: k-eff = 0.97868
+Inactive cycle  35 /  50: k-eff = 1.00207
+Inactive cycle  36 /  50: k-eff = 0.97702
+Inactive cycle  37 /  50: k-eff = 0.98503
+Inactive cycle  38 /  50: k-eff = 0.96898
+Inactive cycle  39 /  50: k-eff = 0.96985
+Inactive cycle  40 /  50: k-eff = 0.99206
+Inactive cycle  41 /  50: k-eff = 1.00218
+Inactive cycle  42 /  50: k-eff = 0.98534
+Inactive cycle  43 /  50: k-eff = 1.00515
+Inactive cycle  44 /  50: k-eff = 1.00675
+Inactive cycle  45 /  50: k-eff = 0.98320
+Inactive cycle  46 /  50: k-eff = 1.00453
+Inactive cycle  47 /  50: k-eff = 0.98454
+Inactive cycle  48 /  50: k-eff = 1.01378
+Inactive cycle  49 /  50: k-eff = 0.98337
+Inactive cycle  50 /  50: k-eff = 0.98258
 
 ----- Begin active cycles -----
 
@@ -179,16 +209,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    1 / 100  Source neutrons :  5131
+Active cycle    1 / 100  Source neutrons : 10139
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1571.4%
 
-k-eff (analog)    = 0.99033 +/- 0.00000  [0.99033  0.99033]
-k-eff (implicit)  = 1.01002 +/- 0.00000  [1.01002  1.01002]
+k-eff (analog)    = 0.99624 +/- 0.00000  [0.99624  0.99624]
+k-eff (implicit)  = 0.99411 +/- 0.00000  [0.99411  0.99411]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -198,16 +228,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    2 / 100  Source neutrons :  5093
+Active cycle    2 / 100  Source neutrons :  9927
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99954 +/- 0.00921  [0.98148  1.01759]
-k-eff (implicit)  = 1.00182 +/- 0.00819  [0.98576  1.01789]
+k-eff (analog)    = 0.99260 +/- 0.00364  [0.98548  0.99973]
+k-eff (implicit)  = 0.99298 +/- 0.00113  [0.99077  0.99519]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -217,16 +247,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    3 / 100  Source neutrons :  4840
+Active cycle    3 / 100  Source neutrons : 10219
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99185 +/- 0.00935  [0.97352  1.01017]
-k-eff (implicit)  = 1.00140 +/- 0.00475  [0.99209  1.01071]
+k-eff (analog)    = 0.99861 +/- 0.00636  [0.98614  1.01108]
+k-eff (implicit)  = 0.99151 +/- 0.00161  [0.98835  0.99467]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -236,16 +266,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    4 / 100  Source neutrons :  4996
+Active cycle    4 / 100  Source neutrons :  9565
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.98781 +/- 0.00775  [0.97262  1.00299]
-k-eff (implicit)  = 0.99952 +/- 0.00385  [0.99197  1.00707]
+k-eff (analog)    = 0.99062 +/- 0.00917  [0.97266  1.00859]
+k-eff (implicit)  = 0.99333 +/- 0.00214  [0.98912  0.99753]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -255,16 +285,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    5 / 100  Source neutrons :  5293
+Active cycle    5 / 100  Source neutrons : 10415
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99682 +/- 0.01083  [0.97560  1.01804]
-k-eff (implicit)  = 1.00315 +/- 0.00470  [0.99394  1.01235]
+k-eff (analog)    = 0.99385 +/- 0.00780  [0.97856  1.00915]
+k-eff (implicit)  = 0.99350 +/- 0.00167  [0.99022  0.99677]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -274,16 +304,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    6 / 100  Source neutrons :  4835
+Active cycle    6 / 100  Source neutrons :  9937
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99714 +/- 0.00885  [0.97980  1.01448]
-k-eff (implicit)  = 1.00406 +/- 0.00394  [0.99633  1.01179]
+k-eff (analog)    = 0.99495 +/- 0.00646  [0.98228  1.00762]
+k-eff (implicit)  = 0.99403 +/- 0.00146  [0.99116  0.99690]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -293,16 +323,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    7 / 100  Source neutrons :  5144
+Active cycle    7 / 100  Source neutrons :  9957
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 1.00148 +/- 0.00865  [0.98454  1.01843]
-k-eff (implicit)  = 1.00258 +/- 0.00365  [0.99543  1.00972]
+k-eff (analog)    = 0.99512 +/- 0.00547  [0.98441  1.00583]
+k-eff (implicit)  = 0.99277 +/- 0.00176  [0.98931  0.99623]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -312,16 +342,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    8 / 100  Source neutrons :  4869
+Active cycle    8 / 100  Source neutrons :  9952
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 1.00138 +/- 0.00749  [0.98670  1.01605]
-k-eff (implicit)  = 1.00033 +/- 0.00387  [0.99274  1.00793]
+k-eff (analog)    = 0.99465 +/- 0.00476  [0.98533  1.00397]
+k-eff (implicit)  = 0.99364 +/- 0.00176  [0.99019  0.99710]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -331,16 +361,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle    9 / 100  Source neutrons :  5031
+Active cycle    9 / 100  Source neutrons : 10075
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 1.00198 +/- 0.00663  [0.98898  1.01498]
-k-eff (implicit)  = 1.00023 +/- 0.00342  [0.99353  1.00693]
+k-eff (analog)    = 0.99511 +/- 0.00422  [0.98684  1.00338]
+k-eff (implicit)  = 0.99191 +/- 0.00233  [0.98735  0.99647]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -350,16 +380,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   10 / 100  Source neutrons :  4960
+Active cycle   10 / 100  Source neutrons :  9720
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1999.9%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 1.00166 +/- 0.00594  [0.99002  1.01330]
-k-eff (implicit)  = 0.99730 +/- 0.00424  [0.98899  1.00561]
+k-eff (analog)    = 0.99268 +/- 0.00449  [0.98388  1.00148]
+k-eff (implicit)  = 0.99282 +/- 0.00227  [0.98837  0.99728]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -369,16 +399,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   11 / 100  Source neutrons :  4846
+Active cycle   11 / 100  Source neutrons : 10294
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99860 +/- 0.00618  [0.98648  1.01072]
-k-eff (implicit)  = 0.99625 +/- 0.00397  [0.98847  1.00404]
+k-eff (analog)    = 0.99329 +/- 0.00411  [0.98524  1.00133]
+k-eff (implicit)  = 0.99387 +/- 0.00231  [0.98935  0.99839]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -388,16 +418,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   12 / 100  Source neutrons :  5075
+Active cycle   12 / 100  Source neutrons : 10202
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99726 +/- 0.00580  [0.98589  1.00863]
-k-eff (implicit)  = 0.99606 +/- 0.00363  [0.98894  1.00318]
+k-eff (analog)    = 0.99548 +/- 0.00434  [0.98697  1.00398]
+k-eff (implicit)  = 0.99419 +/- 0.00213  [0.99001  0.99836]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -407,16 +437,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   13 / 100  Source neutrons :  5074
+Active cycle   13 / 100  Source neutrons :  9915
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99725 +/- 0.00534  [0.98679  1.00771]
-k-eff (implicit)  = 0.99646 +/- 0.00337  [0.98987  1.00306]
+k-eff (analog)    = 0.99666 +/- 0.00416  [0.98850  1.00482]
+k-eff (implicit)  = 0.99442 +/- 0.00197  [0.99055  0.99828]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -426,16 +456,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   14 / 100  Source neutrons :  5001
+Active cycle   14 / 100  Source neutrons :  9978
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99725 +/- 0.00494  [0.98756  1.00693]
-k-eff (implicit)  = 0.99608 +/- 0.00314  [0.98993  1.00223]
+k-eff (analog)    = 0.99752 +/- 0.00395  [0.98978  1.00526]
+k-eff (implicit)  = 0.99428 +/- 0.00183  [0.99069  0.99787]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -445,16 +475,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   15 / 100  Source neutrons :  4914
+Active cycle   15 / 100  Source neutrons :  9882
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99611 +/- 0.00474  [0.98682  1.00539]
-k-eff (implicit)  = 0.99731 +/- 0.00317  [0.99109  1.00352]
+k-eff (analog)    = 0.99747 +/- 0.00368  [0.99026  1.00468]
+k-eff (implicit)  = 0.99432 +/- 0.00171  [0.99098  0.99766]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -464,16 +494,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   16 / 100  Source neutrons :  5206
+Active cycle   16 / 100  Source neutrons : 10043
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99763 +/- 0.00469  [0.98844  1.00682]
-k-eff (implicit)  = 0.99678 +/- 0.00301  [0.99088  1.00268]
+k-eff (analog)    = 0.99769 +/- 0.00345  [0.99094  1.00445]
+k-eff (implicit)  = 0.99378 +/- 0.00168  [0.99048  0.99708]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -483,16 +513,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   17 / 100  Source neutrons :  4898
+Active cycle   17 / 100  Source neutrons :  9790
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99775 +/- 0.00441  [0.98912  1.00638]
-k-eff (implicit)  = 0.99617 +/- 0.00289  [0.99050  1.00184]
+k-eff (analog)    = 0.99665 +/- 0.00340  [0.98999  1.00332]
+k-eff (implicit)  = 0.99442 +/- 0.00171  [0.99107  0.99777]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -502,16 +532,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   18 / 100  Source neutrons :  4952
+Active cycle   18 / 100  Source neutrons : 10083
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.1%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99732 +/- 0.00417  [0.98914  1.00551]
-k-eff (implicit)  = 0.99628 +/- 0.00273  [0.99093  1.00163]
+k-eff (analog)    = 0.99618 +/- 0.00324  [0.98983  1.00253]
+k-eff (implicit)  = 0.99407 +/- 0.00165  [0.99084  0.99730]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -521,21 +551,21 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   19 / 100  Source neutrons :  5025
+Active cycle   19 / 100  Source neutrons : 10011
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99720 +/- 0.00395  [0.98946  1.00495]
-k-eff (implicit)  = 0.99508 +/- 0.00284  [0.98951  1.00066]
+k-eff (analog)    = 0.99582 +/- 0.00309  [0.98977  1.00187]
+k-eff (implicit)  = 0.99434 +/- 0.00158  [0.99123  0.99744]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-***** Tue Dec 22 02:10:50 2020 (seed = 1608631848681)
+***** Mon Feb  8 17:36:01 2021 (seed = 1612834558753)
 Warning message from function MicroCalc:
 
 Much error, very warning
@@ -546,16 +576,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   20 / 100  Source neutrons :  4869
+Active cycle   20 / 100  Source neutrons : 10083
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1800.0%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99579 +/- 0.00401  [0.98794  1.00364]
-k-eff (implicit)  = 0.99533 +/- 0.00271  [0.99002  1.00064]
+k-eff (analog)    = 0.99590 +/- 0.00293  [0.99016  1.00164]
+k-eff (implicit)  = 0.99437 +/- 0.00150  [0.99142  0.99731]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -565,16 +595,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   21 / 100  Source neutrons :  5168
+Active cycle   21 / 100  Source neutrons :  9973
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2142.9%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99606 +/- 0.00382  [0.98858  1.00355]
-k-eff (implicit)  = 0.99546 +/- 0.00258  [0.99041  1.00052]
+k-eff (analog)    = 0.99584 +/- 0.00279  [0.99038  1.00131]
+k-eff (implicit)  = 0.99477 +/- 0.00149  [0.99186  0.99768]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -584,16 +614,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   22 / 100  Source neutrons :  4963
+Active cycle   22 / 100  Source neutrons : 10149
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1625.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99597 +/- 0.00364  [0.98883  1.00311]
-k-eff (implicit)  = 0.99588 +/- 0.00250  [0.99099  1.00078]
+k-eff (analog)    = 0.99647 +/- 0.00273  [0.99112  1.00182]
+k-eff (implicit)  = 0.99543 +/- 0.00156  [0.99237  0.99849]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -603,16 +633,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   23 / 100  Source neutrons :  5091
+Active cycle   23 / 100  Source neutrons :  9962
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99668 +/- 0.00355  [0.98972  1.00364]
-k-eff (implicit)  = 0.99588 +/- 0.00238  [0.99121  1.00056]
+k-eff (analog)    = 0.99687 +/- 0.00264  [0.99170  1.00205]
+k-eff (implicit)  = 0.99628 +/- 0.00172  [0.99292  0.99965]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -622,16 +652,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   24 / 100  Source neutrons :  4954
+Active cycle   24 / 100  Source neutrons : 10239
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99694 +/- 0.00341  [0.99025  1.00362]
-k-eff (implicit)  = 0.99581 +/- 0.00228  [0.99133  1.00029]
+k-eff (analog)    = 0.99824 +/- 0.00288  [0.99261  1.00388]
+k-eff (implicit)  = 0.99663 +/- 0.00168  [0.99333  0.99992]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -641,16 +671,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   25 / 100  Source neutrons :  4924
+Active cycle   25 / 100  Source neutrons :  9722
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1583.3%
 
-k-eff (analog)    = 0.99657 +/- 0.00329  [0.99011  1.00302]
-k-eff (implicit)  = 0.99651 +/- 0.00230  [0.99200  1.00102]
+k-eff (analog)    = 0.99836 +/- 0.00276  [0.99295  1.00377]
+k-eff (implicit)  = 0.99653 +/- 0.00162  [0.99337  0.99970]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -660,16 +690,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   26 / 100  Source neutrons :  5188
+Active cycle   26 / 100  Source neutrons :  9964
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2142.9%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99765 +/- 0.00334  [0.99110  1.00421]
-k-eff (implicit)  = 0.99744 +/- 0.00240  [0.99274  1.00214]
+k-eff (analog)    = 0.99833 +/- 0.00265  [0.99313  1.00353]
+k-eff (implicit)  = 0.99586 +/- 0.00169  [0.99254  0.99917]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -679,16 +709,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   27 / 100  Source neutrons :  4980
+Active cycle   27 / 100  Source neutrons :  9843
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1625.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99850 +/- 0.00333  [0.99198  1.00503]
-k-eff (implicit)  = 0.99820 +/- 0.00243  [0.99344  1.00296]
+k-eff (analog)    = 0.99772 +/- 0.00262  [0.99258  1.00286]
+k-eff (implicit)  = 0.99600 +/- 0.00164  [0.99279  0.99920]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -698,16 +728,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   28 / 100  Source neutrons :  5041
+Active cycle   28 / 100  Source neutrons : 10153
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99960 +/- 0.00339  [0.99295  1.00624]
-k-eff (implicit)  = 0.99749 +/- 0.00245  [0.99269  1.00228]
+k-eff (analog)    = 0.99769 +/- 0.00253  [0.99274  1.00265]
+k-eff (implicit)  = 0.99606 +/- 0.00158  [0.99297  0.99915]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -717,16 +747,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   29 / 100  Source neutrons :  4704
+Active cycle   29 / 100  Source neutrons : 10079
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2333.3%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99851 +/- 0.00344  [0.99176  1.00526]
-k-eff (implicit)  = 0.99736 +/- 0.00236  [0.99273  1.00199]
+k-eff (analog)    = 0.99794 +/- 0.00245  [0.99313  1.00274]
+k-eff (implicit)  = 0.99661 +/- 0.00162  [0.99344  0.99979]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -736,16 +766,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   30 / 100  Source neutrons :  5255
+Active cycle   30 / 100  Source neutrons : 10122
 
-Running time :                  0:00:01
+Running time :                  0:00:02
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99914 +/- 0.00339  [0.99250  1.00578]
-k-eff (implicit)  = 0.99687 +/- 0.00234  [0.99229  1.00145]
+k-eff (analog)    = 0.99857 +/- 0.00245  [0.99377  1.00338]
+k-eff (implicit)  = 0.99674 +/- 0.00157  [0.99366  0.99982]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -755,16 +785,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   31 / 100  Source neutrons :  4863
+Active cycle   31 / 100  Source neutrons : 10068
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99884 +/- 0.00329  [0.99239  1.00529]
-k-eff (implicit)  = 0.99690 +/- 0.00226  [0.99247  1.00133]
+k-eff (analog)    = 0.99939 +/- 0.00251  [0.99447  1.00431]
+k-eff (implicit)  = 0.99695 +/- 0.00153  [0.99394  0.99996]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -774,16 +804,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   32 / 100  Source neutrons :  5035
+Active cycle   32 / 100  Source neutrons :  9909
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99876 +/- 0.00319  [0.99252  1.00501]
-k-eff (implicit)  = 0.99702 +/- 0.00219  [0.99273  1.00132]
+k-eff (analog)    = 0.99987 +/- 0.00248  [0.99501  1.00472]
+k-eff (implicit)  = 0.99637 +/- 0.00159  [0.99325  0.99950]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -793,16 +823,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   33 / 100  Source neutrons :  5008
+Active cycle   33 / 100  Source neutrons :  9567
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99875 +/- 0.00309  [0.99269  1.00480]
-k-eff (implicit)  = 0.99709 +/- 0.00212  [0.99293  1.00125]
+k-eff (analog)    = 0.99899 +/- 0.00256  [0.99397  1.00400]
+k-eff (implicit)  = 0.99644 +/- 0.00155  [0.99341  0.99947]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -812,16 +842,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   34 / 100  Source neutrons :  4941
+Active cycle   34 / 100  Source neutrons : 10268
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1625.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99838 +/- 0.00302  [0.99247  1.00430]
-k-eff (implicit)  = 0.99699 +/- 0.00206  [0.99294  1.00103]
+k-eff (analog)    = 0.99892 +/- 0.00248  [0.99405  1.00378]
+k-eff (implicit)  = 0.99639 +/- 0.00150  [0.99345  0.99933]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -831,16 +861,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   35 / 100  Source neutrons :  4974
+Active cycle   35 / 100  Source neutrons : 10068
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99789 +/- 0.00297  [0.99207  1.00372]
-k-eff (implicit)  = 0.99725 +/- 0.00202  [0.99329  1.00122]
+k-eff (analog)    = 0.99905 +/- 0.00241  [0.99432  1.00378]
+k-eff (implicit)  = 0.99677 +/- 0.00150  [0.99382  0.99972]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -850,16 +880,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   36 / 100  Source neutrons :  5170
+Active cycle   36 / 100  Source neutrons : 10101
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1999.9%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99836 +/- 0.00293  [0.99262  1.00409]
-k-eff (implicit)  = 0.99755 +/- 0.00199  [0.99366  1.00145]
+k-eff (analog)    = 0.99946 +/- 0.00238  [0.99479  1.00412]
+k-eff (implicit)  = 0.99684 +/- 0.00146  [0.99397  0.99971]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -869,16 +899,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   37 / 100  Source neutrons :  5011
+Active cycle   37 / 100  Source neutrons :  9759
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99886 +/- 0.00289  [0.99319  1.00452]
-k-eff (implicit)  = 0.99754 +/- 0.00193  [0.99375  1.00132]
+k-eff (analog)    = 0.99918 +/- 0.00233  [0.99461  1.00375]
+k-eff (implicit)  = 0.99706 +/- 0.00144  [0.99423  0.99988]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -888,16 +918,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   38 / 100  Source neutrons :  4815
+Active cycle   38 / 100  Source neutrons : 10198
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99834 +/- 0.00286  [0.99274  1.00394]
-k-eff (implicit)  = 0.99703 +/- 0.00195  [0.99322  1.00085]
+k-eff (analog)    = 0.99943 +/- 0.00228  [0.99496  1.00391]
+k-eff (implicit)  = 0.99721 +/- 0.00141  [0.99444  0.99997]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -907,21 +937,21 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   39 / 100  Source neutrons :  4830
+Active cycle   39 / 100  Source neutrons :  9895
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99699 +/- 0.00309  [0.99093  1.00305]
-k-eff (implicit)  = 0.99732 +/- 0.00192  [0.99356  1.00108]
+k-eff (analog)    = 0.99940 +/- 0.00222  [0.99504  1.00376]
+k-eff (implicit)  = 0.99768 +/- 0.00145  [0.99483  1.00052]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-***** Tue Dec 22 02:10:50 2020 (seed = 1608631848681)
+***** Mon Feb  8 17:36:01 2021 (seed = 1612834558753)
 Warning message from function MicroCalc:
 
 Much error, very warning
@@ -932,16 +962,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   40 / 100  Source neutrons :  5288
+Active cycle   40 / 100  Source neutrons : 10318
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1800.0%
+Estimated relative CPU usage :  1562.5%
 
-k-eff (analog)    = 0.99708 +/- 0.00301  [0.99117  1.00299]
-k-eff (implicit)  = 0.99686 +/- 0.00193  [0.99308  1.00064]
+k-eff (analog)    = 1.00016 +/- 0.00230  [0.99566  1.00467]
+k-eff (implicit)  = 0.99822 +/- 0.00152  [0.99525  1.00119]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -951,16 +981,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   41 / 100  Source neutrons :  4822
+Active cycle   41 / 100  Source neutrons :  9831
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99629 +/- 0.00304  [0.99033  1.00226]
-k-eff (implicit)  = 0.99633 +/- 0.00195  [0.99251  1.00016]
+k-eff (analog)    = 1.00047 +/- 0.00226  [0.99603  1.00490]
+k-eff (implicit)  = 0.99815 +/- 0.00148  [0.99525  1.00105]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -970,16 +1000,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   42 / 100  Source neutrons :  5082
+Active cycle   42 / 100  Source neutrons :  9706
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1999.9%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99592 +/- 0.00299  [0.99005  1.00179]
-k-eff (implicit)  = 0.99664 +/- 0.00193  [0.99286  1.00042]
+k-eff (analog)    = 1.00004 +/- 0.00225  [0.99564  1.00445]
+k-eff (implicit)  = 0.99832 +/- 0.00145  [0.99547  1.00117]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -989,16 +1019,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   43 / 100  Source neutrons :  5255
+Active cycle   43 / 100  Source neutrons : 10278
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99673 +/- 0.00303  [0.99078  1.00267]
-k-eff (implicit)  = 0.99674 +/- 0.00189  [0.99304  1.00044]
+k-eff (analog)    = 1.00028 +/- 0.00221  [0.99595  1.00460]
+k-eff (implicit)  = 0.99849 +/- 0.00143  [0.99569  1.00129]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1008,16 +1038,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   44 / 100  Source neutrons :  4912
+Active cycle   44 / 100  Source neutrons :  9976
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99708 +/- 0.00298  [0.99123  1.00293]
-k-eff (implicit)  = 0.99641 +/- 0.00187  [0.99274  1.00008]
+k-eff (analog)    = 1.00045 +/- 0.00216  [0.99621  1.00469]
+k-eff (implicit)  = 0.99851 +/- 0.00140  [0.99578  1.00125]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1027,16 +1057,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   45 / 100  Source neutrons :  4813
+Active cycle   45 / 100  Source neutrons :  9987
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99658 +/- 0.00296  [0.99078  1.00239]
-k-eff (implicit)  = 0.99652 +/- 0.00183  [0.99293  1.00012]
+k-eff (analog)    = 1.00058 +/- 0.00212  [0.99643  1.00473]
+k-eff (implicit)  = 0.99844 +/- 0.00137  [0.99576  1.00112]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1046,16 +1076,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   46 / 100  Source neutrons :  5202
+Active cycle   46 / 100  Source neutrons : 10026
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99696 +/- 0.00292  [0.99124  1.00269]
-k-eff (implicit)  = 0.99595 +/- 0.00188  [0.99225  0.99964]
+k-eff (analog)    = 1.00076 +/- 0.00208  [0.99668  1.00484]
+k-eff (implicit)  = 0.99835 +/- 0.00134  [0.99573  1.00098]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1065,16 +1095,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   47 / 100  Source neutrons :  4730
+Active cycle   47 / 100  Source neutrons :  9831
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99616 +/- 0.00297  [0.99034  1.00198]
-k-eff (implicit)  = 0.99612 +/- 0.00185  [0.99249  0.99975]
+k-eff (analog)    = 1.00057 +/- 0.00204  [0.99657  1.00458]
+k-eff (implicit)  = 0.99862 +/- 0.00134  [0.99600  1.00124]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1084,16 +1114,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   48 / 100  Source neutrons :  5278
+Active cycle   48 / 100  Source neutrons : 10127
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99650 +/- 0.00293  [0.99077  1.00223]
-k-eff (implicit)  = 0.99666 +/- 0.00189  [0.99295  1.00037]
+k-eff (analog)    = 1.00065 +/- 0.00200  [0.99673  1.00458]
+k-eff (implicit)  = 0.99830 +/- 0.00135  [0.99566  1.00094]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1103,16 +1133,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   49 / 100  Source neutrons :  5017
+Active cycle   49 / 100  Source neutrons :  9807
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99690 +/- 0.00289  [0.99123  1.00257]
-k-eff (implicit)  = 0.99659 +/- 0.00185  [0.99296  1.00023]
+k-eff (analog)    = 1.00034 +/- 0.00199  [0.99644  1.00423]
+k-eff (implicit)  = 0.99880 +/- 0.00141  [0.99603  1.00157]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1122,16 +1152,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   50 / 100  Source neutrons :  4822
+Active cycle   50 / 100  Source neutrons : 10561
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99656 +/- 0.00285  [0.99096  1.00215]
-k-eff (implicit)  = 0.99672 +/- 0.00182  [0.99315  1.00028]
+k-eff (analog)    = 1.00114 +/- 0.00210  [0.99701  1.00526]
+k-eff (implicit)  = 0.99865 +/- 0.00139  [0.99592  1.00138]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1141,16 +1171,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   51 / 100  Source neutrons :  5104
+Active cycle   51 / 100  Source neutrons :  9608
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :   265.1%
+Estimated relative CPU usage :   509.1%
 
-k-eff (analog)    = 0.99663 +/- 0.00280  [0.99115  1.00212]
-k-eff (implicit)  = 0.99650 +/- 0.00180  [0.99297  1.00002]
+k-eff (analog)    = 1.00111 +/- 0.00206  [0.99706  1.00515]
+k-eff (implicit)  = 0.99866 +/- 0.00136  [0.99598  1.00133]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1160,16 +1190,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   52 / 100  Source neutrons :  4995
+Active cycle   52 / 100  Source neutrons : 10103
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1800.0%
+Estimated relative CPU usage :  1785.7%
 
-k-eff (analog)    = 0.99668 +/- 0.00274  [0.99130  1.00206]
-k-eff (implicit)  = 0.99623 +/- 0.00178  [0.99273  0.99972]
+k-eff (analog)    = 1.00128 +/- 0.00203  [0.99730  1.00526]
+k-eff (implicit)  = 0.99871 +/- 0.00134  [0.99608  1.00133]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1179,16 +1209,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   53 / 100  Source neutrons :  4854
+Active cycle   53 / 100  Source neutrons :  9975
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2125.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99618 +/- 0.00274  [0.99081  1.00155]
-k-eff (implicit)  = 0.99650 +/- 0.00177  [0.99303  0.99997]
+k-eff (analog)    = 1.00139 +/- 0.00200  [0.99748  1.00530]
+k-eff (implicit)  = 0.99851 +/- 0.00133  [0.99591  1.00112]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1198,16 +1228,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   54 / 100  Source neutrons :  5255
+Active cycle   54 / 100  Source neutrons :  9688
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1642.8%
 
-k-eff (analog)    = 0.99661 +/- 0.00272  [0.99127  1.00195]
-k-eff (implicit)  = 0.99630 +/- 0.00175  [0.99287  0.99973]
+k-eff (analog)    = 1.00092 +/- 0.00201  [0.99698  1.00487]
+k-eff (implicit)  = 0.99866 +/- 0.00131  [0.99609  1.00123]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1217,16 +1247,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   55 / 100  Source neutrons :  4737
+Active cycle   55 / 100  Source neutrons : 10299
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1714.3%
 
-k-eff (analog)    = 0.99605 +/- 0.00273  [0.99070  1.00140]
-k-eff (implicit)  = 0.99602 +/- 0.00174  [0.99261  0.99943]
+k-eff (analog)    = 1.00100 +/- 0.00198  [0.99712  1.00488]
+k-eff (implicit)  = 0.99859 +/- 0.00129  [0.99607  1.00112]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1236,16 +1266,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   56 / 100  Source neutrons :  4999
+Active cycle   56 / 100  Source neutrons :  9749
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1642.9%
 
-k-eff (analog)    = 0.99551 +/- 0.00274  [0.99015  1.00087]
-k-eff (implicit)  = 0.99580 +/- 0.00172  [0.99243  0.99918]
+k-eff (analog)    = 1.00062 +/- 0.00198  [0.99674  1.00450]
+k-eff (implicit)  = 0.99866 +/- 0.00127  [0.99618  1.00114]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1255,16 +1285,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   57 / 100  Source neutrons :  5157
+Active cycle   57 / 100  Source neutrons : 10351
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1777.8%
+Estimated relative CPU usage :  1642.9%
 
-k-eff (analog)    = 0.99552 +/- 0.00269  [0.99025  1.00078]
-k-eff (implicit)  = 0.99575 +/- 0.00169  [0.99243  0.99907]
+k-eff (analog)    = 1.00086 +/- 0.00196  [0.99702  1.00470]
+k-eff (implicit)  = 0.99865 +/- 0.00124  [0.99621  1.00109]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1274,16 +1304,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   58 / 100  Source neutrons :  5093
+Active cycle   58 / 100  Source neutrons :  9934
 
-Running time :                  0:00:01
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2125.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99585 +/- 0.00266  [0.99063  1.00106]
-k-eff (implicit)  = 0.99607 +/- 0.00169  [0.99275  0.99939]
+k-eff (analog)    = 1.00098 +/- 0.00193  [0.99720  1.00476]
+k-eff (implicit)  = 0.99852 +/- 0.00123  [0.99611  1.00093]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1293,21 +1323,21 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   59 / 100  Source neutrons :  4878
+Active cycle   59 / 100  Source neutrons :  9768
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99574 +/- 0.00262  [0.99061  1.00087]
-k-eff (implicit)  = 0.99637 +/- 0.00169  [0.99305  0.99969]
+k-eff (analog)    = 1.00070 +/- 0.00192  [0.99694  1.00445]
+k-eff (implicit)  = 0.99847 +/- 0.00121  [0.99610  1.00084]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-***** Tue Dec 22 02:10:50 2020 (seed = 1608631848681)
+***** Mon Feb  8 17:36:02 2021 (seed = 1612834558753)
 Warning message from function MicroCalc:
 
 Much error, very warning
@@ -1318,16 +1348,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   60 / 100  Source neutrons :  5074
+Active cycle   60 / 100  Source neutrons :  9990
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1818.2%
+Estimated relative CPU usage :  1562.5%
 
-k-eff (analog)    = 0.99589 +/- 0.00258  [0.99084  1.00094]
-k-eff (implicit)  = 0.99643 +/- 0.00166  [0.99317  0.99969]
+k-eff (analog)    = 1.00040 +/- 0.00191  [0.99667  1.00414]
+k-eff (implicit)  = 0.99848 +/- 0.00119  [0.99615  1.00081]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1337,16 +1367,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   61 / 100  Source neutrons :  5108
+Active cycle   61 / 100  Source neutrons : 10196
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99638 +/- 0.00258  [0.99132  1.00145]
-k-eff (implicit)  = 0.99671 +/- 0.00166  [0.99346  0.99997]
+k-eff (analog)    = 1.00044 +/- 0.00188  [0.99676  1.00411]
+k-eff (implicit)  = 0.99852 +/- 0.00117  [0.99623  1.00082]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1356,16 +1386,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   62 / 100  Source neutrons :  4847
+Active cycle   62 / 100  Source neutrons :  9913
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99636 +/- 0.00254  [0.99138  1.00134]
-k-eff (implicit)  = 0.99660 +/- 0.00164  [0.99339  0.99981]
+k-eff (analog)    = 1.00033 +/- 0.00185  [0.99671  1.00395]
+k-eff (implicit)  = 0.99836 +/- 0.00116  [0.99608  1.00064]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1375,16 +1405,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   63 / 100  Source neutrons :  4952
+Active cycle   63 / 100  Source neutrons :  9792
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99618 +/- 0.00251  [0.99127  1.00109]
-k-eff (implicit)  = 0.99709 +/- 0.00169  [0.99379  1.00040]
+k-eff (analog)    = 0.99990 +/- 0.00187  [0.99624  1.00356]
+k-eff (implicit)  = 0.99860 +/- 0.00117  [0.99631  1.00089]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1394,16 +1424,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   64 / 100  Source neutrons :  5195
+Active cycle   64 / 100  Source neutrons : 10367
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99661 +/- 0.00250  [0.99170  1.00152]
-k-eff (implicit)  = 0.99711 +/- 0.00166  [0.99386  1.00036]
+k-eff (analog)    = 1.00004 +/- 0.00184  [0.99643  1.00366]
+k-eff (implicit)  = 0.99822 +/- 0.00121  [0.99584  1.00060]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1413,16 +1443,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   65 / 100  Source neutrons :  4954
+Active cycle   65 / 100  Source neutrons :  9518
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1400.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99688 +/- 0.00248  [0.99202  1.00174]
-k-eff (implicit)  = 0.99711 +/- 0.00163  [0.99391  1.00031]
+k-eff (analog)    = 0.99943 +/- 0.00192  [0.99567  1.00318]
+k-eff (implicit)  = 0.99835 +/- 0.00120  [0.99600  1.00071]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1432,16 +1462,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   66 / 100  Source neutrons :  4988
+Active cycle   66 / 100  Source neutrons : 10463
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1571.4%
 
-k-eff (analog)    = 0.99710 +/- 0.00245  [0.99230  1.00191]
-k-eff (implicit)  = 0.99711 +/- 0.00161  [0.99396  1.00026]
+k-eff (analog)    = 0.99951 +/- 0.00189  [0.99580  1.00321]
+k-eff (implicit)  = 0.99826 +/- 0.00119  [0.99594  1.00059]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1451,16 +1481,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   67 / 100  Source neutrons :  5026
+Active cycle   67 / 100  Source neutrons :  9796
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99740 +/- 0.00243  [0.99263  1.00217]
-k-eff (implicit)  = 0.99705 +/- 0.00158  [0.99394  1.00015]
+k-eff (analog)    = 0.99928 +/- 0.00187  [0.99560  1.00295]
+k-eff (implicit)  = 0.99833 +/- 0.00117  [0.99604  1.00063]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1470,16 +1500,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   68 / 100  Source neutrons :  4837
+Active cycle   68 / 100  Source neutrons : 10087
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99720 +/- 0.00241  [0.99249  1.00192]
-k-eff (implicit)  = 0.99733 +/- 0.00159  [0.99422  1.00044]
+k-eff (analog)    = 0.99918 +/- 0.00185  [0.99556  1.00281]
+k-eff (implicit)  = 0.99851 +/- 0.00117  [0.99622  1.00079]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1489,16 +1519,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   69 / 100  Source neutrons :  5153
+Active cycle   69 / 100  Source neutrons : 10304
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99745 +/- 0.00238  [0.99278  1.00212]
-k-eff (implicit)  = 0.99759 +/- 0.00158  [0.99448  1.00069]
+k-eff (analog)    = 0.99953 +/- 0.00185  [0.99589  1.00316]
+k-eff (implicit)  = 0.99838 +/- 0.00116  [0.99611  1.00064]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1508,16 +1538,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   70 / 100  Source neutrons :  5043
+Active cycle   70 / 100  Source neutrons :  9707
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1461.5%
 
-k-eff (analog)    = 0.99781 +/- 0.00238  [0.99315  1.00246]
-k-eff (implicit)  = 0.99759 +/- 0.00156  [0.99453  1.00065]
+k-eff (analog)    = 0.99943 +/- 0.00183  [0.99585  1.00302]
+k-eff (implicit)  = 0.99820 +/- 0.00115  [0.99593  1.00046]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1527,16 +1557,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   71 / 100  Source neutrons :  4852
+Active cycle   71 / 100  Source neutrons : 10069
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1999.9%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99773 +/- 0.00234  [0.99314  1.00232]
-k-eff (implicit)  = 0.99747 +/- 0.00154  [0.99444  1.00050]
+k-eff (analog)    = 0.99944 +/- 0.00180  [0.99590  1.00297]
+k-eff (implicit)  = 0.99831 +/- 0.00114  [0.99607  1.00056]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1546,16 +1576,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   72 / 100  Source neutrons :  5024
+Active cycle   72 / 100  Source neutrons :  9990
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99772 +/- 0.00231  [0.99319  1.00225]
-k-eff (implicit)  = 0.99753 +/- 0.00152  [0.99454  1.00052]
+k-eff (analog)    = 0.99943 +/- 0.00178  [0.99594  1.00292]
+k-eff (implicit)  = 0.99841 +/- 0.00113  [0.99619  1.00062]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1565,16 +1595,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   73 / 100  Source neutrons :  5154
+Active cycle   73 / 100  Source neutrons :  9930
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99814 +/- 0.00232  [0.99360  1.00268]
-k-eff (implicit)  = 0.99762 +/- 0.00151  [0.99467  1.00057]
+k-eff (analog)    = 0.99932 +/- 0.00176  [0.99588  1.00277]
+k-eff (implicit)  = 0.99831 +/- 0.00112  [0.99612  1.00051]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1584,16 +1614,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   74 / 100  Source neutrons :  4872
+Active cycle   74 / 100  Source neutrons : 10026
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99818 +/- 0.00229  [0.99370  1.00266]
-k-eff (implicit)  = 0.99777 +/- 0.00149  [0.99484  1.00069]
+k-eff (analog)    = 0.99926 +/- 0.00173  [0.99586  1.00266]
+k-eff (implicit)  = 0.99827 +/- 0.00111  [0.99610  1.00044]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1603,16 +1633,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   75 / 100  Source neutrons :  4995
+Active cycle   75 / 100  Source neutrons : 10037
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99821 +/- 0.00225  [0.99380  1.00263]
-k-eff (implicit)  = 0.99765 +/- 0.00148  [0.99475  1.00055]
+k-eff (analog)    = 0.99924 +/- 0.00171  [0.99589  1.00260]
+k-eff (implicit)  = 0.99852 +/- 0.00112  [0.99633  1.00072]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1622,16 +1652,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   76 / 100  Source neutrons :  4940
+Active cycle   76 / 100  Source neutrons : 10216
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.1%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99809 +/- 0.00223  [0.99372  1.00246]
-k-eff (implicit)  = 0.99808 +/- 0.00152  [0.99510  1.00106]
+k-eff (analog)    = 0.99951 +/- 0.00171  [0.99616  1.00286]
+k-eff (implicit)  = 0.99870 +/- 0.00112  [0.99651  1.00090]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1641,16 +1671,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   77 / 100  Source neutrons :  5227
+Active cycle   77 / 100  Source neutrons :  9977
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1875.0%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99855 +/- 0.00225  [0.99414  1.00295]
-k-eff (implicit)  = 0.99794 +/- 0.00151  [0.99498  1.00089]
+k-eff (analog)    = 0.99974 +/- 0.00170  [0.99640  1.00308]
+k-eff (implicit)  = 0.99857 +/- 0.00111  [0.99638  1.00075]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1660,16 +1690,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   78 / 100  Source neutrons :  4769
+Active cycle   78 / 100  Source neutrons :  9647
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99838 +/- 0.00222  [0.99402  1.00274]
-k-eff (implicit)  = 0.99809 +/- 0.00150  [0.99516  1.00103]
+k-eff (analog)    = 0.99951 +/- 0.00170  [0.99618  1.00283]
+k-eff (implicit)  = 0.99871 +/- 0.00111  [0.99654  1.00088]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1679,21 +1709,21 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   79 / 100  Source neutrons :  5104
+Active cycle   79 / 100  Source neutrons : 10403
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99848 +/- 0.00220  [0.99417  1.00279]
-k-eff (implicit)  = 0.99824 +/- 0.00148  [0.99533  1.00115]
+k-eff (analog)    = 0.99978 +/- 0.00170  [0.99645  1.00310]
+k-eff (implicit)  = 0.99860 +/- 0.00110  [0.99644  1.00075]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-***** Tue Dec 22 02:10:50 2020 (seed = 1608631848681)
+***** Mon Feb  8 17:36:02 2021 (seed = 1612834558753)
 Warning message from function MicroCalc:
 
 Much error, very warning
@@ -1704,16 +1734,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   80 / 100  Source neutrons :  5038
+Active cycle   80 / 100  Source neutrons :  9701
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1900.0%
+Estimated relative CPU usage :  1600.0%
 
-k-eff (analog)    = 0.99867 +/- 0.00218  [0.99440  1.00294]
-k-eff (implicit)  = 0.99837 +/- 0.00147  [0.99549  1.00126]
+k-eff (analog)    = 0.99966 +/- 0.00168  [0.99636  1.00295]
+k-eff (implicit)  = 0.99863 +/- 0.00109  [0.99651  1.00076]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1723,16 +1753,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   81 / 100  Source neutrons :  4983
+Active cycle   81 / 100  Source neutrons : 10101
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99882 +/- 0.00216  [0.99459  1.00305]
-k-eff (implicit)  = 0.99862 +/- 0.00147  [0.99573  1.00150]
+k-eff (analog)    = 0.99967 +/- 0.00166  [0.99641  1.00292]
+k-eff (implicit)  = 0.99857 +/- 0.00107  [0.99646  1.00067]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1742,16 +1772,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   82 / 100  Source neutrons :  5017
+Active cycle   82 / 100  Source neutrons :  9755
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99900 +/- 0.00214  [0.99481  1.00319]
-k-eff (implicit)  = 0.99910 +/- 0.00153  [0.99609  1.00210]
+k-eff (analog)    = 0.99938 +/- 0.00167  [0.99611  1.00264]
+k-eff (implicit)  = 0.99860 +/- 0.00106  [0.99652  1.00068]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1761,16 +1791,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   83 / 100  Source neutrons :  5037
+Active cycle   83 / 100  Source neutrons : 10233
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99927 +/- 0.00213  [0.99510  1.00344]
-k-eff (implicit)  = 0.99919 +/- 0.00152  [0.99621  1.00216]
+k-eff (analog)    = 0.99937 +/- 0.00164  [0.99615  1.00259]
+k-eff (implicit)  = 0.99864 +/- 0.00105  [0.99659  1.00070]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1780,16 +1810,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   84 / 100  Source neutrons :  4898
+Active cycle   84 / 100  Source neutrons : 10010
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99929 +/- 0.00210  [0.99516  1.00341]
-k-eff (implicit)  = 0.99885 +/- 0.00154  [0.99584  1.00186]
+k-eff (analog)    = 0.99937 +/- 0.00163  [0.99619  1.00256]
+k-eff (implicit)  = 0.99850 +/- 0.00105  [0.99644  1.00055]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1799,16 +1829,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   85 / 100  Source neutrons :  4868
+Active cycle   85 / 100  Source neutrons :  9849
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.0%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99899 +/- 0.00210  [0.99487  1.00311]
-k-eff (implicit)  = 0.99898 +/- 0.00152  [0.99600  1.00197]
+k-eff (analog)    = 0.99920 +/- 0.00162  [0.99603  1.00236]
+k-eff (implicit)  = 0.99833 +/- 0.00105  [0.99627  1.00038]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1818,16 +1848,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   86 / 100  Source neutrons :  5328
+Active cycle   86 / 100  Source neutrons : 10019
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1750.0%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99944 +/- 0.00212  [0.99528  1.00361]
-k-eff (implicit)  = 0.99922 +/- 0.00152  [0.99623  1.00220]
+k-eff (analog)    = 0.99905 +/- 0.00160  [0.99591  1.00219]
+k-eff (implicit)  = 0.99817 +/- 0.00105  [0.99611  1.00022]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1837,16 +1867,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   87 / 100  Source neutrons :  4990
+Active cycle   87 / 100  Source neutrons :  9942
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99986 +/- 0.00214  [0.99567  1.00406]
-k-eff (implicit)  = 0.99927 +/- 0.00151  [0.99632  1.00223]
+k-eff (analog)    = 0.99884 +/- 0.00160  [0.99570  1.00197]
+k-eff (implicit)  = 0.99838 +/- 0.00106  [0.99631  1.00046]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1856,16 +1886,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   88 / 100  Source neutrons :  4758
+Active cycle   88 / 100  Source neutrons : 10419
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2166.7%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99970 +/- 0.00212  [0.99554  1.00386]
-k-eff (implicit)  = 0.99908 +/- 0.00150  [0.99614  1.00203]
+k-eff (analog)    = 0.99910 +/- 0.00160  [0.99596  1.00224]
+k-eff (implicit)  = 0.99840 +/- 0.00105  [0.99635  1.00045]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1875,16 +1905,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   89 / 100  Source neutrons :  5033
+Active cycle   89 / 100  Source neutrons :  9761
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99962 +/- 0.00210  [0.99550  1.00374]
-k-eff (implicit)  = 0.99911 +/- 0.00149  [0.99620  1.00202]
+k-eff (analog)    = 0.99908 +/- 0.00158  [0.99597  1.00218]
+k-eff (implicit)  = 0.99854 +/- 0.00104  [0.99649  1.00059]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1894,16 +1924,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   90 / 100  Source neutrons :  5008
+Active cycle   90 / 100  Source neutrons :  9962
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99956 +/- 0.00208  [0.99548  1.00363]
-k-eff (implicit)  = 0.99905 +/- 0.00147  [0.99617  1.00193]
+k-eff (analog)    = 0.99902 +/- 0.00157  [0.99594  1.00209]
+k-eff (implicit)  = 0.99843 +/- 0.00104  [0.99640  1.00047]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1913,16 +1943,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   91 / 100  Source neutrons :  5021
+Active cycle   91 / 100  Source neutrons :  9928
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99954 +/- 0.00205  [0.99551  1.00357]
-k-eff (implicit)  = 0.99914 +/- 0.00146  [0.99629  1.00199]
+k-eff (analog)    = 0.99888 +/- 0.00156  [0.99583  1.00193]
+k-eff (implicit)  = 0.99849 +/- 0.00103  [0.99647  1.00050]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1932,16 +1962,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   92 / 100  Source neutrons :  5057
+Active cycle   92 / 100  Source neutrons : 10294
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1500.0%
 
-k-eff (analog)    = 0.99965 +/- 0.00204  [0.99566  1.00364]
-k-eff (implicit)  = 0.99888 +/- 0.00146  [0.99601  1.00175]
+k-eff (analog)    = 0.99906 +/- 0.00155  [0.99602  1.00210]
+k-eff (implicit)  = 0.99849 +/- 0.00102  [0.99649  1.00048]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1951,16 +1981,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   93 / 100  Source neutrons :  4834
+Active cycle   93 / 100  Source neutrons :  9821
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2166.7%
+Estimated relative CPU usage :  1666.7%
 
-k-eff (analog)    = 0.99939 +/- 0.00203  [0.99541  1.00337]
-k-eff (implicit)  = 0.99879 +/- 0.00145  [0.99595  1.00163]
+k-eff (analog)    = 0.99904 +/- 0.00153  [0.99603  1.00204]
+k-eff (implicit)  = 0.99836 +/- 0.00101  [0.99638  1.00035]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1970,16 +2000,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   94 / 100  Source neutrons :  5165
+Active cycle   94 / 100  Source neutrons :  9959
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99948 +/- 0.00201  [0.99554  1.00342]
-k-eff (implicit)  = 0.99884 +/- 0.00144  [0.99603  1.00165]
+k-eff (analog)    = 0.99898 +/- 0.00152  [0.99600  1.00195]
+k-eff (implicit)  = 0.99846 +/- 0.00101  [0.99649  1.00044]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1989,16 +2019,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   95 / 100  Source neutrons :  4972
+Active cycle   95 / 100  Source neutrons : 10183
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.2%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99952 +/- 0.00199  [0.99562  1.00341]
-k-eff (implicit)  = 0.99878 +/- 0.00142  [0.99599  1.00156]
+k-eff (analog)    = 0.99911 +/- 0.00151  [0.99615  1.00206]
+k-eff (implicit)  = 0.99833 +/- 0.00101  [0.99636  1.00030]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2008,16 +2038,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   96 / 100  Source neutrons :  5100
+Active cycle   96 / 100  Source neutrons :  9813
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.1%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99976 +/- 0.00198  [0.99587  1.00364]
-k-eff (implicit)  = 0.99880 +/- 0.00141  [0.99605  1.00156]
+k-eff (analog)    = 0.99904 +/- 0.00149  [0.99611  1.00196]
+k-eff (implicit)  = 0.99842 +/- 0.00100  [0.99646  1.00038]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2027,16 +2057,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   97 / 100  Source neutrons :  4877
+Active cycle   97 / 100  Source neutrons : 10027
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2000.1%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99973 +/- 0.00196  [0.99588  1.00358]
-k-eff (implicit)  = 0.99885 +/- 0.00139  [0.99612  1.00158]
+k-eff (analog)    = 0.99900 +/- 0.00148  [0.99610  1.00189]
+k-eff (implicit)  = 0.99848 +/- 0.00099  [0.99654  1.00043]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2046,16 +2076,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   98 / 100  Source neutrons :  4938
+Active cycle   98 / 100  Source neutrons : 10132
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1857.1%
+Estimated relative CPU usage :  1615.4%
 
-k-eff (analog)    = 0.99958 +/- 0.00195  [0.99576  1.00340]
-k-eff (implicit)  = 0.99876 +/- 0.00138  [0.99605  1.00147]
+k-eff (analog)    = 0.99909 +/- 0.00147  [0.99622  1.00196]
+k-eff (implicit)  = 0.99866 +/- 0.00100  [0.99671  1.00061]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2065,21 +2095,21 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle   99 / 100  Source neutrons :  5045
+Active cycle   99 / 100  Source neutrons :  9982
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  2166.7%
+Estimated relative CPU usage :  1538.5%
 
-k-eff (analog)    = 0.99952 +/- 0.00193  [0.99574  1.00330]
-k-eff (implicit)  = 0.99900 +/- 0.00139  [0.99628  1.00172]
+k-eff (analog)    = 0.99916 +/- 0.00145  [0.99631  1.00201]
+k-eff (implicit)  = 0.99852 +/- 0.00100  [0.99657  1.00047]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-***** Tue Dec 22 02:10:50 2020 (seed = 1608631848681)
+***** Mon Feb  8 17:36:02 2021 (seed = 1612834558753)
 Warning message from function MicroCalc:
 
 Much error, very warning
@@ -2090,19 +2120,19 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "U233-MET-FAST-001" 
 
-Active cycle  100 / 100  Source neutrons :  5095
+Active cycle  100 / 100  Source neutrons :  9851
 
-Running time :                  0:00:02
+Running time :                  0:00:03
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1888.9%
+Estimated relative CPU usage :  1600.0%
 
-k-eff (analog)    = 0.99966 +/- 0.00191  [0.99590  1.00341]
-k-eff (implicit)  = 0.99884 +/- 0.00138  [0.99612  1.00155]
+k-eff (analog)    = 0.99909 +/- 0.00144  [0.99626  1.00191]
+k-eff (implicit)  = 0.99849 +/- 0.00099  [0.99656  1.00042]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-Transport cycle completed in 0.996 seconds.
+Transport cycle completed in 2.01 seconds.
 
