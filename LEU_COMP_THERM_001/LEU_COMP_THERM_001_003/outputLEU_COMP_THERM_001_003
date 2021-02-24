@@ -1,0 +1,351 @@
+
+  _                   .-=-.           .-=-.          .-==-.       
+ { }      __        .' O o '.       .' O o '.       /  -<' )--<   
+ { }    .' O'.     / o .-. O \     / o .-. O \     /  .---`       
+ { }   / .-. o\   /O  /   \  o\   /O  /   \  o\   /O /            
+  \ `-` /   \ O`-'o  /     \  O`-'o  /     \  O`-`o /             
+   `-.-`     '.____.'       `._____.'       `.____.'              
+
+Serpent 2 beta
+
+A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
+
+ - Version 2.1.31 (May 16, 2019) -- Contact: serpent@vtt.fi
+
+ - Reference: J. Leppanen, et al. "The Serpent Monte Carlo code: Status,
+              development and applications in 2013." Ann. Nucl. Energy,
+              82 (2015) 142-150.
+
+ - Compiled Oct 16 2020 01:03:31
+
+ - MPI Parallel calculation mode available
+
+ - OpenMP Parallel calculation mode available
+
+ - Geometry and mesh plotting available
+
+ - Default data path set to: "/global/home/groups/co_nuclear/serpent/xsdata/endfb7"
+
+Begin calculation on Tue Feb 23 22:07:35 2021
+
+Reading input file "LEU_COMP_THERM_001_003"...
+
+Checking duplicate input definitions...
+OK.
+
+Creating geometry...
+OK.
+
+Counting geometry zones...
+
+The geometry consists of 3 levels:
+
+Level 0 size: max 18 zones
+Level 1 size: max 340 zones
+Level 2 size: max 8 zones
+
+Processing cells...
+OK.
+
+Linking materials to geometry...
+OK.
+
+Counting cells...
+OK.
+
+Processing data for group constant generation:
+
+ - 70 energy groups in micro-group structure
+ - 2 energy groups in macro-group structure
+ - B1 fundamental mode calculation is not run
+ - Group constants generated in 1 universes
+ - Discontinuity factors are not calculated
+ - Pin-power distributions are not calculated
+ - Albedos are not calculated
+ - Poison cross sections are not calculated
+
+Plotting geometry:
+
+   0% complete
+  33% complete
+Geometry errors in plot LEU_COMP_THERM_001_003_geom2.png (no cell).
+  67% complete
+Geometry errors in plot LEU_COMP_THERM_001_003_geom3.png (no cell).
+ 100% complete
+
+Reading ACE directory files...
+OK.
+
+Adding nuclides in material UO2...
+
+Nuclide  92234.03c -- uranium 234 at 300K (U-234)
+Nuclide  92235.03c -- uranium 235 at 300K (U-235)
+Nuclide  92236.03c -- uranium 236 at 300K (U-236)
+Nuclide  92238.03c -- uranium 238 at 300K (U-238)
+Nuclide   8016.03c -- oxygen 16 at 300K (O-16)
+
+Adding nuclides in material 1100_Al...
+
+Nuclide  13027.03c -- aluminum 27 at 300K (Al-27)
+Nuclide  29000.03c -- natural copper at 300K (Cu-nat)
+Nuclide  25055.03c -- manganese 55 at 300K (Mn-55)
+Nuclide  30000.03c -- natural zinc at 300K (Zn-nat)
+Nuclide  14000.03c -- natural silicon at 300K (Si-nat)
+Nuclide  26000.03c -- natural iron at 300K (Fe-nat)
+
+Adding nuclides in material 5052_Al...
+
+Nuclide  24000.03c -- natural chromium at 300K (Cr-nat)
+Nuclide  12000.03c -- natural magnesium at 300K (Mg-nat)
+
+Adding nuclides in material 6061_Al...
+
+Nuclide  22000.03c -- natural titanium at 300K (Ti-nat)
+
+Adding nuclides in material water...
+
+Nuclide   1001.03c -- hydrogen at 300K (H-1)
+
+Adding nuclides in material acrylic...
+
+Nuclide   6000.03c -- natural carbon at 300K (C-nat)
+
+Checking data and printing output...
+OK.
+
+Generating unionize energy grids...
+
+Adding points:
+
+  1001.03c -- Points added in neutron grid: 252
+  6000.03c -- Points added in neutron grid: 873
+  8016.03c -- Points added in neutron grid: 1907
+ 12000.03c -- Points added in neutron grid: 1917
+ 13027.03c -- Points added in neutron grid: 1977
+ 14000.03c -- Points added in neutron grid: 2596
+ 22000.03c -- Points added in neutron grid: 4897
+ 24000.03c -- Points added in neutron grid: 5565
+ 25055.03c -- Points added in neutron grid: 4727
+ 26000.03c -- Points added in neutron grid: 10894
+ 29000.03c -- Points added in neutron grid: 11950
+ 30000.03c -- Points added in neutron grid: 12533
+ 92234.03c -- Points added in neutron grid: 9359
+ 92235.03c -- Points added in neutron grid: 30561
+ 92236.03c -- Points added in neutron grid: 8792
+ 92238.03c -- Points added in neutron grid: 64620
+
+Generating unionized energy grid:
+
+ - Unionization performed without grid thinning
+   between 1.00E-11 and 20.0 MeV.
+
+ - Final neutron grid size: 173183 points.
+
+ - 8.99 Mb of memory allocated for grid data
+
+OK.
+
+Processing cross sections and ENDF reaction laws...
+
+Nuclide   1001.03c -- hydrogen at 300K (H-1)
+Nuclide   6000.03c -- natural carbon at 300K (C-nat)
+Nuclide   8016.03c -- oxygen 16 at 300K (O-16)
+Nuclide  12000.03c -- natural magnesium at 300K (Mg-nat)
+Nuclide  13027.03c -- aluminum 27 at 300K (Al-27)
+Nuclide  14000.03c -- natural silicon at 300K (Si-nat)
+Nuclide  22000.03c -- natural titanium at 300K (Ti-nat)
+Nuclide  24000.03c -- natural chromium at 300K (Cr-nat)
+Nuclide  25055.03c -- manganese 55 at 300K (Mn-55)
+Nuclide  26000.03c -- natural iron at 300K (Fe-nat)
+Nuclide  29000.03c -- natural copper at 300K (Cu-nat)
+Nuclide  30000.03c -- natural zinc at 300K (Zn-nat)
+Nuclide  92234.03c -- uranium 234 at 300K (U-234)
+Nuclide  92235.03c -- uranium 235 at 300K (U-235)
+Nuclide  92236.03c -- uranium 236 at 300K (U-236)
+Nuclide  92238.03c -- uranium 238 at 300K (U-238)
+
+SUMMARY -- 16 nuclides included in calculation:
+
+ - 16 transport nuclides
+ - Neutron energy cut-offs at 1.00E-11 and 20.0 MeV
+ - 608 transport reactions
+ - 147 special reactions
+ - 139.48 Mb of memory allocated for data
+
+Processing mesh plots...
+OK.
+
+Normalizing compositions and processing mixtures...
+OK.
+
+Allocating memory for macroscopic cross section data...
+OK.
+
+Allocating memory for particle structures...
+OK.
+
+Calculating maximum densities...
+OK.
+
+Performing density cut-off...
+OK.
+
+Sorting material-wise reaction lists:
+
+   0% complete
+ 100% complete
+
+Calculating macroscopic cross sections:
+
+   0% complete
+  33% complete
+ 100% complete
+
+Calculating DT neutron majorant cross section:
+
+   0% complete
+ 100% complete
+
+Clearing results and statistics...
+OK.
+
+Sampling initial source...
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 16)
+
+Tracking error: lattice error (possibly undefined element)
+
+(x,y,z)  =  2.91544E+01  2.29018E+00  2.55278E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+Geometry error: undefined region.
+
+Geometry structure at last position is printed below.
+Some levels may not be printed correctly. Look for the
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 18)
+
+Tracking error: lattice error (possibly undefined element)
+
+(x,y,z)  =  3.01820E+01  2.41864E+00  1.48245E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+first level that fails: undefined region, suspicious
+local coordinates, etc., and check the corresponding
+geometry definition in the input.
+
+Level 0 / universe 0 :
+Cell universe / cell 9
+(x,y,z)  =  2.91544E+01  2.29018E+00  2.55278E+01
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 8)
+
+Tracking error: lattice error (possibly undefined element)
+
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Level 1 / universe 30 :
+(x,y,z)  =  2.90540E+01  7.62221E+00 -3.41744E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+Geometry error: undefined region.
+
+Geometry structure at last position is printed below.
+Some levels may not be printed correctly. Look for the
+Geometry error: undefined region.
+Lattice universe / region 338
+first level that fails: undefined region, suspicious
+
+Geometry structure at last position is printed below.
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 6)
+
+Tracking error: lattice error (possibly undefined element)
+
+(x,y,z)  = -2.94359E+01 -5.41453E+00  6.99530E+00
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+Some levels may not be printed correctly. Look for the
+first level that fails: undefined region, suspicious
+(x,y,z)  =  2.91544E+01  2.29018E+00  2.55278E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Geometry errors caused by undefined regions can be
+ignored by using the "set lost" input option:
+
+http://serpent.vtt.fi/mediawiki/index.php/Input_syntax_manual#set_lost
+
+Simulation aborted.
+
+local coordinates, etc., and check the corresponding
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 2)
+
+Tracking error: lattice error (possibly undefined element)
+
+Geometry error: undefined region.
+
+Geometry structure at last position is printed below.
+Some levels may not be printed correctly. Look for the
+first level that fails: undefined region, suspicious
+local coordinates, etc., and check the corresponding
+local coordinates, etc., and check the corresponding
+(x,y,z)  =  3.20858E+01 -3.30160E+00  4.03689E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+geometry definition in the input.
+
+Level 0 / universe 0 :
+Cell universe / cell 9
+
+***** Tue Feb 23 22:07:48 2021 (seed = 1614146855267, MPI task = 0, OMP thread = 14)
+
+Tracking error: lattice error (possibly undefined element)
+
+(x,y,z)  = -2.92780E+01 -1.67323E+01 -2.29428E+01
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Lost particles: 0
+
+Checking geometry errors (this may fail)...
+
+geometry definition in the input.
+
+Level 0 / universe 0 :
+Cell universe / cell 7
+(x,y,z)  = -2.94359E+01 -5.41453E+00  6.99530E+00
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Level 1 / universe 10 :
+Lattice universe / region 320
+(x,y,z)  = -2.94359E+01 -5.41453E+00  6.99530E+00
+(u,v,w)  =  0.00000E+00  0.00000E+00  1.00000E+00
+
+Geometry errors caused by undefined regions can be
+ignored by using the "set lost" input option:
+
+http://serpent.vtt.fi/mediawiki/index.php/Input_syntax_manual#set_lost
+
+Simulation aborted.
+
+g
