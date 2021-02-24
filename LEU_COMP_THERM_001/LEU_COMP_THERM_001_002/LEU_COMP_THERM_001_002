@@ -194,9 +194,6 @@ mat acrylic sum rgb 255 255 255
 6000.03c	3.5648E-2	% C		(natural)
 8016.03c	1.4273E-2	% O-16	(natural not available in ENDF/B-VII)
 
-% CROSS-SECTION LIBRARY --------------------------------------------------------
-set acelib "/global/home/groups/co_nuclear/serpent/xsdata_2/endfb7/sss_endfb7u.xsdata"
-
 %===============================================================================
 % OPTIONS
 %===============================================================================
