@@ -74,7 +74,7 @@
 
  Nuclide    1 / 16 : 1001.03c -- hydrogen (H-1)
 
- Pointers                     : 72523 973
+ Pointers                     : 72463 973
  Primary type                 : Transport
  Nuclide ZAI                  : 10010
  Library ID                   : 03c
@@ -123,7 +123,7 @@
 
  Nuclide    2 / 16 : 6000.03c -- natural carbon (C-nat)
 
- Pointers                     : 72853 4239
+ Pointers                     : 72793 4239
  Primary type                 : Transport
  Nuclide ZAI                  : 60000
  Library ID                   : 03c
@@ -193,7 +193,7 @@
 
  Nuclide    3 / 16 : 8016.03c -- oxygen 16 (O-16)
 
- Pointers                     : 30825 5343
+ Pointers                     : 30765 5343
  Primary type                 : Transport
  Nuclide ZAI                  : 80160
  Library ID                   : 03c
@@ -308,7 +308,7 @@
 
  Nuclide    4 / 16 : 12000.03c -- natural magnesium (Mg-nat)
 
- Pointers                     : 66242 6723
+ Pointers                     : 66182 6723
  Primary type                 : Transport
  Nuclide ZAI                  : 120000
  Library ID                   : 03c
@@ -405,7 +405,7 @@
 
  Nuclide    5 / 16 : 13027.03c -- aluminum 27 (Al-27)
 
- Pointers                     : 35973 7827
+ Pointers                     : 35913 7827
  Primary type                 : Transport
  Nuclide ZAI                  : 130270
  Library ID                   : 03c
@@ -588,7 +588,7 @@
 
  Nuclide    6 / 16 : 14000.03c -- natural silicon (Si-nat)
 
- Pointers                     : 54594 8103
+ Pointers                     : 54534 8103
  Primary type                 : Transport
  Nuclide ZAI                  : 140000
  Library ID                   : 03c
@@ -686,7 +686,7 @@
 
  Nuclide    7 / 16 : 22000.03c -- natural titanium (Ti-nat)
 
- Pointers                     : 70076 15831
+ Pointers                     : 70016 15831
  Primary type                 : Transport
  Nuclide ZAI                  : 220000
  Library ID                   : 03c
@@ -764,7 +764,7 @@
 
  Nuclide    8 / 16 : 24000.03c -- natural chromium (Cr-nat)
 
- Pointers                     : 62408 18039
+ Pointers                     : 62348 18039
  Primary type                 : Transport
  Nuclide ZAI                  : 240000
  Library ID                   : 03c
@@ -861,7 +861,7 @@
 
  Nuclide    9 / 16 : 25055.03c -- manganese 55 (Mn-55)
 
- Pointers                     : 49919 19419
+ Pointers                     : 49859 19419
  Primary type                 : Transport
  Nuclide ZAI                  : 250550
  Library ID                   : 03c
@@ -953,7 +953,7 @@
 
  Nuclide   10 / 16 : 26000.03c -- natural iron (Fe-nat)
 
- Pointers                     : 58501 19695
+ Pointers                     : 58441 19695
  Primary type                 : Transport
  Nuclide ZAI                  : 260000
  Library ID                   : 03c
@@ -1051,7 +1051,7 @@
 
  Nuclide   11 / 16 : 29000.03c -- natural copper (Cu-nat)
 
- Pointers                     : 46085 23835
+ Pointers                     : 46025 23835
  Primary type                 : Transport
  Nuclide ZAI                  : 290000
  Library ID                   : 03c
@@ -1148,7 +1148,7 @@
 
  Nuclide   12 / 16 : 30000.03c -- natural zinc (Zn-nat)
 
- Pointers                     : 53388 24663
+ Pointers                     : 53328 24663
  Primary type                 : Transport
  Nuclide ZAI                  : 300000
  Library ID                   : 03c
@@ -1209,7 +1209,7 @@
 
  Nuclide   13 / 16 : 92234.03c -- uranium 234 (U-234)
 
- Pointers                     : 15830 105577
+ Pointers                     : 15770 105577
  Primary type                 : Transport
  Nuclide ZAI                  : 922340
  Library ID                   : 03c
@@ -1311,7 +1311,7 @@
 
  Nuclide   14 / 16 : 92235.03c -- uranium 235 (U-235)
 
- Pointers                     : 19761 105853
+ Pointers                     : 19701 105853
  Primary type                 : Transport
  Nuclide ZAI                  : 922350
  Library ID                   : 03c
@@ -1406,7 +1406,7 @@
 
  Nuclide   15 / 16 : 92236.03c -- uranium 236 (U-236)
 
- Pointers                     : 23376 106129
+ Pointers                     : 23316 106129
  Primary type                 : Transport
  Nuclide ZAI                  : 922360
  Library ID                   : 03c
@@ -1504,7 +1504,7 @@
 
  Nuclide   16 / 16 : 92238.03c -- uranium 238 (U-238)
 
- Pointers                     : 27210 106681
+ Pointers                     : 27150 106681
  Primary type                 : Transport
  Nuclide ZAI                  : 922380
  Library ID                   : 03c
@@ -1608,8 +1608,8 @@ Material "UO2":
  - Material is included in geometry
  - Atom density 6.17052E-02 1/barn*cm
  - Mass density 9.19679E+00 g/cm3
- - Volume 9.24960E+04 cm3
- - Mass 8.50666E+05 g
+ - Volume 8.70550E+04 cm3
+ - Mass 8.00627E+05 g
  - Photon emission rate 0.00000E+00 1/s
  - Neutron emission rate 0.00000E+00 1/s
  - 5 nuclides in composition
@@ -1635,8 +1635,8 @@ Material "1100_Al":
  - Material is included in geometry
  - Atom density 6.00598E-02 1/barn*cm
  - Mass density 2.70000E+00 g/cm3
- - Volume 6.42397E+03 cm3
- - Mass 1.73447E+04 g
+ - Volume 6.04609E+03 cm3
+ - Mass 1.63244E+04 g
  - Photon emission rate 0.00000E+00 1/s
  - Neutron emission rate 0.00000E+00 1/s
  - 6 nuclides in composition
@@ -1663,8 +1663,8 @@ Material "5052_Al":
  - Material is included in geometry
  - Atom density 6.00062E-02 1/barn*cm
  - Mass density 2.69000E+00 g/cm3
- - Volume 2.70163E+02 cm3
- - Mass 7.26740E+02 g
+ - Volume 2.54271E+02 cm3
+ - Mass 6.83990E+02 g
  - Photon emission rate 0.00000E+00 1/s
  - Neutron emission rate 0.00000E+00 1/s
  - 8 nuclides in composition
@@ -1693,8 +1693,8 @@ Material "6061_Al":
  - Material is included in geometry
  - Atom density 5.97510E-02 1/barn*cm
  - Mass density 2.69000E+00 g/cm3
- - Volume 2.71648E+04 cm3
- - Mass 7.30732E+04 g
+ - Volume 2.55668E+04 cm3
+ - Mass 6.87748E+04 g
  - Photon emission rate 0.00000E+00 1/s
  - Neutron emission rate 0.00000E+00 1/s
  - 9 nuclides in composition
