@@ -180,19 +180,22 @@ mat 6061_Al -2.69 rgb 192 192 192
 14000.03c	3.4607E-4	% Si (natural)
 26000.03c	1.0152E-4	% Fe (natural)
 
-% --- Light water ---
-	% Overall mass density 0.997766 g/cm3 (interpolated; see benchmark PDF)
-	% Evaluated @ 300K (approx. room temperature)
-mat water -0.997766 rgb 0 0 255
-1001.03c	6.6706E-2	% H-1 	(natural not available in ENDF/B-VII)
-8016.03c	3.3353E-2	% O-16  (natural not available in ENDF/B-VII)
-			
 % --- Acrylic ---
 	% Evaluated @ 300K (approx. room temperature)
 mat acrylic sum rgb 255 255 255
 1001.03c	5.6642E-2	% H		(natural not available in ENDF/B-VII)
 6000.03c	3.5648E-2	% C		(natural)
 8016.03c	1.4273E-2	% O-16	(natural not available in ENDF/B-VII)
+
+% MODERATORS -------------------------------------------------------------------
+
+% --- Light water ---
+	% Overall mass density 0.997766 g/cm3 (interpolated; see benchmark PDF)
+	% Evaluated @ 300K (approx. room temperature)
+mat water -0.997766 moder sssth1 1001 rgb 0 0 255
+1001.03c	6.6706E-2	% H-1 	(natural not available in ENDF/B-VII)
+8016.03c	3.3353E-2	% O-16  (natural not available in ENDF/B-VII)
+therm sssth1 lwj2.11t
 
 %===============================================================================
 % OPTIONS
