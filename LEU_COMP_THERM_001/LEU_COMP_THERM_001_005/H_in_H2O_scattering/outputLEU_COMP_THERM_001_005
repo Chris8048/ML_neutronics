@@ -26,7 +26,7 @@ A Continuous-energy Monte Carlo Reactor Physics Burnup Calculation Code
 
  - Default data path set to: "/global/home/groups/co_nuclear/serpent/xsdata/endfb7"
 
-Begin calculation on Wed Feb 24 17:06:26 2021
+Begin calculation on Tue Mar  2 21:22:56 2021
 
 Reading input file "LEU_COMP_THERM_001_005"...
 
@@ -100,13 +100,16 @@ Adding nuclides in material 6061_Al...
 
 Nuclide  22000.03c -- natural titanium at 300K (Ti-nat)
 
-Adding nuclides in material water...
-
-Nuclide   1001.03c -- hydrogen at 300K (H-1)
-
 Adding nuclides in material acrylic...
 
+Nuclide   1001.03c -- hydrogen at 300K (H-1)
 Nuclide   6000.03c -- natural carbon at 300K (C-nat)
+
+Adding nuclides in material water...
+
+Adding thermal scattering data...
+
+Nuclide   lwj2.11t -- hydrogen at 574K (H-1)
 
 Checking data and printing output...
 OK.
@@ -116,6 +119,7 @@ Generating unionize energy grids...
 Adding points:
 
   1001.03c -- Points added in neutron grid: 252
+  1001.03s -- Points added in neutron grid: 91
   6000.03c -- Points added in neutron grid: 873
   8016.03c -- Points added in neutron grid: 1907
  12000.03c -- Points added in neutron grid: 1917
@@ -126,7 +130,7 @@ Adding points:
  25055.03c -- Points added in neutron grid: 4727
  26000.03c -- Points added in neutron grid: 10894
  29000.03c -- Points added in neutron grid: 11950
- 30000.03c -- Points added in neutron grid: 12533
+ 30000.03c -- Points added in neutron grid: 12532
  92234.03c -- Points added in neutron grid: 9359
  92235.03c -- Points added in neutron grid: 30561
  92236.03c -- Points added in neutron grid: 8792
@@ -137,7 +141,7 @@ Generating unionized energy grid:
  - Unionization performed without grid thinning
    between 1.00E-11 and 20.0 MeV.
 
- - Final neutron grid size: 173183 points.
+ - Final neutron grid size: 173270 points.
 
  - 8.99 Mb of memory allocated for grid data
 
@@ -146,6 +150,7 @@ OK.
 Processing cross sections and ENDF reaction laws...
 
 Nuclide   1001.03c -- hydrogen at 300K (H-1)
+Nuclide   1001.03s -- hydrogen at 300K (H-1)
 Nuclide   6000.03c -- natural carbon at 300K (C-nat)
 Nuclide   8016.03c -- oxygen 16 at 300K (O-16)
 Nuclide  12000.03c -- natural magnesium at 300K (Mg-nat)
@@ -162,13 +167,13 @@ Nuclide  92235.03c -- uranium 235 at 300K (U-235)
 Nuclide  92236.03c -- uranium 236 at 300K (U-236)
 Nuclide  92238.03c -- uranium 238 at 300K (U-238)
 
-SUMMARY -- 16 nuclides included in calculation:
+SUMMARY -- 17 nuclides included in calculation:
 
- - 16 transport nuclides
+ - 17 transport nuclides
  - Neutron energy cut-offs at 1.00E-11 and 20.0 MeV
- - 608 transport reactions
- - 147 special reactions
- - 139.48 Mb of memory allocated for data
+ - 611 transport reactions
+ - 148 special reactions
+ - 147.04 Mb of memory allocated for data
 
 Processing mesh plots...
 OK.
@@ -191,18 +196,18 @@ OK.
 Sorting material-wise reaction lists:
 
    0% complete
+  67% complete
  100% complete
 
 Calculating macroscopic cross sections:
 
    0% complete
-  33% complete
  100% complete
 
 Calculating DT neutron majorant cross section:
 
    0% complete
-  33% complete
+  67% complete
  100% complete
 
 Clearing results and statistics...
@@ -212,55 +217,55 @@ Sampling initial source...
 OK.
 
 Inactive cycle   1 /  50: k-eff = 1.00000
-Inactive cycle   2 /  50: k-eff = 0.96650
-Inactive cycle   3 /  50: k-eff = 0.98680
-Inactive cycle   4 /  50: k-eff = 1.01255
-Inactive cycle   5 /  50: k-eff = 1.00071
-Inactive cycle   6 /  50: k-eff = 1.00050
-Inactive cycle   7 /  50: k-eff = 0.98990
-Inactive cycle   8 /  50: k-eff = 0.99505
-Inactive cycle   9 /  50: k-eff = 1.00102
-Inactive cycle  10 /  50: k-eff = 1.01263
-Inactive cycle  11 /  50: k-eff = 0.99997
-Inactive cycle  12 /  50: k-eff = 1.01127
-Inactive cycle  13 /  50: k-eff = 1.00975
-Inactive cycle  14 /  50: k-eff = 0.99168
-Inactive cycle  15 /  50: k-eff = 1.00953
-Inactive cycle  16 /  50: k-eff = 1.01367
-Inactive cycle  17 /  50: k-eff = 0.98823
-Inactive cycle  18 /  50: k-eff = 1.03062
-Inactive cycle  19 /  50: k-eff = 1.03495
-Inactive cycle  20 /  50: k-eff = 1.02563
-Inactive cycle  21 /  50: k-eff = 1.02656
-Inactive cycle  22 /  50: k-eff = 0.98313
-Inactive cycle  23 /  50: k-eff = 1.03780
-Inactive cycle  24 /  50: k-eff = 1.00812
-Inactive cycle  25 /  50: k-eff = 1.02364
-Inactive cycle  26 /  50: k-eff = 0.99733
-Inactive cycle  27 /  50: k-eff = 1.00571
-Inactive cycle  28 /  50: k-eff = 1.02341
-Inactive cycle  29 /  50: k-eff = 1.00980
-Inactive cycle  30 /  50: k-eff = 1.04252
-Inactive cycle  31 /  50: k-eff = 1.01145
-Inactive cycle  32 /  50: k-eff = 1.01893
-Inactive cycle  33 /  50: k-eff = 1.01007
-Inactive cycle  34 /  50: k-eff = 1.02027
-Inactive cycle  35 /  50: k-eff = 1.00782
-Inactive cycle  36 /  50: k-eff = 1.00500
-Inactive cycle  37 /  50: k-eff = 1.00450
-Inactive cycle  38 /  50: k-eff = 0.98632
-Inactive cycle  39 /  50: k-eff = 1.00259
-Inactive cycle  40 /  50: k-eff = 1.03798
-Inactive cycle  41 /  50: k-eff = 0.99532
-Inactive cycle  42 /  50: k-eff = 1.00468
-Inactive cycle  43 /  50: k-eff = 1.00026
-Inactive cycle  44 /  50: k-eff = 1.01156
-Inactive cycle  45 /  50: k-eff = 0.99892
-Inactive cycle  46 /  50: k-eff = 1.02079
-Inactive cycle  47 /  50: k-eff = 0.99119
-Inactive cycle  48 /  50: k-eff = 1.03371
-Inactive cycle  49 /  50: k-eff = 1.02555
-Inactive cycle  50 /  50: k-eff = 1.00606
+Inactive cycle   2 /  50: k-eff = 0.96550
+Inactive cycle   3 /  50: k-eff = 0.99620
+Inactive cycle   4 /  50: k-eff = 0.99062
+Inactive cycle   5 /  50: k-eff = 0.96784
+Inactive cycle   6 /  50: k-eff = 0.99378
+Inactive cycle   7 /  50: k-eff = 0.99706
+Inactive cycle   8 /  50: k-eff = 1.00753
+Inactive cycle   9 /  50: k-eff = 1.00833
+Inactive cycle  10 /  50: k-eff = 1.01045
+Inactive cycle  11 /  50: k-eff = 0.98388
+Inactive cycle  12 /  50: k-eff = 1.02087
+Inactive cycle  13 /  50: k-eff = 0.99300
+Inactive cycle  14 /  50: k-eff = 1.02021
+Inactive cycle  15 /  50: k-eff = 0.98430
+Inactive cycle  16 /  50: k-eff = 1.01166
+Inactive cycle  17 /  50: k-eff = 1.00498
+Inactive cycle  18 /  50: k-eff = 1.00066
+Inactive cycle  19 /  50: k-eff = 0.99266
+Inactive cycle  20 /  50: k-eff = 0.99871
+Inactive cycle  21 /  50: k-eff = 0.99991
+Inactive cycle  22 /  50: k-eff = 0.99101
+Inactive cycle  23 /  50: k-eff = 0.99349
+Inactive cycle  24 /  50: k-eff = 1.01674
+Inactive cycle  25 /  50: k-eff = 0.99111
+Inactive cycle  26 /  50: k-eff = 1.00677
+Inactive cycle  27 /  50: k-eff = 1.00486
+Inactive cycle  28 /  50: k-eff = 1.00295
+Inactive cycle  29 /  50: k-eff = 0.99503
+Inactive cycle  30 /  50: k-eff = 1.01533
+Inactive cycle  31 /  50: k-eff = 1.00903
+Inactive cycle  32 /  50: k-eff = 1.00479
+Inactive cycle  33 /  50: k-eff = 0.99836
+Inactive cycle  34 /  50: k-eff = 0.99147
+Inactive cycle  35 /  50: k-eff = 1.00773
+Inactive cycle  36 /  50: k-eff = 1.01005
+Inactive cycle  37 /  50: k-eff = 1.02025
+Inactive cycle  38 /  50: k-eff = 0.98526
+Inactive cycle  39 /  50: k-eff = 0.99639
+Inactive cycle  40 /  50: k-eff = 1.00197
+Inactive cycle  41 /  50: k-eff = 1.01660
+Inactive cycle  42 /  50: k-eff = 0.99312
+Inactive cycle  43 /  50: k-eff = 0.99918
+Inactive cycle  44 /  50: k-eff = 1.02286
+Inactive cycle  45 /  50: k-eff = 1.02101
+Inactive cycle  46 /  50: k-eff = 1.00917
+Inactive cycle  47 /  50: k-eff = 1.00655
+Inactive cycle  48 /  50: k-eff = 1.00222
+Inactive cycle  49 /  50: k-eff = 1.00001
+Inactive cycle  50 /  50: k-eff = 1.01351
 
 ----- Begin active cycles -----
 
@@ -270,16 +275,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    1 / 100  Source neutrons : 10174
+Active cycle    1 / 100  Source neutrons :  9991
 
-Running time :                  0:00:07
+Running time :                  0:00:11
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1939.0%
+Estimated relative CPU usage :  1926.2%
 
-k-eff (analog)    = 1.02357 +/- 0.00000  [1.02357  1.02357]
-k-eff (implicit)  = 1.00991 +/- 0.00000  [1.00991  1.00991]
+k-eff (analog)    = 1.01260 +/- 0.00000  [1.01260  1.01260]
+k-eff (implicit)  = 1.01591 +/- 0.00000  [1.01591  1.01591]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -289,16 +294,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    2 / 100  Source neutrons :  9903
+Active cycle    2 / 100  Source neutrons : 10207
 
-Running time :                  0:00:07
+Running time :                  0:00:12
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1948.7%
+Estimated relative CPU usage :  1959.2%
 
-k-eff (analog)    = 1.01860 +/- 0.00496  [1.00887  1.02833]
-k-eff (implicit)  = 1.00628 +/- 0.00363  [0.99917  1.01340]
+k-eff (analog)    = 1.02308 +/- 0.01048  [1.00254  1.04362]
+k-eff (implicit)  = 1.01201 +/- 0.00390  [1.00437  1.01965]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -308,16 +313,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    3 / 100  Source neutrons : 10162
+Active cycle    3 / 100  Source neutrons :  9835
 
-Running time :                  0:00:07
+Running time :                  0:00:12
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1961.5%
+Estimated relative CPU usage :  1946.9%
 
-k-eff (analog)    = 1.02242 +/- 0.00477  [1.01306  1.03178]
-k-eff (implicit)  = 1.00454 +/- 0.00273  [0.99919  1.00988]
+k-eff (analog)    = 1.02089 +/- 0.00644  [1.00828  1.03350]
+k-eff (implicit)  = 1.01277 +/- 0.00238  [1.00811  1.01743]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -327,16 +332,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    4 / 100  Source neutrons :  9819
+Active cycle    4 / 100  Source neutrons : 10049
 
-Running time :                  0:00:07
+Running time :                  0:00:12
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1967.5%
+Estimated relative CPU usage :  1950.0%
 
-k-eff (analog)    = 1.01967 +/- 0.00436  [1.01113  1.02821]
-k-eff (implicit)  = 1.00815 +/- 0.00409  [1.00013  1.01616]
+k-eff (analog)    = 1.02104 +/- 0.00455  [1.01212  1.02996]
+k-eff (implicit)  = 1.01607 +/- 0.00370  [1.00882  1.02332]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -346,16 +351,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    5 / 100  Source neutrons : 10067
+Active cycle    5 / 100  Source neutrons :  9961
 
-Running time :                  0:00:07
+Running time :                  0:00:12
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1954.8%
+Estimated relative CPU usage :  1954.0%
 
-k-eff (analog)    = 1.01937 +/- 0.00339  [1.01274  1.02601]
-k-eff (implicit)  = 1.01091 +/- 0.00420  [1.00267  1.01915]
+k-eff (analog)    = 1.02033 +/- 0.00360  [1.01328  1.02738]
+k-eff (implicit)  = 1.01559 +/- 0.00291  [1.00990  1.02129]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -365,16 +370,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    6 / 100  Source neutrons :  9954
+Active cycle    6 / 100  Source neutrons :  9903
 
-Running time :                  0:00:07
+Running time :                  0:00:12
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1955.1%
+Estimated relative CPU usage :  1958.2%
 
-k-eff (analog)    = 1.01840 +/- 0.00293  [1.01265  1.02414]
-k-eff (implicit)  = 1.01063 +/- 0.00344  [1.00388  1.01738]
+k-eff (analog)    = 1.01822 +/- 0.00362  [1.01112  1.02531]
+k-eff (implicit)  = 1.01257 +/- 0.00384  [1.00504  1.02010]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -384,16 +389,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    7 / 100  Source neutrons :  9999
+Active cycle    7 / 100  Source neutrons :  9836
 
-Running time :                  0:00:08
+Running time :                  0:00:13
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1967.9%
+Estimated relative CPU usage :  1951.0%
 
-k-eff (analog)    = 1.01768 +/- 0.00258  [1.01263  1.02274]
-k-eff (implicit)  = 1.01018 +/- 0.00294  [1.00441  1.01595]
+k-eff (analog)    = 1.01435 +/- 0.00494  [1.00467  1.02402]
+k-eff (implicit)  = 1.01136 +/- 0.00346  [1.00457  1.01815]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -403,35 +408,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle    8 / 100  Source neutrons : 10241
+Active cycle    8 / 100  Source neutrons : 10143
 
-Running time :                  0:00:08
+Running time :                  0:00:13
 Estimated running time :        -:--:--
 Estimated running time left :   -:--:--
 
-Estimated relative CPU usage :  1962.3%
+Estimated relative CPU usage :  1932.3%
 
-k-eff (analog)    = 1.02020 +/- 0.00337  [1.01360  1.02680]
-k-eff (implicit)  = 1.01073 +/- 0.00261  [1.00562  1.01585]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle    9 / 100  Source neutrons :  9897
-
-Running time :                  0:00:08
-Estimated running time :        -:--:--
-Estimated running time left :   -:--:--
-
-Estimated relative CPU usage :  1954.8%
-
-k-eff (analog)    = 1.02097 +/- 0.00307  [1.01496  1.02698]
-k-eff (implicit)  = 1.01142 +/- 0.00240  [1.00671  1.01613]
+k-eff (analog)    = 1.01321 +/- 0.00442  [1.00455  1.02188]
+k-eff (implicit)  = 1.01125 +/- 0.00300  [1.00537  1.01714]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -441,35 +427,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   10 / 100  Source neutrons :  9863
+Active cycle    9 / 100  Source neutrons :  9974
 
-Running time :                  0:00:08
-Estimated running time :        -:--:--
-Estimated running time left :   -:--:--
+Running time :                  0:00:13
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:22
 
-Estimated relative CPU usage :  1961.0%
+Estimated relative CPU usage :  1947.8%
 
-k-eff (analog)    = 1.02018 +/- 0.00285  [1.01459  1.02578]
-k-eff (implicit)  = 1.01010 +/- 0.00253  [1.00514  1.01505]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   11 / 100  Source neutrons :  9993
-
-Running time :                  0:00:08
-Estimated running time :        -:--:--
-Estimated running time left :   -:--:--
-
-Estimated relative CPU usage :  1955.4%
-
-k-eff (analog)    = 1.01947 +/- 0.00268  [1.01422  1.02472]
-k-eff (implicit)  = 1.00991 +/- 0.00229  [1.00542  1.01441]
+k-eff (analog)    = 1.01204 +/- 0.00407  [1.00406  1.02002]
+k-eff (implicit)  = 1.01156 +/- 0.00267  [1.00633  1.01678]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -479,35 +446,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   12 / 100  Source neutrons : 10015
+Active cycle   10 / 100  Source neutrons :  9964
 
-Running time :                  0:00:08
-Estimated running time :        -:--:--
-Estimated running time left :   -:--:--
+Running time :                  0:00:13
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1943.0%
+Estimated relative CPU usage :  1959.2%
 
-k-eff (analog)    = 1.01900 +/- 0.00249  [1.01413  1.02388]
-k-eff (implicit)  = 1.00949 +/- 0.00213  [1.00531  1.01368]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   13 / 100  Source neutrons :  9868
-
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:13
-
-Estimated relative CPU usage :  1961.0%
-
-k-eff (analog)    = 1.01758 +/- 0.00270  [1.01230  1.02287]
-k-eff (implicit)  = 1.00798 +/- 0.00248  [1.00313  1.01284]
+k-eff (analog)    = 1.01074 +/- 0.00387  [1.00317  1.01832]
+k-eff (implicit)  = 1.00970 +/- 0.00302  [1.00378  1.01562]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -517,35 +465,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   14 / 100  Source neutrons :  9988
+Active cycle   11 / 100  Source neutrons :  9916
 
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:13
+Running time :                  0:00:14
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1967.9%
+Estimated relative CPU usage :  1950.0%
 
-k-eff (analog)    = 1.01627 +/- 0.00282  [1.01075  1.02180]
-k-eff (implicit)  = 1.00739 +/- 0.00237  [1.00275  1.01203]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   15 / 100  Source neutrons :  9987
-
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:13
-
-Estimated relative CPU usage :  1954.8%
-
-k-eff (analog)    = 1.01506 +/- 0.00289  [1.00939  1.02072]
-k-eff (implicit)  = 1.00780 +/- 0.00224  [1.00340  1.01219]
+k-eff (analog)    = 1.00892 +/- 0.00394  [1.00119  1.01665]
+k-eff (implicit)  = 1.00954 +/- 0.00274  [1.00417  1.01491]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -555,130 +484,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   16 / 100  Source neutrons : 10101
+Active cycle   12 / 100  Source neutrons : 10089
 
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:13
-
-Estimated relative CPU usage :  1955.4%
-
-k-eff (analog)    = 1.01462 +/- 0.00274  [1.00925  1.01999]
-k-eff (implicit)  = 1.00766 +/- 0.00210  [1.00355  1.01178]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   17 / 100  Source neutrons :  9913
-
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
-
-Estimated relative CPU usage :  1961.5%
-
-k-eff (analog)    = 1.01372 +/- 0.00273  [1.00837  1.01906]
-k-eff (implicit)  = 1.00754 +/- 0.00198  [1.00366  1.01141]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   18 / 100  Source neutrons : 10153
-
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
-
-Estimated relative CPU usage :  1967.7%
-
-k-eff (analog)    = 1.01377 +/- 0.00257  [1.00873  1.01881]
-k-eff (implicit)  = 1.00826 +/- 0.00200  [1.00434  1.01218]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   19 / 100  Source neutrons :  9984
-
-Running time :                  0:00:09
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
-
-Estimated relative CPU usage :  1955.7%
-
-k-eff (analog)    = 1.01373 +/- 0.00243  [1.00896  1.01849]
-k-eff (implicit)  = 1.00784 +/- 0.00194  [1.00404  1.01164]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   20 / 100  Source neutrons : 10065
-
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
-
-Estimated relative CPU usage :  1956.0%
-
-k-eff (analog)    = 1.01402 +/- 0.00233  [1.00946  1.01858]
-k-eff (implicit)  = 1.00779 +/- 0.00184  [1.00418  1.01140]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   21 / 100  Source neutrons :  9808
-
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
-
-Estimated relative CPU usage :  1959.5%
-
-k-eff (analog)    = 1.01335 +/- 0.00231  [1.00882  1.01788]
-k-eff (implicit)  = 1.00941 +/- 0.00239  [1.00474  1.01409]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   22 / 100  Source neutrons : 10399
-
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
+Running time :                  0:00:14
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:21
 
 Estimated relative CPU usage :  1962.7%
 
-k-eff (analog)    = 1.01455 +/- 0.00251  [1.00963  1.01948]
-k-eff (implicit)  = 1.00959 +/- 0.00228  [1.00512  1.01407]
+k-eff (analog)    = 1.00813 +/- 0.00369  [1.00091  1.01536]
+k-eff (implicit)  = 1.00948 +/- 0.00250  [1.00458  1.01438]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -688,16 +503,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   23 / 100  Source neutrons :  9948
+Active cycle   13 / 100  Source neutrons :  9987
 
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:12
+Running time :                  0:00:14
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1955.4%
+Estimated relative CPU usage :  1959.2%
 
-k-eff (analog)    = 1.01542 +/- 0.00255  [1.01042  1.02042]
-k-eff (implicit)  = 1.00948 +/- 0.00218  [1.00520  1.01376]
+k-eff (analog)    = 1.00737 +/- 0.00348  [1.00056  1.01418]
+k-eff (implicit)  = 1.00880 +/- 0.00240  [1.00410  1.01350]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -707,16 +522,35 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   24 / 100  Source neutrons :  9709
+Active cycle   14 / 100  Source neutrons : 10079
 
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
+Running time :                  0:00:14
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:20
+
+Estimated relative CPU usage :  1959.0%
+
+k-eff (analog)    = 1.00727 +/- 0.00322  [1.00097  1.01358]
+k-eff (implicit)  = 1.00874 +/- 0.00222  [1.00438  1.01309]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   15 / 100  Source neutrons : 10189
+
+Running time :                  0:00:15
+Estimated running time :        0:00:35
+Estimated running time left :   0:00:20
 
 Estimated relative CPU usage :  1960.0%
 
-k-eff (analog)    = 1.01496 +/- 0.00249  [1.01009  1.01983]
-k-eff (implicit)  = 1.00962 +/- 0.00210  [1.00551  1.01373]
+k-eff (analog)    = 1.00846 +/- 0.00322  [1.00214  1.01478]
+k-eff (implicit)  = 1.00863 +/- 0.00207  [1.00457  1.01269]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -726,35 +560,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   25 / 100  Source neutrons : 10107
+Active cycle   16 / 100  Source neutrons :  9842
 
-Running time :                  0:00:10
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
+Running time :                  0:00:16
+Estimated running time :        0:00:40
+Estimated running time left :   0:00:24
 
-Estimated relative CPU usage :  1962.0%
+Estimated relative CPU usage :  1891.4%
 
-k-eff (analog)    = 1.01497 +/- 0.00238  [1.01029  1.01964]
-k-eff (implicit)  = 1.01022 +/- 0.00210  [1.00611  1.01433]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   26 / 100  Source neutrons :  9985
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
-
-Estimated relative CPU usage :  1967.7%
-
-k-eff (analog)    = 1.01491 +/- 0.00229  [1.01042  1.01940]
-k-eff (implicit)  = 1.01019 +/- 0.00202  [1.00624  1.01414]
+k-eff (analog)    = 1.00849 +/- 0.00302  [1.00258  1.01440]
+k-eff (implicit)  = 1.00790 +/- 0.00207  [1.00385  1.01196]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -764,206 +579,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   27 / 100  Source neutrons : 10034
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
-
-Estimated relative CPU usage :  1961.3%
-
-k-eff (analog)    = 1.01499 +/- 0.00221  [1.01067  1.01932]
-k-eff (implicit)  = 1.00996 +/- 0.00195  [1.00614  1.01379]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   28 / 100  Source neutrons :  9985
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
-
-Estimated relative CPU usage :  1961.0%
-
-k-eff (analog)    = 1.01501 +/- 0.00213  [1.01084  1.01918]
-k-eff (implicit)  = 1.00986 +/- 0.00188  [1.00617  1.01355]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   29 / 100  Source neutrons :  9912
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:11
-
-Estimated relative CPU usage :  1967.5%
-
-k-eff (analog)    = 1.01472 +/- 0.00207  [1.01066  1.01878]
-k-eff (implicit)  = 1.00989 +/- 0.00182  [1.00632  1.01345]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   30 / 100  Source neutrons : 10007
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1955.4%
-
-k-eff (analog)    = 1.01447 +/- 0.00202  [1.01052  1.01843]
-k-eff (implicit)  = 1.00978 +/- 0.00176  [1.00633  1.01323]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   31 / 100  Source neutrons : 10121
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1968.6%
-
-k-eff (analog)    = 1.01463 +/- 0.00196  [1.01079  1.01847]
-k-eff (implicit)  = 1.00965 +/- 0.00171  [1.00630  1.01299]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   32 / 100  Source neutrons :  9786
-
-Running time :                  0:00:11
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1967.3%
-
-k-eff (analog)    = 1.01410 +/- 0.00197  [1.01024  1.01796]
-k-eff (implicit)  = 1.00952 +/- 0.00166  [1.00628  1.01277]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   33 / 100  Source neutrons :  9951
-
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1962.3%
-
-k-eff (analog)    = 1.01346 +/- 0.00201  [1.00951  1.01740]
-k-eff (implicit)  = 1.00946 +/- 0.00161  [1.00631  1.01261]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   34 / 100  Source neutrons : 10213
-
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1962.3%
-
-k-eff (analog)    = 1.01347 +/- 0.00195  [1.00964  1.01730]
-k-eff (implicit)  = 1.00961 +/- 0.00157  [1.00654  1.01269]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   35 / 100  Source neutrons : 10174
-
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:10
-
-Estimated relative CPU usage :  1968.2%
-
-k-eff (analog)    = 1.01399 +/- 0.00197  [1.01013  1.01784]
-k-eff (implicit)  = 1.00970 +/- 0.00152  [1.00671  1.01268]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   36 / 100  Source neutrons :  9565
-
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
-
-Estimated relative CPU usage :  1960.3%
-
-k-eff (analog)    = 1.01323 +/- 0.00206  [1.00920  1.01726]
-k-eff (implicit)  = 1.00950 +/- 0.00149  [1.00657  1.01243]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   37 / 100  Source neutrons : 10492
-
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
+Active cycle   17 / 100  Source neutrons :  9777
+
+Running time :                  0:00:16
+Estimated running time :        0:00:40
+Estimated running time left :   0:00:23
 
 Estimated relative CPU usage :  1963.4%
 
-k-eff (analog)    = 1.01382 +/- 0.00209  [1.00973  1.01791]
-k-eff (implicit)  = 1.00951 +/- 0.00145  [1.00666  1.01236]
+k-eff (analog)    = 1.00719 +/- 0.00312  [1.00108  1.01330]
+k-eff (implicit)  = 1.00821 +/- 0.00197  [1.00435  1.01207]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -973,35 +598,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   38 / 100  Source neutrons :  9734
+Active cycle   18 / 100  Source neutrons : 10268
 
-Running time :                  0:00:12
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
+Running time :                  0:00:16
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:23
 
-Estimated relative CPU usage :  1973.7%
+Estimated relative CPU usage :  1945.3%
 
-k-eff (analog)    = 1.01366 +/- 0.00204  [1.00967  1.01765]
-k-eff (implicit)  = 1.00918 +/- 0.00145  [1.00633  1.01203]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   39 / 100  Source neutrons :  9929
-
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
-
-Estimated relative CPU usage :  1954.8%
-
-k-eff (analog)    = 1.01332 +/- 0.00201  [1.00938  1.01727]
-k-eff (implicit)  = 1.00946 +/- 0.00144  [1.00663  1.01228]
+k-eff (analog)    = 1.00750 +/- 0.00295  [1.00171  1.01329]
+k-eff (implicit)  = 1.00829 +/- 0.00186  [1.00465  1.01193]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1011,35 +617,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   40 / 100  Source neutrons : 10134
+Active cycle   19 / 100  Source neutrons : 10104
 
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
+Running time :                  0:00:16
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:22
 
-Estimated relative CPU usage :  1944.4%
+Estimated relative CPU usage :  1939.3%
 
-k-eff (analog)    = 1.01334 +/- 0.00196  [1.00949  1.01718]
-k-eff (implicit)  = 1.00930 +/- 0.00141  [1.00653  1.01207]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   41 / 100  Source neutrons : 10019
-
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
-
-Estimated relative CPU usage :  1925.5%
-
-k-eff (analog)    = 1.01340 +/- 0.00191  [1.00965  1.01715]
-k-eff (implicit)  = 1.00901 +/- 0.00141  [1.00625  1.01177]
+k-eff (analog)    = 1.00834 +/- 0.00292  [1.00262  1.01405]
+k-eff (implicit)  = 1.00865 +/- 0.00179  [1.00513  1.01217]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1049,35 +636,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   42 / 100  Source neutrons :  9773
+Active cycle   20 / 100  Source neutrons : 10064
 
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:09
+Running time :                  0:00:17
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:22
 
-Estimated relative CPU usage :  1948.4%
+Estimated relative CPU usage :  1947.4%
 
-k-eff (analog)    = 1.01291 +/- 0.00193  [1.00912  1.01670]
-k-eff (implicit)  = 1.00899 +/- 0.00138  [1.00629  1.01169]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   43 / 100  Source neutrons :  9864
-
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
-
-Estimated relative CPU usage :  1960.8%
-
-k-eff (analog)    = 1.01213 +/- 0.00204  [1.00813  1.01613]
-k-eff (implicit)  = 1.00877 +/- 0.00136  [1.00610  1.01144]
+k-eff (analog)    = 1.00942 +/- 0.00297  [1.00359  1.01524]
+k-eff (implicit)  = 1.00835 +/- 0.00173  [1.00496  1.01174]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1087,35 +655,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   44 / 100  Source neutrons : 10533
+Active cycle   21 / 100  Source neutrons :  9708
 
-Running time :                  0:00:13
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
+Running time :                  0:00:17
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1951.2%
+Estimated relative CPU usage :  1945.1%
 
-k-eff (analog)    = 1.01257 +/- 0.00204  [1.00856  1.01657]
-k-eff (implicit)  = 1.00865 +/- 0.00134  [1.00603  1.01126]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   45 / 100  Source neutrons :  9811
-
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
-
-Estimated relative CPU usage :  1966.7%
-
-k-eff (analog)    = 1.01256 +/- 0.00200  [1.00864  1.01647]
-k-eff (implicit)  = 1.00875 +/- 0.00131  [1.00619  1.01132]
+k-eff (analog)    = 1.00896 +/- 0.00286  [1.00335  1.01457]
+k-eff (implicit)  = 1.00834 +/- 0.00164  [1.00511  1.01156]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1125,35 +674,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   46 / 100  Source neutrons : 10162
+Active cycle   22 / 100  Source neutrons : 10222
 
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
+Running time :                  0:00:17
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1955.7%
+Estimated relative CPU usage :  1952.0%
 
-k-eff (analog)    = 1.01290 +/- 0.00198  [1.00901  1.01679]
-k-eff (implicit)  = 1.00896 +/- 0.00130  [1.00642  1.01151]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   47 / 100  Source neutrons :  9844
-
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
-
-Estimated relative CPU usage :  1961.0%
-
-k-eff (analog)    = 1.01289 +/- 0.00194  [1.00909  1.01669]
-k-eff (implicit)  = 1.00889 +/- 0.00127  [1.00640  1.01138]
+k-eff (analog)    = 1.00955 +/- 0.00279  [1.00408  1.01503]
+k-eff (implicit)  = 1.00817 +/- 0.00158  [1.00508  1.01126]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1163,35 +693,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   48 / 100  Source neutrons : 10117
+Active cycle   23 / 100  Source neutrons :  9914
 
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:08
+Running time :                  0:00:17
+Estimated running time :        0:00:39
+Estimated running time left :   0:00:21
 
-Estimated relative CPU usage :  1954.8%
+Estimated relative CPU usage :  1957.4%
 
-k-eff (analog)    = 1.01312 +/- 0.00191  [1.00937  1.01688]
-k-eff (implicit)  = 1.00907 +/- 0.00126  [1.00660  1.01153]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   49 / 100  Source neutrons : 10004
-
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
-
-Estimated relative CPU usage :  1967.9%
-
-k-eff (analog)    = 1.01336 +/- 0.00189  [1.00966  1.01706]
-k-eff (implicit)  = 1.00894 +/- 0.00124  [1.00652  1.01137]
+k-eff (analog)    = 1.00971 +/- 0.00267  [1.00447  1.01495]
+k-eff (implicit)  = 1.00876 +/- 0.00162  [1.00559  1.01194]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1201,35 +712,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   50 / 100  Source neutrons :  9713
+Active cycle   24 / 100  Source neutrons : 10229
 
-Running time :                  0:00:14
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
+Running time :                  0:00:18
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:20
 
-Estimated relative CPU usage :  1966.7%
+Estimated relative CPU usage :  1936.5%
 
-k-eff (analog)    = 1.01300 +/- 0.00189  [1.00930  1.01669]
-k-eff (implicit)  = 1.00918 +/- 0.00124  [1.00676  1.01161]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   51 / 100  Source neutrons : 10181
-
-Running time :                  0:00:15
-Estimated running time :        0:00:23
-Estimated running time left :   0:00:07
-
-Estimated relative CPU usage :   884.2%
-
-k-eff (analog)    = 1.01300 +/- 0.00185  [1.00938  1.01662]
-k-eff (implicit)  = 1.00873 +/- 0.00130  [1.00619  1.01126]
+k-eff (analog)    = 1.01083 +/- 0.00279  [1.00536  1.01630]
+k-eff (implicit)  = 1.00875 +/- 0.00155  [1.00571  1.01179]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1239,35 +731,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   52 / 100  Source neutrons :  9871
+Active cycle   25 / 100  Source neutrons :  9745
 
-Running time :                  0:00:15
-Estimated running time :        0:00:23
-Estimated running time left :   0:00:07
+Running time :                  0:00:18
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:20
 
-Estimated relative CPU usage :  1961.3%
+Estimated relative CPU usage :  1953.8%
 
-k-eff (analog)    = 1.01275 +/- 0.00183  [1.00917  1.01634]
-k-eff (implicit)  = 1.00855 +/- 0.00128  [1.00604  1.01106]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   53 / 100  Source neutrons : 10091
-
-Running time :                  0:00:15
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
-
-Estimated relative CPU usage :  1960.8%
-
-k-eff (analog)    = 1.01269 +/- 0.00180  [1.00917  1.01621]
-k-eff (implicit)  = 1.00860 +/- 0.00126  [1.00613  1.01107]
+k-eff (analog)    = 1.01080 +/- 0.00268  [1.00555  1.01604]
+k-eff (implicit)  = 1.00871 +/- 0.00149  [1.00580  1.01163]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1277,16 +750,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   54 / 100  Source neutrons :  9779
+Active cycle   26 / 100  Source neutrons : 10117
 
-Running time :                  0:00:15
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
+Running time :                  0:00:18
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:20
 
 Estimated relative CPU usage :  1955.1%
 
-k-eff (analog)    = 1.01221 +/- 0.00183  [1.00863  1.01579]
-k-eff (implicit)  = 1.00859 +/- 0.00124  [1.00617  1.01101]
+k-eff (analog)    = 1.01122 +/- 0.00261  [1.00611  1.01633]
+k-eff (implicit)  = 1.00857 +/- 0.00144  [1.00575  1.01138]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1296,320 +769,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   55 / 100  Source neutrons : 10308
-
-Running time :                  0:00:15
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
-
-Estimated relative CPU usage :  1956.2%
-
-k-eff (analog)    = 1.01230 +/- 0.00179  [1.00879  1.01582]
-k-eff (implicit)  = 1.00885 +/- 0.00124  [1.00642  1.01127]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   56 / 100  Source neutrons : 10161
-
-Running time :                  0:00:15
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:07
-
-Estimated relative CPU usage :  1955.1%
-
-k-eff (analog)    = 1.01269 +/- 0.00180  [1.00915  1.01622]
-k-eff (implicit)  = 1.00897 +/- 0.00122  [1.00657  1.01137]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   57 / 100  Source neutrons :  9687
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1966.4%
-
-k-eff (analog)    = 1.01249 +/- 0.00178  [1.00899  1.01598]
-k-eff (implicit)  = 1.00905 +/- 0.00120  [1.00669  1.01141]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   58 / 100  Source neutrons : 10129
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1955.4%
-
-k-eff (analog)    = 1.01252 +/- 0.00175  [1.00908  1.01595]
-k-eff (implicit)  = 1.00895 +/- 0.00119  [1.00663  1.01128]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   59 / 100  Source neutrons :  9920
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1960.8%
-
-k-eff (analog)    = 1.01241 +/- 0.00173  [1.00903  1.01579]
-k-eff (implicit)  = 1.00890 +/- 0.00117  [1.00661  1.01119]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   60 / 100  Source neutrons :  9955
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1954.8%
-
-k-eff (analog)    = 1.01223 +/- 0.00171  [1.00889  1.01557]
-k-eff (implicit)  = 1.00920 +/- 0.00119  [1.00687  1.01153]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   61 / 100  Source neutrons : 10355
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1956.0%
-
-k-eff (analog)    = 1.01264 +/- 0.00173  [1.00926  1.01603]
-k-eff (implicit)  = 1.00925 +/- 0.00117  [1.00696  1.01154]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   62 / 100  Source neutrons :  9729
-
-Running time :                  0:00:16
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:06
-
-Estimated relative CPU usage :  1953.6%
-
-k-eff (analog)    = 1.01258 +/- 0.00170  [1.00925  1.01591]
-k-eff (implicit)  = 1.00922 +/- 0.00115  [1.00697  1.01147]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   63 / 100  Source neutrons :  9966
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1967.7%
-
-k-eff (analog)    = 1.01247 +/- 0.00168  [1.00919  1.01576]
-k-eff (implicit)  = 1.00913 +/- 0.00114  [1.00690  1.01135]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   64 / 100  Source neutrons : 10013
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1954.5%
-
-k-eff (analog)    = 1.01239 +/- 0.00165  [1.00915  1.01563]
-k-eff (implicit)  = 1.00918 +/- 0.00112  [1.00699  1.01138]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   65 / 100  Source neutrons : 10031
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1961.5%
-
-k-eff (analog)    = 1.01235 +/- 0.00163  [1.00916  1.01554]
-k-eff (implicit)  = 1.00925 +/- 0.00110  [1.00709  1.01141]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   66 / 100  Source neutrons :  9938
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1973.2%
-
-k-eff (analog)    = 1.01222 +/- 0.00161  [1.00907  1.01537]
-k-eff (implicit)  = 1.00949 +/- 0.00111  [1.00731  1.01168]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   67 / 100  Source neutrons : 10267
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1956.3%
-
-k-eff (analog)    = 1.01250 +/- 0.00161  [1.00935  1.01565]
-k-eff (implicit)  = 1.00946 +/- 0.00110  [1.00731  1.01162]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   68 / 100  Source neutrons :  9610
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:05
-
-Estimated relative CPU usage :  1953.3%
-
-k-eff (analog)    = 1.01217 +/- 0.00162  [1.00901  1.01534]
-k-eff (implicit)  = 1.00939 +/- 0.00108  [1.00727  1.01151]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   69 / 100  Source neutrons :  9988
-
-Running time :                  0:00:17
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
-
-Estimated relative CPU usage :  1974.0%
-
-k-eff (analog)    = 1.01184 +/- 0.00163  [1.00865  1.01503]
-k-eff (implicit)  = 1.00926 +/- 0.00108  [1.00715  1.01136]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   70 / 100  Source neutrons : 10250
+Active cycle   27 / 100  Source neutrons :  9734
 
 Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:19
 
-Estimated relative CPU usage :  1955.7%
+Estimated relative CPU usage :  1937.2%
 
-k-eff (analog)    = 1.01187 +/- 0.00160  [1.00873  1.01501]
-k-eff (implicit)  = 1.00949 +/- 0.00109  [1.00736  1.01162]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   71 / 100  Source neutrons : 10026
-
-Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
-
-Estimated relative CPU usage :  1954.5%
-
-k-eff (analog)    = 1.01194 +/- 0.00158  [1.00884  1.01504]
-k-eff (implicit)  = 1.00956 +/- 0.00107  [1.00746  1.01167]
+k-eff (analog)    = 1.01061 +/- 0.00258  [1.00554  1.01567]
+k-eff (implicit)  = 1.00850 +/- 0.00138  [1.00579  1.01121]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1619,92 +788,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   72 / 100  Source neutrons : 10141
-
-Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
-
-Estimated relative CPU usage :  1967.7%
-
-k-eff (analog)    = 1.01220 +/- 0.00158  [1.00910  1.01530]
-k-eff (implicit)  = 1.00952 +/- 0.00106  [1.00745  1.01160]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   73 / 100  Source neutrons :  9880
-
-Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
-
-Estimated relative CPU usage :  1967.3%
-
-k-eff (analog)    = 1.01229 +/- 0.00156  [1.00923  1.01535]
-k-eff (implicit)  = 1.00945 +/- 0.00105  [1.00739  1.01150]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   74 / 100  Source neutrons : 10020
-
-Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:04
-
-Estimated relative CPU usage :  1948.7%
-
-k-eff (analog)    = 1.01240 +/- 0.00155  [1.00937  1.01543]
-k-eff (implicit)  = 1.00938 +/- 0.00103  [1.00736  1.01141]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   75 / 100  Source neutrons :  9981
-
-Running time :                  0:00:18
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1967.7%
-
-k-eff (analog)    = 1.01249 +/- 0.00153  [1.00949  1.01548]
-k-eff (implicit)  = 1.00947 +/- 0.00102  [1.00746  1.01148]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   76 / 100  Source neutrons : 10010
+Active cycle   28 / 100  Source neutrons : 10051
 
 Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:19
 
-Estimated relative CPU usage :  1960.3%
+Estimated relative CPU usage :  1962.8%
 
-k-eff (analog)    = 1.01258 +/- 0.00151  [1.00962  1.01554]
-k-eff (implicit)  = 1.00965 +/- 0.00103  [1.00764  1.01167]
+k-eff (analog)    = 1.01022 +/- 0.00252  [1.00528  1.01516]
+k-eff (implicit)  = 1.00839 +/- 0.00134  [1.00577  1.01101]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1714,263 +807,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   77 / 100  Source neutrons :  9944
+Active cycle   29 / 100  Source neutrons :  9881
 
 Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1954.5%
-
-k-eff (analog)    = 1.01260 +/- 0.00149  [1.00968  1.01552]
-k-eff (implicit)  = 1.00968 +/- 0.00101  [1.00770  1.01167]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   78 / 100  Source neutrons : 10009
-
-Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1960.8%
-
-k-eff (analog)    = 1.01263 +/- 0.00147  [1.00974  1.01551]
-k-eff (implicit)  = 1.00976 +/- 0.00100  [1.00779  1.01173]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   79 / 100  Source neutrons :  9916
-
-Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1948.4%
-
-k-eff (analog)    = 1.01255 +/- 0.00145  [1.00970  1.01540]
-k-eff (implicit)  = 1.00978 +/- 0.00099  [1.00784  1.01172]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   80 / 100  Source neutrons :  9930
-
-Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1949.7%
-
-k-eff (analog)    = 1.01238 +/- 0.00145  [1.00955  1.01522]
-k-eff (implicit)  = 1.00968 +/- 0.00098  [1.00775  1.01161]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   81 / 100  Source neutrons : 10180
-
-Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:03
-
-Estimated relative CPU usage :  1949.4%
-
-k-eff (analog)    = 1.01244 +/- 0.00143  [1.00964  1.01525]
-k-eff (implicit)  = 1.00972 +/- 0.00097  [1.00781  1.01163]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   82 / 100  Source neutrons :  9707
-
-Running time :                  0:00:19
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1966.9%
-
-k-eff (analog)    = 1.01214 +/- 0.00144  [1.00931  1.01497]
-k-eff (implicit)  = 1.00969 +/- 0.00096  [1.00780  1.01157]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   83 / 100  Source neutrons : 10412
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1968.6%
-
-k-eff (analog)    = 1.01233 +/- 0.00144  [1.00951  1.01515]
-k-eff (implicit)  = 1.00971 +/- 0.00095  [1.00785  1.01158]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   84 / 100  Source neutrons :  9782
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1952.7%
-
-k-eff (analog)    = 1.01226 +/- 0.00142  [1.00946  1.01505]
-k-eff (implicit)  = 1.00978 +/- 0.00094  [1.00794  1.01163]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   85 / 100  Source neutrons :  9957
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1967.5%
-
-k-eff (analog)    = 1.01213 +/- 0.00141  [1.00936  1.01490]
-k-eff (implicit)  = 1.00974 +/- 0.00093  [1.00792  1.01157]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   86 / 100  Source neutrons : 10124
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1955.1%
-
-k-eff (analog)    = 1.01215 +/- 0.00140  [1.00941  1.01489]
-k-eff (implicit)  = 1.00985 +/- 0.00093  [1.00803  1.01166]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   87 / 100  Source neutrons : 10035
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:02
-
-Estimated relative CPU usage :  1955.1%
-
-k-eff (analog)    = 1.01221 +/- 0.00138  [1.00950  1.01492]
-k-eff (implicit)  = 1.00984 +/- 0.00092  [1.00804  1.01163]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   88 / 100  Source neutrons :  9951
-
-Running time :                  0:00:20
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
-
-Estimated relative CPU usage :  1973.7%
-
-k-eff (analog)    = 1.01221 +/- 0.00137  [1.00953  1.01489]
-k-eff (implicit)  = 1.00983 +/- 0.00090  [1.00806  1.01160]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   89 / 100  Source neutrons :  9835
-
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
-
-Estimated relative CPU usage :  1954.2%
-
-k-eff (analog)    = 1.01203 +/- 0.00136  [1.00935  1.01470]
-k-eff (implicit)  = 1.00986 +/- 0.00089  [1.00810  1.01161]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   90 / 100  Source neutrons : 10331
-
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:19
 
 Estimated relative CPU usage :  1962.5%
 
-k-eff (analog)    = 1.01221 +/- 0.00136  [1.00954  1.01488]
-k-eff (implicit)  = 1.00987 +/- 0.00089  [1.00814  1.01161]
+k-eff (analog)    = 1.00945 +/- 0.00255  [1.00445  1.01444]
+k-eff (implicit)  = 1.00838 +/- 0.00129  [1.00585  1.01091]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -1980,35 +826,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   91 / 100  Source neutrons : 10092
+Active cycle   30 / 100  Source neutrons : 10302
 
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
+Running time :                  0:00:19
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:18
 
-Estimated relative CPU usage :  1954.5%
+Estimated relative CPU usage :  1963.6%
 
-k-eff (analog)    = 1.01250 +/- 0.00138  [1.00980  1.01519]
-k-eff (implicit)  = 1.01000 +/- 0.00088  [1.00827  1.01174]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   92 / 100  Source neutrons :  9772
-
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
-
-Estimated relative CPU usage :  1960.3%
-
-k-eff (analog)    = 1.01252 +/- 0.00136  [1.00985  1.01519]
-k-eff (implicit)  = 1.01007 +/- 0.00088  [1.00835  1.01179]
+k-eff (analog)    = 1.00972 +/- 0.00248  [1.00486  1.01458]
+k-eff (implicit)  = 1.00849 +/- 0.00125  [1.00604  1.01095]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2018,35 +845,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   93 / 100  Source neutrons : 10055
+Active cycle   31 / 100  Source neutrons :  9832
 
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:01
+Running time :                  0:00:19
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:18
 
-Estimated relative CPU usage :  1967.5%
+Estimated relative CPU usage :  1945.8%
 
-k-eff (analog)    = 1.01260 +/- 0.00135  [1.00996  1.01524]
-k-eff (implicit)  = 1.01011 +/- 0.00087  [1.00841  1.01181]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   94 / 100  Source neutrons : 10089
-
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
-
-Estimated relative CPU usage :  1968.4%
-
-k-eff (analog)    = 1.01277 +/- 0.00135  [1.01014  1.01541]
-k-eff (implicit)  = 1.01001 +/- 0.00087  [1.00831  1.01171]
+k-eff (analog)    = 1.00942 +/- 0.00242  [1.00469  1.01416]
+k-eff (implicit)  = 1.00852 +/- 0.00121  [1.00615  1.01090]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2056,16 +864,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   95 / 100  Source neutrons :  9781
+Active cycle   32 / 100  Source neutrons : 10123
 
-Running time :                  0:00:21
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
+Running time :                  0:00:20
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:18
 
-Estimated relative CPU usage :  1961.3%
+Estimated relative CPU usage :  1941.9%
 
-k-eff (analog)    = 1.01271 +/- 0.00133  [1.01010  1.01532]
-k-eff (implicit)  = 1.00981 +/- 0.00088  [1.00809  1.01153]
+k-eff (analog)    = 1.00953 +/- 0.00234  [1.00494  1.01412]
+k-eff (implicit)  = 1.00856 +/- 0.00117  [1.00626  1.01086]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2075,16 +883,35 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   96 / 100  Source neutrons :  9981
+Active cycle   33 / 100  Source neutrons : 10143
 
-Running time :                  0:00:22
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
+Running time :                  0:00:20
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:17
+
+Estimated relative CPU usage :  1948.4%
+
+k-eff (analog)    = 1.01007 +/- 0.00233  [1.00550  1.01464]
+k-eff (implicit)  = 1.00840 +/- 0.00115  [1.00615  1.01065]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   34 / 100  Source neutrons :  9779
+
+Running time :                  0:00:20
+Estimated running time :        0:00:38
+Estimated running time left :   0:00:17
 
 Estimated relative CPU usage :  1954.2%
 
-k-eff (analog)    = 1.01263 +/- 0.00132  [1.01004  1.01522]
-k-eff (implicit)  = 1.00991 +/- 0.00087  [1.00819  1.01162]
+k-eff (analog)    = 1.00991 +/- 0.00227  [1.00547  1.01436]
+k-eff (implicit)  = 1.00826 +/- 0.00112  [1.00605  1.01046]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2094,35 +921,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   97 / 100  Source neutrons : 10057
+Active cycle   35 / 100  Source neutrons :  9921
 
-Running time :                  0:00:22
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
+Running time :                  0:00:20
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:17
 
-Estimated relative CPU usage :  1967.7%
+Estimated relative CPU usage :  1965.8%
 
-k-eff (analog)    = 1.01260 +/- 0.00131  [1.01004  1.01517]
-k-eff (implicit)  = 1.00985 +/- 0.00087  [1.00815  1.01155]
-
-(O4) (MPI=1) (OMP=20) 
-------------------------------------------------------------
-------------------------------------------------------------
-
-Serpent 2.1.31 -- Static criticality source simulation
-
-Title: "LEU-COMP-THERM-001-005" 
-
-Active cycle   98 / 100  Source neutrons : 10000
-
-Running time :                  0:00:22
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
-
-Estimated relative CPU usage :  1961.3%
-
-k-eff (analog)    = 1.01258 +/- 0.00130  [1.01004  1.01512]
-k-eff (implicit)  = 1.00981 +/- 0.00086  [1.00812  1.01149]
+k-eff (analog)    = 1.00954 +/- 0.00224  [1.00516  1.01392]
+k-eff (implicit)  = 1.00853 +/- 0.00113  [1.00633  1.01074]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2132,16 +940,16 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle   99 / 100  Source neutrons :  9885
+Active cycle   36 / 100  Source neutrons : 10061
 
-Running time :                  0:00:22
-Estimated running time :        0:00:22
-Estimated running time left :   0:00:00
+Running time :                  0:00:21
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:16
 
-Estimated relative CPU usage :  1953.6%
+Estimated relative CPU usage :  1947.2%
 
-k-eff (analog)    = 1.01244 +/- 0.00129  [1.00991  1.01497]
-k-eff (implicit)  = 1.00989 +/- 0.00086  [1.00822  1.01157]
+k-eff (analog)    = 1.00935 +/- 0.00218  [1.00508  1.01362]
+k-eff (implicit)  = 1.00849 +/- 0.00110  [1.00635  1.01064]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
@@ -2151,19 +959,1216 @@ Serpent 2.1.31 -- Static criticality source simulation
 
 Title: "LEU-COMP-THERM-001-005" 
 
-Active cycle  100 / 100  Source neutrons : 10226
+Active cycle   37 / 100  Source neutrons : 10129
+
+Running time :                  0:00:21
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:16
+
+Estimated relative CPU usage :  1954.7%
+
+k-eff (analog)    = 1.00952 +/- 0.00213  [1.00535  1.01369]
+k-eff (implicit)  = 1.00855 +/- 0.00107  [1.00646  1.01064]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   38 / 100  Source neutrons :  9723
+
+Running time :                  0:00:21
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:16
+
+Estimated relative CPU usage :  1953.2%
+
+k-eff (analog)    = 1.00894 +/- 0.00215  [1.00473  1.01316]
+k-eff (implicit)  = 1.00840 +/- 0.00105  [1.00635  1.01046]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   39 / 100  Source neutrons : 10273
+
+Running time :                  0:00:21
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:15
+
+Estimated relative CPU usage :  1955.5%
+
+k-eff (analog)    = 1.00909 +/- 0.00210  [1.00497  1.01320]
+k-eff (implicit)  = 1.00844 +/- 0.00102  [1.00644  1.01044]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   40 / 100  Source neutrons :  9882
+
+Running time :                  0:00:21
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:15
+
+Estimated relative CPU usage :  1942.1%
+
+k-eff (analog)    = 1.00893 +/- 0.00205  [1.00490  1.01295]
+k-eff (implicit)  = 1.00854 +/- 0.00100  [1.00657  1.01050]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   41 / 100  Source neutrons :  9921
 
 Running time :                  0:00:22
-Estimated running time :        0:00:22
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:15
+
+Estimated relative CPU usage :  1962.2%
+
+k-eff (analog)    = 1.00858 +/- 0.00203  [1.00460  1.01256]
+k-eff (implicit)  = 1.00880 +/- 0.00101  [1.00682  1.01079]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   42 / 100  Source neutrons : 10308
+
+Running time :                  0:00:22
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:15
+
+Estimated relative CPU usage :  1956.9%
+
+k-eff (analog)    = 1.00898 +/- 0.00202  [1.00501  1.01294]
+k-eff (implicit)  = 1.00857 +/- 0.00102  [1.00658  1.01056]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   43 / 100  Source neutrons :  9763
+
+Running time :                  0:00:22
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:14
+
+Estimated relative CPU usage :  1959.0%
+
+k-eff (analog)    = 1.00879 +/- 0.00198  [1.00490  1.01268]
+k-eff (implicit)  = 1.00819 +/- 0.00106  [1.00612  1.01027]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   44 / 100  Source neutrons : 10107
+
+Running time :                  0:00:22
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:14
+
+Estimated relative CPU usage :  1959.0%
+
+k-eff (analog)    = 1.00886 +/- 0.00194  [1.00506  1.01266]
+k-eff (implicit)  = 1.00820 +/- 0.00103  [1.00617  1.01023]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   45 / 100  Source neutrons :  9929
+
+Running time :                  0:00:23
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:14
+
+Estimated relative CPU usage :  1950.0%
+
+k-eff (analog)    = 1.00876 +/- 0.00190  [1.00504  1.01248]
+k-eff (implicit)  = 1.00834 +/- 0.00102  [1.00633  1.01034]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   46 / 100  Source neutrons : 10113
+
+Running time :                  0:00:23
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:13
+
+Estimated relative CPU usage :  1939.5%
+
+k-eff (analog)    = 1.00892 +/- 0.00186  [1.00527  1.01257]
+k-eff (implicit)  = 1.00820 +/- 0.00101  [1.00622  1.01017]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   47 / 100  Source neutrons :  9953
+
+Running time :                  0:00:23
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:13
+
+Estimated relative CPU usage :  1962.5%
+
+k-eff (analog)    = 1.00896 +/- 0.00182  [1.00539  1.01253]
+k-eff (implicit)  = 1.00833 +/- 0.00100  [1.00638  1.01029]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   48 / 100  Source neutrons :  9869
+
+Running time :                  0:00:23
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:13
+
+Estimated relative CPU usage :  1962.3%
+
+k-eff (analog)    = 1.00873 +/- 0.00180  [1.00520  1.01226]
+k-eff (implicit)  = 1.00819 +/- 0.00099  [1.00625  1.01012]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   49 / 100  Source neutrons : 10245
+
+Running time :                  0:00:24
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:13
+
+Estimated relative CPU usage :  1952.0%
+
+k-eff (analog)    = 1.00901 +/- 0.00178  [1.00551  1.01250]
+k-eff (implicit)  = 1.00817 +/- 0.00097  [1.00628  1.01007]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   50 / 100  Source neutrons :  9866
+
+Running time :                  0:00:24
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:12
+
+Estimated relative CPU usage :  1954.9%
+
+k-eff (analog)    = 1.00900 +/- 0.00175  [1.00557  1.01243]
+k-eff (implicit)  = 1.00785 +/- 0.00100  [1.00589  1.00981]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   51 / 100  Source neutrons : 10061
+
+Running time :                  0:00:24
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:12
+
+Estimated relative CPU usage :  1027.0%
+
+k-eff (analog)    = 1.00911 +/- 0.00172  [1.00575  1.01248]
+k-eff (implicit)  = 1.00797 +/- 0.00099  [1.00604  1.00991]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   52 / 100  Source neutrons :  9982
+
+Running time :                  0:00:25
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:12
+
+Estimated relative CPU usage :  1955.3%
+
+k-eff (analog)    = 1.00919 +/- 0.00169  [1.00588  1.01249]
+k-eff (implicit)  = 1.00775 +/- 0.00099  [1.00581  1.00970]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   53 / 100  Source neutrons :  9758
+
+Running time :                  0:00:25
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:12
+
+Estimated relative CPU usage :  1953.4%
+
+k-eff (analog)    = 1.00879 +/- 0.00170  [1.00546  1.01212]
+k-eff (implicit)  = 1.00778 +/- 0.00097  [1.00587  1.00969]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   54 / 100  Source neutrons : 10205
+
+Running time :                  0:00:25
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:12
+
+Estimated relative CPU usage :  1959.7%
+
+k-eff (analog)    = 1.00879 +/- 0.00167  [1.00553  1.01206]
+k-eff (implicit)  = 1.00771 +/- 0.00096  [1.00584  1.00959]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   55 / 100  Source neutrons :  9947
+
+Running time :                  0:00:25
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:11
+
+Estimated relative CPU usage :  1958.7%
+
+k-eff (analog)    = 1.00869 +/- 0.00164  [1.00548  1.01191]
+k-eff (implicit)  = 1.00761 +/- 0.00095  [1.00575  1.00946]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   56 / 100  Source neutrons :  9807
+
+Running time :                  0:00:26
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:11
+
+Estimated relative CPU usage :  1952.8%
+
+k-eff (analog)    = 1.00825 +/- 0.00167  [1.00498  1.01152]
+k-eff (implicit)  = 1.00763 +/- 0.00093  [1.00581  1.00945]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   57 / 100  Source neutrons : 10015
+
+Running time :                  0:00:26
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:11
+
+Estimated relative CPU usage :  1958.8%
+
+k-eff (analog)    = 1.00785 +/- 0.00169  [1.00454  1.01116]
+k-eff (implicit)  = 1.00773 +/- 0.00092  [1.00593  1.00954]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   58 / 100  Source neutrons : 10338
+
+Running time :                  0:00:26
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:10
+
+Estimated relative CPU usage :  1956.0%
+
+k-eff (analog)    = 1.00804 +/- 0.00167  [1.00477  1.01131]
+k-eff (implicit)  = 1.00770 +/- 0.00090  [1.00592  1.00947]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   59 / 100  Source neutrons :  9935
+
+Running time :                  0:00:26
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:10
+
+Estimated relative CPU usage :  1951.0%
+
+k-eff (analog)    = 1.00811 +/- 0.00164  [1.00489  1.01133]
+k-eff (implicit)  = 1.00763 +/- 0.00089  [1.00589  1.00938]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   60 / 100  Source neutrons :  9755
+
+Running time :                  0:00:27
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:10
+
+Estimated relative CPU usage :  1954.4%
+
+k-eff (analog)    = 1.00776 +/- 0.00165  [1.00453  1.01100]
+k-eff (implicit)  = 1.00721 +/- 0.00097  [1.00530  1.00912]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   61 / 100  Source neutrons :  9870
+
+Running time :                  0:00:27
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:10
+
+Estimated relative CPU usage :  1957.8%
+
+k-eff (analog)    = 1.00722 +/- 0.00171  [1.00386  1.01058]
+k-eff (implicit)  = 1.00730 +/- 0.00096  [1.00541  1.00918]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   62 / 100  Source neutrons : 10157
+
+Running time :                  0:00:27
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:09
+
+Estimated relative CPU usage :  1954.9%
+
+k-eff (analog)    = 1.00694 +/- 0.00171  [1.00359  1.01029]
+k-eff (implicit)  = 1.00745 +/- 0.00096  [1.00557  1.00933]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   63 / 100  Source neutrons : 10052
+
+Running time :                  0:00:27
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:09
+
+Estimated relative CPU usage :  1954.7%
+
+k-eff (analog)    = 1.00675 +/- 0.00169  [1.00343  1.01006]
+k-eff (implicit)  = 1.00752 +/- 0.00095  [1.00567  1.00937]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   64 / 100  Source neutrons : 10153
+
+Running time :                  0:00:28
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:09
+
+Estimated relative CPU usage :  1960.0%
+
+k-eff (analog)    = 1.00680 +/- 0.00167  [1.00353  1.01007]
+k-eff (implicit)  = 1.00735 +/- 0.00095  [1.00549  1.00920]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   65 / 100  Source neutrons :  9848
+
+Running time :                  0:00:28
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:09
+
+Estimated relative CPU usage :  1949.2%
+
+k-eff (analog)    = 1.00662 +/- 0.00165  [1.00338  1.00985]
+k-eff (implicit)  = 1.00752 +/- 0.00095  [1.00567  1.00938]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   66 / 100  Source neutrons : 10183
+
+Running time :                  0:00:28
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:08
+
+Estimated relative CPU usage :  1951.6%
+
+k-eff (analog)    = 1.00671 +/- 0.00163  [1.00352  1.00990]
+k-eff (implicit)  = 1.00746 +/- 0.00094  [1.00563  1.00930]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   67 / 100  Source neutrons :  9700
+
+Running time :                  0:00:28
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:08
+
+Estimated relative CPU usage :  1962.7%
+
+k-eff (analog)    = 1.00635 +/- 0.00164  [1.00313  1.00957]
+k-eff (implicit)  = 1.00733 +/- 0.00093  [1.00551  1.00916]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   68 / 100  Source neutrons : 10203
+
+Running time :                  0:00:29
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:08
+
+Estimated relative CPU usage :  1955.3%
+
+k-eff (analog)    = 1.00630 +/- 0.00162  [1.00312  1.00947]
+k-eff (implicit)  = 1.00735 +/- 0.00092  [1.00555  1.00914]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   69 / 100  Source neutrons :  9953
+
+Running time :                  0:00:29
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:07
+
+Estimated relative CPU usage :  1952.8%
+
+k-eff (analog)    = 1.00618 +/- 0.00160  [1.00304  1.00931]
+k-eff (implicit)  = 1.00758 +/- 0.00093  [1.00575  1.00941]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   70 / 100  Source neutrons : 10249
+
+Running time :                  0:00:29
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:07
+
+Estimated relative CPU usage :  1959.8%
+
+k-eff (analog)    = 1.00641 +/- 0.00160  [1.00328  1.00954]
+k-eff (implicit)  = 1.00758 +/- 0.00092  [1.00578  1.00939]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   71 / 100  Source neutrons : 10129
+
+Running time :                  0:00:29
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:07
+
+Estimated relative CPU usage :  1959.3%
+
+k-eff (analog)    = 1.00683 +/- 0.00163  [1.00364  1.01002]
+k-eff (implicit)  = 1.00755 +/- 0.00091  [1.00577  1.00933]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   72 / 100  Source neutrons :  9717
+
+Running time :                  0:00:30
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:07
+
+Estimated relative CPU usage :  1957.6%
+
+k-eff (analog)    = 1.00682 +/- 0.00160  [1.00368  1.00997]
+k-eff (implicit)  = 1.00740 +/- 0.00091  [1.00562  1.00918]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   73 / 100  Source neutrons : 10099
+
+Running time :                  0:00:30
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:06
+
+Estimated relative CPU usage :  1959.4%
+
+k-eff (analog)    = 1.00696 +/- 0.00159  [1.00385  1.01007]
+k-eff (implicit)  = 1.00734 +/- 0.00090  [1.00558  1.00910]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   74 / 100  Source neutrons :  9801
+
+Running time :                  0:00:30
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:06
+
+Estimated relative CPU usage :  1962.3%
+
+k-eff (analog)    = 1.00681 +/- 0.00157  [1.00373  1.00990]
+k-eff (implicit)  = 1.00740 +/- 0.00089  [1.00566  1.00914]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   75 / 100  Source neutrons : 10395
+
+Running time :                  0:00:30
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:06
+
+Estimated relative CPU usage :  1963.9%
+
+k-eff (analog)    = 1.00720 +/- 0.00160  [1.00407  1.01033]
+k-eff (implicit)  = 1.00756 +/- 0.00089  [1.00582  1.00930]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   76 / 100  Source neutrons :  9622
+
+Running time :                  0:00:30
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:06
+
+Estimated relative CPU usage :  1957.6%
+
+k-eff (analog)    = 1.00706 +/- 0.00158  [1.00395  1.01016]
+k-eff (implicit)  = 1.00731 +/- 0.00091  [1.00553  1.00910]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   77 / 100  Source neutrons : 10001
+
+Running time :                  0:00:31
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:05
+
+Estimated relative CPU usage :  1954.9%
+
+k-eff (analog)    = 1.00692 +/- 0.00157  [1.00385  1.01000]
+k-eff (implicit)  = 1.00739 +/- 0.00090  [1.00562  1.00916]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   78 / 100  Source neutrons : 10152
+
+Running time :                  0:00:31
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:05
+
+Estimated relative CPU usage :  1962.7%
+
+k-eff (analog)    = 1.00699 +/- 0.00155  [1.00395  1.01002]
+k-eff (implicit)  = 1.00756 +/- 0.00091  [1.00579  1.00934]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   79 / 100  Source neutrons :  9974
+
+Running time :                  0:00:31
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:05
+
+Estimated relative CPU usage :  1963.6%
+
+k-eff (analog)    = 1.00701 +/- 0.00153  [1.00401  1.01001]
+k-eff (implicit)  = 1.00733 +/- 0.00093  [1.00551  1.00914]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   80 / 100  Source neutrons : 10103
+
+Running time :                  0:00:31
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:05
+
+Estimated relative CPU usage :  1951.4%
+
+k-eff (analog)    = 1.00717 +/- 0.00152  [1.00419  1.01015]
+k-eff (implicit)  = 1.00736 +/- 0.00091  [1.00557  1.00915]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   81 / 100  Source neutrons :  9864
+
+Running time :                  0:00:32
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:04
+
+Estimated relative CPU usage :  1954.2%
+
+k-eff (analog)    = 1.00715 +/- 0.00150  [1.00421  1.01009]
+k-eff (implicit)  = 1.00738 +/- 0.00090  [1.00560  1.00915]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   82 / 100  Source neutrons : 10015
+
+Running time :                  0:00:32
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:04
+
+Estimated relative CPU usage :  1954.7%
+
+k-eff (analog)    = 1.00715 +/- 0.00148  [1.00425  1.01006]
+k-eff (implicit)  = 1.00728 +/- 0.00090  [1.00552  1.00904]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   83 / 100  Source neutrons :  9787
+
+Running time :                  0:00:32
+Estimated running time :        0:00:37
+Estimated running time left :   0:00:04
+
+Estimated relative CPU usage :  1958.0%
+
+k-eff (analog)    = 1.00689 +/- 0.00149  [1.00398  1.00981]
+k-eff (implicit)  = 1.00724 +/- 0.00089  [1.00550  1.00898]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   84 / 100  Source neutrons : 10113
+
+Running time :                  0:00:32
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:04
+
+Estimated relative CPU usage :  1962.5%
+
+k-eff (analog)    = 1.00677 +/- 0.00147  [1.00389  1.00966]
+k-eff (implicit)  = 1.00744 +/- 0.00090  [1.00567  1.00920]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   85 / 100  Source neutrons : 10389
+
+Running time :                  0:00:33
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:03
+
+Estimated relative CPU usage :  1956.7%
+
+k-eff (analog)    = 1.00711 +/- 0.00150  [1.00418  1.01004]
+k-eff (implicit)  = 1.00734 +/- 0.00089  [1.00559  1.00909]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   86 / 100  Source neutrons :  9915
+
+Running time :                  0:00:33
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:03
+
+Estimated relative CPU usage :  1938.0%
+
+k-eff (analog)    = 1.00734 +/- 0.00150  [1.00441  1.01027]
+k-eff (implicit)  = 1.00740 +/- 0.00089  [1.00566  1.00913]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   87 / 100  Source neutrons :  9975
+
+Running time :                  0:00:33
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:03
+
+Estimated relative CPU usage :  1943.1%
+
+k-eff (analog)    = 1.00754 +/- 0.00149  [1.00462  1.01046]
+k-eff (implicit)  = 1.00731 +/- 0.00088  [1.00559  1.00904]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   88 / 100  Source neutrons : 10205
+
+Running time :                  0:00:33
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:03
+
+Estimated relative CPU usage :  1960.2%
+
+k-eff (analog)    = 1.00797 +/- 0.00154  [1.00496  1.01098]
+k-eff (implicit)  = 1.00727 +/- 0.00087  [1.00556  1.00898]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   89 / 100  Source neutrons :  9460
+
+Running time :                  0:00:34
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:02
+
+Estimated relative CPU usage :  1956.9%
+
+k-eff (analog)    = 1.00775 +/- 0.00153  [1.00475  1.01076]
+k-eff (implicit)  = 1.00719 +/- 0.00086  [1.00549  1.00888]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   90 / 100  Source neutrons : 10147
+
+Running time :                  0:00:34
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:02
+
+Estimated relative CPU usage :  1954.9%
+
+k-eff (analog)    = 1.00770 +/- 0.00152  [1.00473  1.01068]
+k-eff (implicit)  = 1.00709 +/- 0.00086  [1.00541  1.00878]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   91 / 100  Source neutrons :  9862
+
+Running time :                  0:00:34
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:02
+
+Estimated relative CPU usage :  1958.3%
+
+k-eff (analog)    = 1.00750 +/- 0.00151  [1.00454  1.01047]
+k-eff (implicit)  = 1.00711 +/- 0.00085  [1.00544  1.00878]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   92 / 100  Source neutrons : 10201
+
+Running time :                  0:00:34
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:02
+
+Estimated relative CPU usage :  1954.5%
+
+k-eff (analog)    = 1.00752 +/- 0.00150  [1.00459  1.01046]
+k-eff (implicit)  = 1.00723 +/- 0.00085  [1.00557  1.00890]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   93 / 100  Source neutrons :  9907
+
+Running time :                  0:00:35
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:01
+
+Estimated relative CPU usage :  1954.4%
+
+k-eff (analog)    = 1.00744 +/- 0.00148  [1.00454  1.01035]
+k-eff (implicit)  = 1.00719 +/- 0.00084  [1.00554  1.00884]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   94 / 100  Source neutrons :  9927
+
+Running time :                  0:00:35
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:01
+
+Estimated relative CPU usage :  1958.5%
+
+k-eff (analog)    = 1.00729 +/- 0.00148  [1.00440  1.01018]
+k-eff (implicit)  = 1.00723 +/- 0.00083  [1.00560  1.00887]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   95 / 100  Source neutrons : 10097
+
+Running time :                  0:00:35
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:01
+
+Estimated relative CPU usage :  1958.7%
+
+k-eff (analog)    = 1.00724 +/- 0.00146  [1.00437  1.01010]
+k-eff (implicit)  = 1.00726 +/- 0.00083  [1.00565  1.00888]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   96 / 100  Source neutrons : 10044
+
+Running time :                  0:00:35
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:01
+
+Estimated relative CPU usage :  1954.7%
+
+k-eff (analog)    = 1.00723 +/- 0.00145  [1.00440  1.01006]
+k-eff (implicit)  = 1.00741 +/- 0.00083  [1.00578  1.00904]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   97 / 100  Source neutrons :  9993
+
+Running time :                  0:00:36
+Estimated running time :        0:00:36
 Estimated running time left :   0:00:00
 
-Estimated relative CPU usage :  1956.2%
+Estimated relative CPU usage :  1958.7%
 
-k-eff (analog)    = 1.01253 +/- 0.00128  [1.01002  1.01504]
-k-eff (implicit)  = 1.00993 +/- 0.00085  [1.00827  1.01159]
+k-eff (analog)    = 1.00722 +/- 0.00143  [1.00442  1.01002]
+k-eff (implicit)  = 1.00730 +/- 0.00083  [1.00568  1.00893]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   98 / 100  Source neutrons :  9986
+
+Running time :                  0:00:36
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:00
+
+Estimated relative CPU usage :  1958.7%
+
+k-eff (analog)    = 1.00719 +/- 0.00142  [1.00442  1.00997]
+k-eff (implicit)  = 1.00736 +/- 0.00082  [1.00575  1.00897]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle   99 / 100  Source neutrons : 10018
+
+Running time :                  0:00:36
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:00
+
+Estimated relative CPU usage :  1962.0%
+
+k-eff (analog)    = 1.00718 +/- 0.00140  [1.00444  1.00993]
+k-eff (implicit)  = 1.00745 +/- 0.00082  [1.00584  1.00905]
+
+(O4) (MPI=1) (OMP=20) 
+------------------------------------------------------------
+------------------------------------------------------------
+
+Serpent 2.1.31 -- Static criticality source simulation
+
+Title: "LEU-COMP-THERM-001-005" 
+
+Active cycle  100 / 100  Source neutrons : 10019
+
+Running time :                  0:00:36
+Estimated running time :        0:00:36
+Estimated running time left :   0:00:00
+
+Estimated relative CPU usage :  1947.6%
+
+k-eff (analog)    = 1.00720 +/- 0.00139  [1.00448  1.00992]
+k-eff (implicit)  = 1.00749 +/- 0.00081  [1.00589  1.00908]
 
 (O4) (MPI=1) (OMP=20) 
 ------------------------------------------------------------
 
-Transport cycle completed in 19.9 seconds.
+Transport cycle completed in 31.2 seconds.
 
