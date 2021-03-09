@@ -195,7 +195,7 @@ mat acrylic sum rgb 255 255 255
 mat water -0.997766 moder sssth1 1001 rgb 0 0 255
 1001.03c	6.6706E-2	% H-1 	(natural not available in ENDF/B-VII)
 8016.03c	3.3353E-2	% O-16  (natural not available in ENDF/B-VII)
-therm sssth1 lwj2.11t
+therm sssth1 lwe7.00t
 
 %===============================================================================
 % OPTIONS
