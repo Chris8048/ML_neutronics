@@ -1,8 +1,8 @@
 #!/bin/bash
 # Job name:
-#SBATCH --job-name=LEU_COMP_THERM_001_002
+#SBATCH --job-name=LEU_COMP_THERM_001_001
 #
-#SBATCH --output=outputLEU_COMP_THERM_001_002
+#SBATCH --output=outputLEU_COMP_THERM_001_001
 #
 #SBATCH --error=ERRORS
 #
@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/LEU_COMP_THERM_001/LEU_COMP_THERM_001_002/no_scattering
-sss2 LEU_COMP_THERM_001_002 -omp 20
+cd /global/home/users/christforsyth/ML_neutronics/LEU_COMP_THERM_001/LEU_COMP_THERM_001_001/no_scattering
+sss2 LEU_COMP_THERM_001_001 -omp 20
