@@ -52,8 +52,10 @@ surf   18	pz		 52.855		% End of upper end plug
 surf   19   pz	     62.775		% End of water tank
 
 % --- Cylinders ---
-surf   20   cyl		 0.0	0.0		0.5588	% Fuel radius / cladding inner radius
-surf   21	cyl		 0.0	0.0		0.635	% Cladding outer radius
+surf   20   cyl		 0.0	0.0		0.5588	% Fuel radius / cladding inner radius (unit cells)
+surf   21	cyl		 0.0	0.0		0.635	% Cladding outer radius (unit cells)
+surf   22   cyl	  -19.304 -19.304	0.5588	% Fuel radius / cladding inner radius (extra fuel rod)
+surf   23	cyl	  -19.304 -19.304	0.635	% Cladding outer radius (extra fuel rod)
 
 % CELLS ------------------------------------------------------------------------
 % system boundaries
@@ -65,7 +67,7 @@ cell    5   0   outside  -12						% Bottom boundary
 cell    6   0   outside   19						% Top boundary
 % cluster & extra fuel rod
 cell	7	0	fill 10	   2 -4   9 -10   14 -18	% Cluster
-cell    8   0   fill 1     2 -3   8 -9    14 -18    % Extra fuel rod
+cell    8   0   fill 2     2 -3   8 -9    14 -18    % Extra fuel rod
 % cluster unit cells (fuel rods)
 cell    9	1	UO2   	  15 -16 -20 				% Fuel
 cell   10   1   6061_Al   14 -17  20 -21 			% Cladding
@@ -75,16 +77,25 @@ cell   13   1   1100_Al   17 -18 -21				% Upper end plug (upper part)
 cell   14   1   water     14 -18 21					% Surrounding water
 cell   15   1   water    -14						% Bottom boundary
 cell   16   1   water     18						% Top boundary
+% extra fuel rod
+cell   17	2	UO2   	  15 -16 -22 				% Fuel
+cell   18   2   6061_Al   14 -17  22 -23 			% Cladding
+cell   19	2	5052_Al   14 -15 -22  				% Lower end plug
+cell   20	2	1100_Al	  16 -17 -22  			    % Upper end plug (lower part)
+cell   21   2   1100_Al   17 -18 -23				% Upper end plug (upper part)
+cell   22   2   water     14 -18 23					% Surrounding water
+cell   23   2   water    -14						% Bottom boundary
+cell   24   2   water     18						% Top boundary
 % surrounding water
-cell   17   0   water	   1 -2   7 -11   12 -19	% Side layer
-cell   18   0   water	   4 -5   7 -11   12 -19	% Side layer
-cell   19   0   water	   2 -4   7 -8    12 -19	% Side layer	  
-cell   20   0   water	   2 -4  10 -11   12 -19	% Side layer
-cell   21   0   water	   2 -4   8 -10   12 -13	% Bottom layer
-cell   22   0   water	   2 -4   8 -10   18 -19	% Top layer
-cell   23   0   water	   3 -4   8 -9    14 -18	% Next to extra fuel rod
+cell   25   0   water	   1 -2   7 -11   12 -19	% Side layer
+cell   26   0   water	   4 -5   7 -11   12 -19	% Side layer
+cell   27   0   water	   2 -4   7 -8    12 -19	% Side layer	  
+cell   28   0   water	   2 -4  10 -11   12 -19	% Side layer
+cell   29   0   water	   2 -4   8 -10   12 -13	% Bottom layer
+cell   30   0   water	   2 -4   8 -10   18 -19	% Top layer
+cell   31   0   water	   3 -4   8 -9    14 -18	% Next to extra fuel rod
 % acrylic plate
-cell   24	0	acrylic	   2 -4   8	-10   13 -14	% Acrylic plate
+cell   32	0	acrylic	   2 -4   8	-10   13 -14	% Acrylic plate
 
 % BOUNDARY CONDITIONS ----------------------------------------------------------
 % --- Vacuum boundary condition ---
