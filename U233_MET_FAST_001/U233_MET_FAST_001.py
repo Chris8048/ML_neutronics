@@ -21,7 +21,10 @@ error = []
 for i in range(len(DETEnergyDetector)):
     scores.append(DETEnergyDetector[i][10])
 
-plt.plot(energy, scores)
+plt.figure()
+plt.semilogx(energy, scores)
 plt.xlabel('Energy (MeV)')
-plt.ylabel('Flux')
+plt.ylabel('Normalized Flux ($\phi$/$\phi_{tot}$)')
+plt.title('Flux-Energy Spectrum for U233_MET_FAST_001')
+plt.savefig('U233_MET_FAST_001_FluxEnergySpectrum.png')
 plt.show()
