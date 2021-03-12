@@ -8,7 +8,7 @@ Created on Tue Dec 22 03:19:10 2020
 import matplotlib.pyplot as plt
 import scipy.io
 
-mat = scipy.io.loadmat('U233_MET_FAST_002_10000g_det0.mat')
+mat = scipy.io.loadmat('U233_MET_FAST_002_001_det0.mat')
 DETEnergyDetector = mat['DETEnergyDetector']
 DETEnergyDetectorE = mat['DETEnergyDetectorE']
 
@@ -21,7 +21,10 @@ error = []
 for i in range(len(DETEnergyDetector)):
     scores.append(DETEnergyDetector[i][10])
 
-plt.plot(energy, scores)
+plt.figure()
+plt.semilogx(energy, scores)
 plt.xlabel('Energy (MeV)')
-plt.ylabel('Flux')
+plt.ylabel('Normalized Flux ($\phi$/$\phi_{tot}$)')
+plt.title('Flux-Energy Spectrum for U233_MET_FAST_002_001')
+plt.savefig('U233_MET_FAST_002_001_FluxEnergySpectrum.png')
 plt.show()

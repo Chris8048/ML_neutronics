@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Tue Dec 22 03:28:42 2020
+Created on Tue Dec 22 02:25:01 2020
 
 @author: Chris
 """
@@ -8,7 +8,7 @@ Created on Tue Dec 22 03:28:42 2020
 import matplotlib.pyplot as plt
 import scipy.io
 
-mat = scipy.io.loadmat('PU_MET_FAST_005_det0.mat')
+mat = scipy.io.loadmat('LEU_COMP_THERM_001_006_det0.mat')
 DETEnergyDetector = mat['DETEnergyDetector']
 DETEnergyDetectorE = mat['DETEnergyDetectorE']
 
@@ -25,6 +25,6 @@ plt.figure()
 plt.semilogx(energy, scores)
 plt.xlabel('Energy (MeV)')
 plt.ylabel('Normalized Flux ($\phi$/$\phi_{tot}$)')
-plt.title('Flux-Energy Spectrum for PU_MET_FAST_005')
-plt.savefig('PU_MET_FAST_005_FluxEnergySpectrum.png')
+plt.title('Flux-Energy Spectrum for LEU_COMP_THERM_001_006')
+plt.savefig('LEU_COMP_THERM_001_006_FluxEnergySpectrum.png')
 plt.show()
