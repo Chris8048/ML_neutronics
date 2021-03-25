@@ -90,7 +90,7 @@ mat copper -8.6913
 % --- Beryllium reflector with traces of O, C, Fe ---
 	% Overall mass density 1.8169 g/cm3
 	% Evaluated @ 300K (approx. room temperature)
-mat reflector -1.8169 moder ENDF80SaB2/be-met.40t 4009
+mat reflector -1.8169 moder be-met.40t 4009
  4009.03c	1.2081E-1	% Be-9
 	/* NOTE: The Beryllium should've been natural (4000.03c), but the ENDFB7
 			 cross-section data does not include it! Instead, 4009 was used
@@ -101,7 +101,7 @@ mat reflector -1.8169 moder ENDF80SaB2/be-met.40t 4009
 			because O-16 makes up ~99.76% of natural Beryllium. */
  6000.03c	1.0020E-4	% C  (natural)
 26000.03c	5.0939E-5	% Fe (natural)
-therm ENDF80SaB2/be-met.40t be-met.40t
+therm be-met.40t be-met.40t
 
 %===============================================================================
 % OPTIONS
