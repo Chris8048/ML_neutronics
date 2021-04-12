@@ -30,14 +30,14 @@ cell	3   0   outside   10						% Radial boundary
 % core
 cell	4	0	core	   3 -4   -7				% Core
 % reflectors
-cell    5	1	ss_ref     2 -3   -7	    		% Lower stainless steel axial reflector
-cell    6   1   ss_ref     4 -5   -7 			    % Upper stainless steel axial reflector
-cell    7	1	ss_ref     2 -5    7 -8  			% Stainless steel radial reflector
-cell    8	1	iron_ref   2 -5    8 -9  			% Iron radial reflector
+cell    5	0	ss_ref     2 -3   -7	    		% Lower stainless steel axial reflector
+cell    6   0   ss_ref     4 -5   -7 			    % Upper stainless steel axial reflector
+cell    7	0	ss_ref     2 -5    7 -8  			% Stainless steel radial reflector
+cell    8	0	iron_ref   2 -5    8 -9  			% Iron radial reflector
 % empty matrix
-cell    9   0   matrix	   1 -2   -10				% Upper part
+cell    9   0   matrix	   1 -2   -10				% Lower part
 cell   10   0   matrix     2 -5	   9 -10			% Hollow portion
-cell   11   0   matrix	   5 -6	  -10				% Lower part
+cell   11   0   matrix	   5 -6	  -10				% Upper part
 
 % BOUNDARY CONDITIONS ----------------------------------------------------------
 % --- Vacuum boundary condition ---
