@@ -24,20 +24,20 @@ surf  10	cyl		 0.0    0.0	   115.32402    % Outer radius of empty matrix
 
 % CELLS ------------------------------------------------------------------------
 % system boundaries
-cell	1   0	outside   -1						% Bottom boundary
-cell	2	0	outside	   6						% Top boundary
-cell	3   0   outside   10						% Radial boundary
+cell	1   0	outside   		-1						% Bottom boundary
+cell	2	0	outside	   		6						% Top boundary
+cell	3   0   outside   		10						% Radial boundary
 % core
-cell	4	0	core	   3 -4   -7				% Core
+cell	4	0	core	   		3 -4   -7				% Core
 % reflectors
-cell    5	0	ss_ref     2 -3   -7	    		% Lower stainless steel axial reflector
-cell    6   0   ss_ref     4 -5   -7 			    % Upper stainless steel axial reflector
-cell    7	0	ss_ref     2 -5    7 -8  			% Stainless steel radial reflector
-cell    8	0	iron_ref   2 -5    8 -9  			% Iron radial reflector
+cell    5	0	ax_ss_ref     	2 -3   -7	    		% Lower stainless steel axial reflector
+cell    6   0   ax_ss_ref     	4 -5   -7 			    % Upper stainless steel axial reflector
+cell    7	0	rad_ss_ref     	2 -5    7 -8  			% Stainless steel radial reflector
+cell    8	0	rad_iron_ref    2 -5    8 -9  			% Iron radial reflector
 % empty matrix
-cell    9   0   matrix	   1 -2   -10				% Lower part
-cell   10   0   matrix     2 -5	   9 -10			% Hollow portion
-cell   11   0   matrix	   5 -6	  -10				% Upper part
+cell    9   0   matrix	   		1 -2   -10				% Lower part
+cell   10   0   matrix     		2 -5    9 -10			% Hollow portion
+cell   11   0   matrix	   		5 -6   -10				% Upper part
 
 % BOUNDARY CONDITIONS ----------------------------------------------------------
 % --- Vacuum boundary condition ---
@@ -69,7 +69,7 @@ mat core sum
 
 % --- Axial stainless steel reflectors ---
 	% Evaluated @ 300K (approx. room temperature)
-mat ss_ref sum
+mat ax_ss_ref sum
 24000.03c	1.57277E-02
 25055.03c	1.56081E-03
 27000.03c	3.73582E-06
@@ -82,7 +82,7 @@ mat ss_ref sum
 
 % --- Radial stainless steel reflector ---
 	% Evaluated @ 300K (approx. room temperature)
-mat ss_ref sum
+mat rad_ss_ref sum
 24000.03c	1.56286E-02
 25055.03c	1.42057E-03
 27000.03c	3.77932E-06
@@ -95,7 +95,7 @@ mat ss_ref sum
 
 % --- Radial iron reflector ---
 	% Evaluated @ 300K (approx. room temperature)
-mat ss_ref sum
+mat rad_iron_ref sum
 24000.03c	1.82758E-03
 25055.03c	5.50350E-04
 27000.03c	3.77222E-06
@@ -108,7 +108,7 @@ mat ss_ref sum
 
 % --- Empty matrix ---
 	% Evaluated @ 300K (approx. room temperature)
-mat ss_ref sum
+mat matrix sum
 24000.03c	1.18727E-03
 25055.03c	1.05699E-04
 27000.03c	0.00000E-00
@@ -131,14 +131,14 @@ set	pop	10000 100 50
 %===============================================================================
 % GEOMETRY PLOTS ---------------------------------------------------------------
 % --- yz-plane, 500px x 500px ---
-plot  1 500 500
+plot  1 500 529
 
 % --- xy-plane, 500px x 500px ---
 plot  3 500 500
 
 % MESH PLOTS -------------------------------------------------------------------
 % --- yz-plane, 500px x 500px ---
-mesh  1 500 500
+mesh  1 500 529
 
 % --- xy-plane, 500px x 500px ---
 mesh  3 500 500
