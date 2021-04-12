@@ -70,7 +70,7 @@ mat core sum
 14000.03c	2.83306E-05		% Si (natural)
 12000.03c	1.34057E-04		% Mg (natural)
 17000.03c	7.07473E-06		% Cl (natural)
-9000.03c	2.09509E-05		% F (natural)
+9019.03c	2.09509E-05		% F-19 (natural not available in ENDF/B-VII)
 74000.03c	2.13337E-02		% W (natural)
 
 % --- Aliminum axial reflector 1 ---
