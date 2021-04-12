@@ -68,7 +68,7 @@ mat core sum
 24000.03c	1.91426E-03		% Cr (natural)
 28000.03c	8.56174E-04		% Ni (natural)
 26000.03c	7.44997E-03		% Fe (natural)
-13027.03c	2.20421E-04		% Al-27 (natural not available in ENDF/B-VII)
+13027.03c	2.20421E-04		% Al-27
 8016.03c	8.96044E-05		% O-16 (natural not available in ENDF/B-VII)
 6000.03c	5.77309E-02		% C (natural)
 42000.03c	4.34689E-06		% Mo (natural)
