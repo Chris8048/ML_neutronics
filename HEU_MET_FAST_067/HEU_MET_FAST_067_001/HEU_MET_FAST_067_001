@@ -10,18 +10,18 @@ set title "HEU-MET-FAST-067-001"
 % --- Planes ---
 % z planes
 surf   1	pz	  -61.91504		% Beginning of lower axial reflector 3 & aluminum radial reflector 2
-surf   2    pz	  -61.67882		% End of lower axial reflector 3 / beginning of lower aluminum axial reflector 2
+surf   2    pz	  -59.13882		% End of lower axial reflector 3 / beginning of lower aluminum axial reflector 2
 surf   3    pz    -50.92573		% End of lower aluminum axial reflector 2 / beginning of lower aluminum axial reflector 1
-surf   4    pz    -30.56288		% End of lower aluminum axial reflector 1 / beginning of core & aluminum radial reflector 1
-surf   5    pz     30.56288		% End of core & aluminum radial reflector 1 / beginning of upper aluminum axial reflector 1
+surf   4    pz    -28.02315		% End of lower aluminum axial reflector 1 / beginning of core & aluminum radial reflector 1
+surf   5    pz     28.02315		% End of core & aluminum radial reflector 1 / beginning of upper aluminum axial reflector 1
 surf   6    pz	   50.92573		% End of upper aluminum axial reflector 1 / beginning of upper aluminum axial reflector 2
-surf   7    pz     61.67882		% End of upper aluminum axial reflector 2 / beginning of upper axial reflector 3
+surf   7    pz     59.13882		% End of upper aluminum axial reflector 2 / beginning of upper axial reflector 3
 surf   8    pz	   61.91504		% End of upper axial reflector 3 & aluminum radial reflector 2
 
 % --- Cylinders ---
-surf   9    cyl		 0.0	0.0		36.87395	% Outer radius of core / inner radius of aluminum radial reflector 1
-surf  10	cyl		 0.0	0.0		38.17733	% Outer radius of aluminum radial reflector 1 & axial reflectors 1, 2 & 3 / inner radius of aluminum radial reflector 2
-surf  11    cyl		 0.0	0.0	    75.90495	% Outer radius of aluminum radial reflector 2
+surf   9    cyl		 0.0	0.0		34.11820	% Outer radius of core / inner radius of aluminum radial reflector 1
+surf  10	cyl		 0.0	0.0		34.4037	    % Outer radius of aluminum radial reflector 1 & axial reflectors 1, 2 & 3 / inner radius of aluminum radial reflector 2
+surf  11    cyl		 0.0	0.0	    70.83879	% Outer radius of aluminum radial reflector 2
 
 % CELLS ------------------------------------------------------------------------
 % system boundaries
@@ -155,17 +155,17 @@ set	pop	10000 100 50
 %===============================================================================
 % GEOMETRY PLOTS ---------------------------------------------------------------
 % --- yz-plane, 500px x 500px ---
-plot  1 613 500
+plot  1 572 500
 
 % --- xy-plane, 500px x 500px ---
-plot  3 613 613
+plot  3 572 572
 
 % MESH PLOTS -------------------------------------------------------------------
 % --- yz-plane, 500px x 500px ---
-mesh  1 613 500
+mesh  1 572 500
 
 % --- xy-plane, 500px x 500px ---
-mesh  3 613 613
+mesh  3 572 572
 
 %===============================================================================
 % DETECTORS + ENERGY GRIDS
