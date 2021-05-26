@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/HEU_MET_FAST_067_001
+cd /global/home/users/christforsyth/ML_neutronics/HEU_MET_FAST_067/HEU_MET_FAST_067_001/graphite_scattering
 sss2 HEU_MET_FAST_067_001 -omp 20

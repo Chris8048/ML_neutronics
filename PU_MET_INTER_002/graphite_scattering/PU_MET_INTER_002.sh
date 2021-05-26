@@ -33,5 +33,5 @@
 #
 #
 ## Command(s) to run (example):
-cd /global/home/users/christforsyth/ML_neutronics/PU_MET_INTER_002
+cd /global/home/users/christforsyth/ML_neutronics/PU_MET_INTER_002/graphite_scattering
 sss2 PU_MET_INTER_002 -omp 20
