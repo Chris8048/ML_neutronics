@@ -73,6 +73,21 @@ mat	plutonium -15.4757
 74000.03c	7.4100E-5	% W  (natural)
 28000.03c	1.4187E-3	% Ni (natural)
 
+% --- Beryllium reflector with traces of O, C, Fe ---
+	% Overall mass density 1.8169 g/cm3
+	% Evaluated @ 300K (approx. room temperature)
+mat reflector -1.8169
+ 4009.03c	1.2081E-1	% Be-9
+	/* NOTE: The Beryllium should've been natural (4000.03c), but the ENDFB7
+			 cross-section data does not include it! Instead, 4009 was used
+			 because Be-9 makes up nearly 100% of natural Beryllium. */
+ 8016.03c	8.2064E-5	% O-16  (natural)
+	/* NOTE: The Oxygen should've been natural (8000.03c), but the ENDFB7
+			cross-section data does not include it! Instead, 8016 was used
+			because O-16 makes up ~99.76% of natural Beryllium. */
+ 6000.03c	1.0020E-4	% C  (natural)
+26000.03c	5.0939E-5	% Fe (natural)
+
 % --- Steel diaphragm/shaft ---
 	% Overall mass density 7.5278 g/cm3
 	% Evaluated @ 300K (approx. room temperature)
@@ -84,24 +99,6 @@ mat steel -7.5278
 	% Evaluated @ 300K (approx. room temperature)
 mat copper -8.6913
 29000.03c	8.2365E-2	% Cu (natural, with 99.9% density)
-
-% MODERATORS -------------------------------------------------------------------
-
-% --- Beryllium reflector with traces of O, C, Fe ---
-	% Overall mass density 1.8169 g/cm3
-	% Evaluated @ 300K (approx. room temperature)
-mat reflector -1.8169 moder be-met 4009
- 4009.03c	1.2081E-1	% Be-9
-	/* NOTE: The Beryllium should've been natural (4000.03c), but the ENDFB7
-			 cross-section data does not include it! Instead, 4009 was used
-			 because Be-9 makes up nearly 100% of natural Beryllium. */
- 8016.03c	8.2064E-5	% O-16  (natural)
-	/* NOTE: The Oxygen should've been natural (8000.03c), but the ENDFB7
-			cross-section data does not include it! Instead, 8016 was used
-			because O-16 makes up ~99.76% of natural Beryllium. */
- 6000.03c	1.0020E-4	% C  (natural)
-26000.03c	5.0939E-5	% Fe (natural)
-therm be-met be-met.40t
 
 %===============================================================================
 % OPTIONS
