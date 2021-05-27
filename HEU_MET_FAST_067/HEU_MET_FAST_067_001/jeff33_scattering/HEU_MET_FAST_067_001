@@ -145,7 +145,7 @@ mat core sum moder jeff33-tsl 6000
 17000.03c	7.07473E-06		% Cl (natural)
 9019.03c	2.09509E-05		% F-19 (natural not available in ENDF/B-VII)
 74000.03c	2.13337E-02		% W (natural)
-therm jeff33-tsl hh2o.00t
+therm jeff33-tsl graph.00t
 
 %===============================================================================
 % OPTIONS
