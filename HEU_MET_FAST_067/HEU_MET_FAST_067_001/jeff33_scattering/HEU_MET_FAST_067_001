@@ -125,7 +125,7 @@ mat rr2 sum
 
 % --- Core region: HEU (93% U-235) with W, C, and Al diluents ---
 	% Evaluated @ 300K (approx. room temperature)
-mat core sum moder graph 6000
+mat core sum moder jeff33-tsl 24000
 92235.03c	4.50947E-03		% U-235
 92238.03c	2.61044E-04		% U-238
 92234.03c	4.46629E-05		% U-234
@@ -145,7 +145,7 @@ mat core sum moder graph 6000
 17000.03c	7.07473E-06		% Cl (natural)
 9019.03c	2.09509E-05		% F-19 (natural not available in ENDF/B-VII)
 74000.03c	2.13337E-02		% W (natural)
-therm graph graph.00t
+therm jeff33-tsl graph.00t
 
 %===============================================================================
 % OPTIONS
