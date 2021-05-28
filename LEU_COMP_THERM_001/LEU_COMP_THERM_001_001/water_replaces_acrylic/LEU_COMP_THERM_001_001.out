@@ -1,13 +1,13 @@
 
  --- Table  1: Summary of nuclide data: 
 
- Data for 17 nuclides included in calculation:
+ Data for 16 nuclides included in calculation:
 
- - 17 Transport nuclides
+ - 16 Transport nuclides
  - No dosimetry nuclides
  - No decay nuclides
- - 618 reaction channels
- - 167 special reactions
+ - 598 reaction channels
+ - 163 special reactions
  - No transmutation reactions
  - 1 transmutation branch reactions
  - No decay reactions
@@ -55,27 +55,26 @@
 
     1   0  1001.03c      03c  TRA    1   1 0    1.00782   300.0          N/A  I-----T-------------  hydrogen (H-1)
     2   0  1001.03s      03s  TRA    1   1 0    1.00782   300.0          N/A  I-----TS------------  hydrogen (H-1)
-    3   0  6000.03c      03c  TRA    6   0 0   12.00110   300.0          N/A  I-----T-------------  natural carbon (C-nat)
-    4   0  8016.03c      03c  TRA    8  16 0   15.99492   300.0          N/A  I-----T-------------  oxygen 16 (O-16)
-    5   0  12000.03c     03c  TRA   12   0 0   24.30509   300.0          N/A  I-----T-------------  natural magnesium (Mg-nat)
-    6   0  13027.03c     03c  TRA   13  27 0   26.98154   300.0          N/A  I-----T-------------  aluminum 27 (Al-27)
-    7   0  14000.03c     03c  TRA   14   0 0   28.08557   300.0          N/A  I-----T-------------  natural silicon (Si-nat)
-    8   0  22000.03c     03c  TRA   22   0 0   47.87891   300.0          N/A  I-----T-------------  natural titanium (Ti-nat)
-    9   0  24000.03c     03c  TRA   24   0 0   51.99587   300.0          N/A  I-----T-------------  natural chromium (Cr-nat)
-   10   0  25055.03c     03c  TRA   25  55 0   54.93805   300.0          N/A  I-----T-------------  manganese 55 (Mn-55)
-   11   0  26000.03c     03c  TRA   26   0 0   55.84675   300.0          N/A  I-----T-------------  natural iron (Fe-nat)
-   12   0  29000.03c     03c  TRA   29   0 0   63.54559   300.0          N/A  I-----T-------------  natural copper (Cu-nat)
-   13   0  30000.03c     03c  TRA   30   0 0   65.39578   300.0          N/A  I-----T-------------  natural zinc (Zn-nat)
-   14   0  92234.03c     03c  TRA   92 234 0  234.04093   300.0          N/A  I-----T-IF-D--------  uranium 234 (U-234)
-   15   0  92235.03c     03c  TRA   92 235 0  235.04395   300.0          N/A  I-----T--F-D--------  uranium 235 (U-235)
-   16   0  92236.03c     03c  TRA   92 236 0  236.04556   300.0          N/A  I-----T--F-D--------  uranium 236 (U-236)
-   17   0  92238.03c     03c  TRA   92 238 0  238.05078   300.0          N/A  I-----T--F-D--------  uranium 238 (U-238)
+    3   0  8016.03c      03c  TRA    8  16 0   15.99492   300.0          N/A  I-----T-------------  oxygen 16 (O-16)
+    4   0  12000.03c     03c  TRA   12   0 0   24.30509   300.0          N/A  I-----T-------------  natural magnesium (Mg-nat)
+    5   0  13027.03c     03c  TRA   13  27 0   26.98154   300.0          N/A  I-----T-------------  aluminum 27 (Al-27)
+    6   0  14000.03c     03c  TRA   14   0 0   28.08557   300.0          N/A  I-----T-------------  natural silicon (Si-nat)
+    7   0  22000.03c     03c  TRA   22   0 0   47.87891   300.0          N/A  I-----T-------------  natural titanium (Ti-nat)
+    8   0  24000.03c     03c  TRA   24   0 0   51.99587   300.0          N/A  I-----T-------------  natural chromium (Cr-nat)
+    9   0  25055.03c     03c  TRA   25  55 0   54.93805   300.0          N/A  I-----T-------------  manganese 55 (Mn-55)
+   10   0  26000.03c     03c  TRA   26   0 0   55.84675   300.0          N/A  I-----T-------------  natural iron (Fe-nat)
+   11   0  29000.03c     03c  TRA   29   0 0   63.54559   300.0          N/A  I-----T-------------  natural copper (Cu-nat)
+   12   0  30000.03c     03c  TRA   30   0 0   65.39578   300.0          N/A  I-----T-------------  natural zinc (Zn-nat)
+   13   0  92234.03c     03c  TRA   92 234 0  234.04093   300.0          N/A  I-----T-IF-D--------  uranium 234 (U-234)
+   14   0  92235.03c     03c  TRA   92 235 0  235.04395   300.0          N/A  I-----T--F-D--------  uranium 235 (U-235)
+   15   0  92236.03c     03c  TRA   92 236 0  236.04556   300.0          N/A  I-----T--F-D--------  uranium 236 (U-236)
+   16   0  92238.03c     03c  TRA   92 238 0  238.05078   300.0          N/A  I-----T--F-D--------  uranium 238 (U-238)
 
  --- Table  2: Reaction and decay data: 
 
- Nuclide    1 / 17 : 1001.03c -- hydrogen (H-1)
+ Nuclide    1 / 16 : 1001.03c -- hydrogen (H-1)
 
- Pointers                     : 72283 973
+ Pointers                     : 72079 973
  Primary type                 : Transport
  Nuclide ZAI                  : 10010
  Library ID                   : 03c
@@ -122,9 +121,9 @@
 
    1    MT =    204  Q =  0.00000E+00 MeV  Emin = 1.00000E-11 MeV  : total deuteron production
 
- Nuclide    2 / 17 : 1001.03s -- hydrogen (H-1)
+ Nuclide    2 / 16 : 1001.03s -- hydrogen (H-1)
 
- Pointers                     : 74660 973
+ Pointers                     : 72593 973
  Primary type                 : Transport
  Nuclide ZAI                  : 10010
  Library ID                   : 03s
@@ -172,79 +171,9 @@
 
    1    MT =    204  Q =  0.00000E+00 MeV  Emin = 1.00000E-11 MeV  : total deuteron production
 
- Nuclide    3 / 17 : 6000.03c -- natural carbon (C-nat)
+ Nuclide    3 / 16 : 8016.03c -- oxygen 16 (O-16)
 
- Pointers                     : 72613 4239
- Primary type                 : Transport
- Nuclide ZAI                  : 60000
- Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/6000ENDF7.ace
- Atomic weight (AW)           : 12.00110
- Atomic weight ratio (AWR)    : 11.89800
- Temperature                  : 300.0 Kelvin
- XS temperature               : 300.0 Kelvin
- Minimum and maximum energy   : 1.00000E-11 1.50000E+02
- Half-life                    : N/A
- Specific ingestion toxicity  : N/A
- Specific inhalation toxicity : N/A
-
- - Nuclide is not involved in burnup calculation
- - Nuclide has neutron transport data
- - Nuclide has no photon transport data
- - Nuclide has no S(a,b) data
- - Nuclide has no isomeric branching data
- - Nuclide is not fissile
- - Nuclide is not a delayed neutron precursor
- - Nuclide has no delayed neutron data
- - Nuclide has no ures ptable data
- - Nuclide temperature is not adjusted with TMS
- - Nuclide has no dosimetry data
- - Nuclide has no decay data
- - Nuclide has no supplementary transmutation cross section data
- - Nuclide has no NFY data
- - Nuclide has no SFY data
-
- - 20 reaction channels
- - 4 special reactions
- - No transmutation reactions
- - No transmutation branch reactions
- - No decay reactions
- - No decay branch reactions
- - No transmutation paths
-
- 20 reactions channel:
-
-   1    MT =      2  Q =  0.00000E+00 MeV  Emin = 1.00000E-11 MeV  frac = 1.00000E+00  : elastic scattering
-   2    MT =      5  Q =  0.00000E+00 MeV  Emin = 2.00000E+01 MeV  frac = 1.00000E+00  : anything
-   3    MT =     28  Q = -1.59570E+01 MeV  Emin = 1.72982E+01 MeV  frac = 1.00000E+00  : (n,np)
-   4    MT =     51  Q = -4.43900E+00 MeV  Emin = 4.81209E+00 MeV  frac = 1.00000E+00  : inelastic scatt. to 1. excited state
-   5    MT =     52  Q = -7.65300E+00 MeV  Emin = 8.29622E+00 MeV  frac = 1.00000E+00  : inelastic scatt. to 2. excited state
-   6    MT =     53  Q = -9.63800E+00 MeV  Emin = 1.04481E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 3. excited state
-   7    MT =     54  Q = -1.08000E+01 MeV  Emin = 1.17080E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 4. excited state
-   8    MT =     55  Q = -1.18000E+01 MeV  Emin = 1.27920E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 5. excited state
-   9    MT =     56  Q = -1.27000E+01 MeV  Emin = 1.37674E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 6. excited state
-  10    MT =     57  Q = -1.33500E+01 MeV  Emin = 1.45000E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 7. excited state
-  11    MT =     58  Q = -1.40800E+01 MeV  Emin = 1.52634E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 8. excited state
-  12    MT =     59  Q = -1.50800E+01 MeV  Emin = 1.63474E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 9. excited state
-  13    MT =     60  Q = -1.60800E+01 MeV  Emin = 1.74315E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 10. excited state
-  14    MT =     61  Q = -1.70800E+01 MeV  Emin = 1.85160E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 11. excited state
-  15    MT =     62  Q = -1.80800E+01 MeV  Emin = 1.96000E+01 MeV  frac = 1.00000E+00  : inelastic scatt. to 12. excited state
-  16    MT =     91  Q = -7.27500E+00 MeV  Emin = 7.88645E+00 MeV  frac = 1.00000E+00  : inelastic scattering to continuum
-  17    MT =    102  Q =  4.94700E+00 MeV  Emin = 1.00000E-11 MeV  frac = 1.00000E+00  : (n,gamma)
-  18    MT =    103  Q = -1.25880E+01 MeV  Emin = 1.44720E+01 MeV  frac = 1.00000E+00  : (n,p)
-  19    MT =    104  Q = -1.37330E+01 MeV  Emin = 1.52630E+01 MeV  frac = 1.00000E+00  : (n,d)
-  20    MT =    107  Q = -5.70200E+00 MeV  Emin = 6.18124E+00 MeV  frac = 1.00000E+00  : (n,alpha)
-
- 4 special reactions:
-
-   1    MT =    203  Q =  0.00000E+00 MeV  Emin = 1.44720E+01 MeV  : total proton production
-   2    MT =    204  Q =  0.00000E+00 MeV  Emin = 1.52630E+01 MeV  : total deuteron production
-   3    MT =    207  Q =  0.00000E+00 MeV  Emin = 6.18124E+00 MeV  : total alpha production
-   4    MT =      4  Q =  0.00000E+00 MeV  Emin = 4.81209E+00 MeV  : total inelastic scattering
-
- Nuclide    4 / 17 : 8016.03c -- oxygen 16 (O-16)
-
- Pointers                     : 30585 5343
+ Pointers                     : 30381 5343
  Primary type                 : Transport
  Nuclide ZAI                  : 80160
  Library ID                   : 03c
@@ -357,9 +286,9 @@
   43    MT =    803  Q = -6.06940E+00 MeV  Emin = 6.45215E+00 MeV  : (n,a3)
   44    MT =      4  Q =  0.00000E+00 MeV  Emin = 6.43089E+00 MeV  : total inelastic scattering
 
- Nuclide    5 / 17 : 12000.03c -- natural magnesium (Mg-nat)
+ Nuclide    4 / 16 : 12000.03c -- natural magnesium (Mg-nat)
 
- Pointers                     : 66002 6723
+ Pointers                     : 65798 6723
  Primary type                 : Transport
  Nuclide ZAI                  : 120000
  Library ID                   : 03c
@@ -454,9 +383,9 @@
    2    MT =    207  Q =  0.00000E+00 MeV  Emin = 2.11000E+00 MeV  : total alpha production
    3    MT =      4  Q =  0.00000E+00 MeV  Emin = 6.09000E-01 MeV  : total inelastic scattering
 
- Nuclide    6 / 17 : 13027.03c -- aluminum 27 (Al-27)
+ Nuclide    5 / 16 : 13027.03c -- aluminum 27 (Al-27)
 
- Pointers                     : 35733 7827
+ Pointers                     : 35529 7827
  Primary type                 : Transport
  Nuclide ZAI                  : 130270
  Library ID                   : 03c
@@ -637,9 +566,9 @@
   79    MT =    849  Q = -6.81203E+00 MeV  Emin = 7.06669E+00 MeV  : (n,alpha) to continuum
   80    MT =      4  Q =  0.00000E+00 MeV  Emin = 8.75293E-01 MeV  : total inelastic scattering
 
- Nuclide    7 / 17 : 14000.03c -- natural silicon (Si-nat)
+ Nuclide    6 / 16 : 14000.03c -- natural silicon (Si-nat)
 
- Pointers                     : 54354 8103
+ Pointers                     : 54150 8103
  Primary type                 : Transport
  Nuclide ZAI                  : 140000
  Library ID                   : 03c
@@ -735,9 +664,9 @@
    2    MT =    207  Q =  0.00000E+00 MeV  Emin = 4.00000E-02 MeV  : total alpha production
    3    MT =      4  Q =  0.00000E+00 MeV  Emin = 1.31872E+00 MeV  : total inelastic scattering
 
- Nuclide    8 / 17 : 22000.03c -- natural titanium (Ti-nat)
+ Nuclide    7 / 16 : 22000.03c -- natural titanium (Ti-nat)
 
- Pointers                     : 69836 15831
+ Pointers                     : 69632 15831
  Primary type                 : Transport
  Nuclide ZAI                  : 220000
  Library ID                   : 03c
@@ -813,9 +742,9 @@
    5    MT =    207  Q =  0.00000E+00 MeV  Emin = 2.00000E-01 MeV  : total alpha production
    6    MT =      4  Q =  0.00000E+00 MeV  Emin = 1.62350E-01 MeV  : total inelastic scattering
 
- Nuclide    9 / 17 : 24000.03c -- natural chromium (Cr-nat)
+ Nuclide    8 / 16 : 24000.03c -- natural chromium (Cr-nat)
 
- Pointers                     : 62168 18039
+ Pointers                     : 61964 18039
  Primary type                 : Transport
  Nuclide ZAI                  : 240000
  Library ID                   : 03c
@@ -910,9 +839,9 @@
    2    MT =    207  Q =  0.00000E+00 MeV  Emin = 1.57547E+00 MeV  : total alpha production
    3    MT =      4  Q =  0.00000E+00 MeV  Emin = 5.74746E-01 MeV  : total inelastic scattering
 
- Nuclide   10 / 17 : 25055.03c -- manganese 55 (Mn-55)
+ Nuclide    9 / 16 : 25055.03c -- manganese 55 (Mn-55)
 
- Pointers                     : 49679 19419
+ Pointers                     : 49475 19419
  Primary type                 : Transport
  Nuclide ZAI                  : 250550
  Library ID                   : 03c
@@ -1002,9 +931,9 @@
    5    MT =    207  Q =  0.00000E+00 MeV  Emin = 6.35762E-01 MeV  : total alpha production
    6    MT =      4  Q =  0.00000E+00 MeV  Emin = 1.28313E-01 MeV  : total inelastic scattering
 
- Nuclide   11 / 17 : 26000.03c -- natural iron (Fe-nat)
+ Nuclide   10 / 16 : 26000.03c -- natural iron (Fe-nat)
 
- Pointers                     : 58261 19695
+ Pointers                     : 58057 19695
  Primary type                 : Transport
  Nuclide ZAI                  : 260000
  Library ID                   : 03c
@@ -1100,9 +1029,9 @@
    3    MT =      3  Q =  0.00000E+00 MeV  Emin = 1.00000E-11 MeV  : nonelastic
    4    MT =      4  Q =  0.00000E+00 MeV  Emin = 1.46551E-02 MeV  : total inelastic scattering
 
- Nuclide   12 / 17 : 29000.03c -- natural copper (Cu-nat)
+ Nuclide   11 / 16 : 29000.03c -- natural copper (Cu-nat)
 
- Pointers                     : 45845 23835
+ Pointers                     : 45641 23835
  Primary type                 : Transport
  Nuclide ZAI                  : 290000
  Library ID                   : 03c
@@ -1197,9 +1126,9 @@
    3    MT =    207  Q =  0.00000E+00 MeV  Emin = 8.94179E-02 MeV  : total alpha production
    4    MT =      4  Q =  0.00000E+00 MeV  Emin = 6.80249E-01 MeV  : total inelastic scattering
 
- Nuclide   13 / 17 : 30000.03c -- natural zinc (Zn-nat)
+ Nuclide   12 / 16 : 30000.03c -- natural zinc (Zn-nat)
 
- Pointers                     : 53148 24663
+ Pointers                     : 52944 24663
  Primary type                 : Transport
  Nuclide ZAI                  : 300000
  Library ID                   : 03c
@@ -1258,9 +1187,9 @@
    3    MT =    207  Q =  0.00000E+00 MeV  Emin = 1.00000E-11 MeV  : total alpha production
    4    MT =      4  Q =  0.00000E+00 MeV  Emin = 1.01544E+00 MeV  : total inelastic scattering
 
- Nuclide   14 / 17 : 92234.03c -- uranium 234 (U-234)
+ Nuclide   13 / 16 : 92234.03c -- uranium 234 (U-234)
 
- Pointers                     : 15590 105577
+ Pointers                     : 15386 105577
  Primary type                 : Transport
  Nuclide ZAI                  : 922340
  Library ID                   : 03c
@@ -1360,9 +1289,9 @@
 
    1    MT =      4  Q =  0.00000E+00 MeV  Emin = 4.36875E-02 MeV  : total inelastic scattering
 
- Nuclide   15 / 17 : 92235.03c -- uranium 235 (U-235)
+ Nuclide   14 / 16 : 92235.03c -- uranium 235 (U-235)
 
- Pointers                     : 19521 105853
+ Pointers                     : 19317 105853
  Primary type                 : Transport
  Nuclide ZAI                  : 922350
  Library ID                   : 03c
@@ -1455,9 +1384,9 @@
 
    1    MT =      4  Q =  0.00000E+00 MeV  Emin = 2.25000E-03 MeV  : total inelastic scattering
 
- Nuclide   16 / 17 : 92236.03c -- uranium 236 (U-236)
+ Nuclide   15 / 16 : 92236.03c -- uranium 236 (U-236)
 
- Pointers                     : 23136 106129
+ Pointers                     : 22932 106129
  Primary type                 : Transport
  Nuclide ZAI                  : 922360
  Library ID                   : 03c
@@ -1553,9 +1482,9 @@
 
    1    MT =      4  Q =  0.00000E+00 MeV  Emin = 4.53932E-02 MeV  : total inelastic scattering
 
- Nuclide   17 / 17 : 92238.03c -- uranium 238 (U-238)
+ Nuclide   16 / 16 : 92238.03c -- uranium 238 (U-238)
 
- Pointers                     : 26970 106681
+ Pointers                     : 26766 106681
  Primary type                 : Transport
  Nuclide ZAI                  : 922380
  Library ID                   : 03c
@@ -1650,7 +1579,7 @@
 
  --- Table  1: Summary of material compositions: 
 
- 6 materials included in calculation
+ 5 materials included in calculation
 
 
 Material "UO2":
@@ -1665,7 +1594,7 @@ Material "UO2":
  - Neutron emission rate 0.00000E+00 1/s
  - 5 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 9.28 Mb of memory allocated for data
+ - 9.27 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1692,7 +1621,7 @@ Material "1100_Al":
  - Neutron emission rate 0.00000E+00 1/s
  - 6 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 5.31 Mb of memory allocated for data
+ - 5.30 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1720,7 +1649,7 @@ Material "5052_Al":
  - Neutron emission rate 0.00000E+00 1/s
  - 8 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 5.32 Mb of memory allocated for data
+ - 5.31 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1750,7 +1679,7 @@ Material "6061_Al":
  - Neutron emission rate 0.00000E+00 1/s
  - 9 nuclides in composition
  - No nuclides associated with S(a,b) data
- - 5.32 Mb of memory allocated for data
+ - 5.31 Mb of memory allocated for data
 
 Isotopic composition (non-zero densities):
 
@@ -1767,31 +1696,6 @@ Isotopic composition (non-zero densities):
  14000.03c   28.08557  300.0  3.46067E-04  5.79181E-03  5.99994E-03    
  26000.03c   55.84675  300.0  1.01519E-04  1.69903E-03  3.49985E-03    
        sum                    5.97510E-02  1.00000E+00  1.00000E+00
--------------------------------------------------------------------
-
-Material "acrylic":
-
- - Material is included in majorant
- - Material is included in geometry
- - Atom density 1.06563E-01 1/barn*cm
- - Mass density 1.18431E+00 g/cm3
- - Volume 0.00000E+00 cm3
- - Mass 0.00000E+00 g
- - Photon emission rate 0.00000E+00 1/s
- - Neutron emission rate 0.00000E+00 1/s
- - 3 nuclides in composition
- - No nuclides associated with S(a,b) data
- - 5.31 Mb of memory allocated for data
-
-Isotopic composition (non-zero densities):
-
--------------------------------------------------------------------
- Nuclide    a. weight   temp      a. dens      a. frac      m. frac
--------------------------------------------------------------------
-  1001.03c    1.00782  300.0  5.66420E-02  5.31535E-01  8.00415E-02    
-  6000.03c   12.00110  300.0  3.56480E-02  3.34525E-01  5.99856E-01    
-  8016.03c   15.99492  300.0  1.42730E-02  1.33940E-01  3.20102E-01    
-       sum                    1.06563E-01  1.00000E+00  1.00000E+00
 -------------------------------------------------------------------
 
 Material "water":

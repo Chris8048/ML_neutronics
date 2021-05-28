@@ -81,7 +81,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 10010
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/1001ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/1001ENDF7.ace
  Atomic weight (AW)           : 1.00782
  Atomic weight ratio (AWR)    : 0.99917
  Temperature                  : 300.0 Kelvin
@@ -130,7 +130,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 60000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/6000ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/6000ENDF7.ace
  Atomic weight (AW)           : 12.00110
  Atomic weight ratio (AWR)    : 11.89800
  Temperature                  : 300.0 Kelvin
@@ -200,7 +200,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 90190
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/9019ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/9019ENDF7.ace
  Atomic weight (AW)           : 18.99820
  Atomic weight ratio (AWR)    : 18.83500
  Temperature                  : 300.0 Kelvin
@@ -282,7 +282,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 120000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/12000ENDF68.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/12000ENDF68.ace
  Atomic weight (AW)           : 24.30509
  Atomic weight ratio (AWR)    : 24.09630
  Temperature                  : 300.0 Kelvin
@@ -379,7 +379,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 130270
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/13027ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/13027ENDF7.ace
  Atomic weight (AW)           : 26.98154
  Atomic weight ratio (AWR)    : 26.74975
  Temperature                  : 300.0 Kelvin
@@ -562,7 +562,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 140000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/14000JNDL32.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/14000JNDL32.ace
  Atomic weight (AW)           : 28.08557
  Atomic weight ratio (AWR)    : 27.84430
  Temperature                  : 300.0 Kelvin
@@ -660,7 +660,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 170000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/17000ENDF68.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/17000ENDF68.ace
  Atomic weight (AW)           : 35.45255
  Atomic weight ratio (AWR)    : 35.14800
  Temperature                  : 300.0 Kelvin
@@ -730,7 +730,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 220000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/22000ENDF68.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/22000ENDF68.ace
  Atomic weight (AW)           : 47.87891
  Atomic weight ratio (AWR)    : 47.46760
  Temperature                  : 300.0 Kelvin
@@ -808,7 +808,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 240000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/24000JNDL32.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/24000JNDL32.ace
  Atomic weight (AW)           : 51.99587
  Atomic weight ratio (AWR)    : 51.54920
  Temperature                  : 300.0 Kelvin
@@ -905,7 +905,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 250550
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/25055ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/25055ENDF7.ace
  Atomic weight (AW)           : 54.93805
  Atomic weight ratio (AWR)    : 54.46610
  Temperature                  : 300.0 Kelvin
@@ -997,7 +997,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 260000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/26000JNDL32.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/26000JNDL32.ace
  Atomic weight (AW)           : 55.84675
  Atomic weight ratio (AWR)    : 55.36700
  Temperature                  : 300.0 Kelvin
@@ -1095,7 +1095,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 280000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/28000JNDL32.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/28000JNDL32.ace
  Atomic weight (AW)           : 58.68796
  Atomic weight ratio (AWR)    : 58.18380
  Temperature                  : 300.0 Kelvin
@@ -1200,7 +1200,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 290000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/29000JNDL32.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/29000JNDL32.ace
  Atomic weight (AW)           : 63.54559
  Atomic weight ratio (AWR)    : 62.99970
  Temperature                  : 300.0 Kelvin
@@ -1297,7 +1297,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 420000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/42000ENDF68.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/42000ENDF68.ace
  Atomic weight (AW)           : 95.94017
  Atomic weight ratio (AWR)    : 95.11600
  Temperature                  : 300.0 Kelvin
@@ -1349,7 +1349,7 @@
  Primary type                 : Transport
  Nuclide ZAI                  : 740000
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/74000ENDF68.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/74000ENDF68.ace
  Atomic weight (AW)           : 183.85642
  Atomic weight ratio (AWR)    : 182.27700
  Temperature                  : 300.0 Kelvin
@@ -1442,11 +1442,11 @@
 
  Nuclide   16 / 19 : 92234.03c -- uranium 234 (U-234)
 
- Pointers                     : 18204 105531
+ Pointers                     : 18204 105577
  Primary type                 : Transport
  Nuclide ZAI                  : 922340
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/92234ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/92234ENDF7.ace
  Atomic weight (AW)           : 234.04093
  Atomic weight ratio (AWR)    : 232.03040
  Temperature                  : 300.0 Kelvin
@@ -1544,11 +1544,11 @@
 
  Nuclide   17 / 19 : 92235.03c -- uranium 235 (U-235)
 
- Pointers                     : 10969 105807
+ Pointers                     : 10969 105853
  Primary type                 : Transport
  Nuclide ZAI                  : 922350
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/92235ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/92235ENDF7.ace
  Atomic weight (AW)           : 235.04395
  Atomic weight ratio (AWR)    : 233.02480
  Temperature                  : 300.0 Kelvin
@@ -1639,11 +1639,11 @@
 
  Nuclide   18 / 19 : 92236.03c -- uranium 236 (U-236)
 
- Pointers                     : 22130 106083
+ Pointers                     : 22130 106129
  Primary type                 : Transport
  Nuclide ZAI                  : 922360
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/92236ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/92236ENDF7.ace
  Atomic weight (AW)           : 236.04556
  Atomic weight ratio (AWR)    : 234.01780
  Temperature                  : 300.0 Kelvin
@@ -1737,11 +1737,11 @@
 
  Nuclide   19 / 19 : 92238.03c -- uranium 238 (U-238)
 
- Pointers                     : 14589 106635
+ Pointers                     : 14589 106681
  Primary type                 : Transport
  Nuclide ZAI                  : 922380
  Library ID                   : 03c
- Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/combined_endfb7_ENDF80SaB2/acedata/92238ENDF7.ace
+ Cross section data file      : /global/home/groups/co_nuclear/serpent/xsdata/endfb7/acedata/92238ENDF7.ace
  Atomic weight (AW)           : 238.05078
  Atomic weight ratio (AWR)    : 236.00580
  Temperature                  : 300.0 Kelvin
